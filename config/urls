@@ -24,6 +24,7 @@ https://feeds.dshield.org/rss/diary ! security
 https://feeds.feedburner.com/nakedsecurity ! security
 https://msrc-blog.microsoft.com/feed/ ! security
 
+
 # Reddit NetSec Feed
 https://www.reddit.com/r/netsec/top/.rss?t=week "~Reddit - NetSec" ! netsec
 
@@ -50,10 +51,13 @@ https://krebsonsecurity.com/category/data-breaches/feed/ "~Recent Data breaches"
 # https://raw.githubusercontent.com/Cybermonit/RSS-Feed/refs/heads/main/eol.xml "~End of Life" eol
 
 # Recent Vulns
-https://vuldb.com/?rss.recent "~Recent Vulnerabilities" vulns
+https://cvefeed.io/rssfeed/severity/high.xml "~CVE Feed High" ! vulns
+
 # Exploits / vulns
 https://www.exploit-db.com/rss.xml "~Exploit-DB" ! vulns
+https://cvefeed.io/rssfeed/newsroom.xml "~CVE Feed Newsroom" ! vulns
 https://packetstormsecurity.com/files/tags/exploit/rss/ "~Packet Storm Exploits" ! vulns
+https://0dayfans.com/feed.rss "~0dayFans" ! vulns
 
 # Podcasts
 https://securityweekly.com/feed/podcast "~Podcast - Security Weekly" ! podcast
