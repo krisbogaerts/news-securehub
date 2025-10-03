@@ -41,8 +41,8 @@ jobs:
 
       - name: Set up gitconfig
         run: |
-          git config --local user.email "liveboat-builder@github.com"
-          git config --local user.name "liveboat-feed-builder"
+          git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
         shell: bash
 
       - name: Cleanup last build
