@@ -8,7 +8,6 @@
 "query:Security News:tags # \"security\" and age < 3 and unread = \"yes\""
 "query:Latest Data breaches:tags # \"databreach\" and age < 3 and unread = \"yes\""
 "query:Threat Intelligence:tags # \"threatintel\" and age < 3 and unread = \"yes\""
-"query:Tech News:tags # \"tech\" and age < 2 and unread = \"yes\""
 "query:Emerging Threats:(tags # \"security\" or tags # \"threatintel\") and (title =~ \"CVE-|zero[- ]day|0day|PoC|exploit\") and age < 2 and unread = \"yes\""
 "query:Research:tags # \"research\" and age < 3 and unread = \"yes\""
 "query:Exploits & Vulns:tags # \"vulns\" and age < 3 and unread = \"yes\""
@@ -23,7 +22,6 @@ https://www.bleepingcomputer.com/feed/ ! security
 https://www.darkreading.com/rss_simple.asp ! security
 https://feeds.dshield.org/rss/diary ! security
 https://feeds.feedburner.com/nakedsecurity ! security
-https://blog.talosintelligence.com/feeds/posts/default ! security
 https://msrc-blog.microsoft.com/feed/ ! security
 
 # Reddit NetSec Feed
@@ -54,15 +52,8 @@ https://krebsonsecurity.com/category/data-breaches/feed/ "~Recent Data breaches"
 # Recent Vulns
 https://vuldb.com/?rss.recent "~Recent Vulnerabilities" vulns
 # Exploits / vulns
-https://www.exploit-db.com/rss.xml "~Exploit-DB" vulns
-https://packetstormsecurity.com/files/tags/exploit/rss/ "~Packet Storm Exploits" vulns
-
-# Tech Feeds
-https://techcrunch.com/feed/ ! tech
-http://rss.slashdot.org/Slashdot/slashdotMain ! tech
-https://www.codeproject.com/WebServices/ArticleRSS.aspx ! tech
-https://feeds.arstechnica.com/arstechnica/technology-lab ! tech
-https://hackernoon.com/feed "~Tech - HackerNoon" ! tech
+https://www.exploit-db.com/rss.xml "~Exploit-DB" ! vulns
+https://packetstormsecurity.com/files/tags/exploit/rss/ "~Packet Storm Exploits" ! vulns
 
 # Podcasts
 https://securityweekly.com/feed/podcast "~Podcast - Security Weekly" ! podcast
