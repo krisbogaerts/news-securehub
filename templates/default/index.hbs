@@ -91,6 +91,68 @@
       <div id="app"></div>
 
     <script type="module" src="./assets/index.js?tv={{template_version}}"></script>
+    <script>
+      // Post-process default credit to avoid redirecting to the Liveboat repo
+      (function () {
+        const replacementHref = window.repoUrl || 'https://github.com/krisbogaerts/news-securehub';
+        const replacementLabel = 'SecureHub';
+        const hrefRegex = /liveboat/i; // match any link that points to 'liveboat'
+        function retargetAll() {
+          try {
+            const anchors = Array.from(document.querySelectorAll('a[href]'))
+              .filter(a => hrefRegex.test(a.getAttribute('href') || ''));
+            if (anchors.length === 0) return;
+            anchors.forEach(a => {
+              a.setAttribute('href', replacementHref);
+              a.setAttribute('rel', 'noopener noreferrer');
+              a.setAttribute('target', '_blank');
+              // If the link text contains 'liveboat', relabel it
+              if (a.textContent && /liveboat/i.test(a.textContent)) {
+                a.textContent = replacementLabel;
+              }
+              // If parent text includes credit phrase, lightly tweak it
+              const parent = a.parentElement;
+              if (parent && parent.textContent && /generated/i.test(parent.textContent) && /liveboat/i.test(parent.textContent)) {
+                parent.textContent = parent.textContent.replace(/liveboat/ig, replacementLabel);
+                parent.appendChild(a);
+              }
+            });
+          } catch (_) {}
+        }
+        function setupObserver() {
+          try {
+            const mo = new MutationObserver(() => retargetAll());
+            mo.observe(document.body, { childList: true, subtree: true });
+            // Keep the observer for a while to catch SPA route changes
+            setTimeout(() => mo.disconnect(), 60000);
+          } catch (_) {}
+        }
+        // Periodic polling to catch very late insertions
+        let tick = 0;
+        const interval = setInterval(() => {
+          retargetAll();
+          if (++tick > 60) clearInterval(interval);
+        }, 1000);
+        if (document.readyState === 'loading') {
+          document.addEventListener('DOMContentLoaded', () => { retargetAll(); setupObserver(); });
+        } else {
+          retargetAll();
+          setupObserver();
+          // Also schedule a retry after SPA mounts
+          setTimeout(retargetAll, 800);
+        }
+        // Intercept clicks on any 'liveboat' credit links and redirect to replacement
+        document.addEventListener('click', function (e) {
+          const a = e.target && e.target.closest ? e.target.closest('a[href]') : null;
+          if (!a) return;
+          const href = a.getAttribute('href') || '';
+          if (/liveboat/i.test(href)) {
+            e.preventDefault();
+            try { window.open(replacementHref, '_blank', 'noopener'); } catch (_) {}
+          }
+        }, true);
+      })();
+    </script>
 
   </body>
 </html>
