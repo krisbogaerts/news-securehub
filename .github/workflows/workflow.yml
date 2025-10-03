@@ -5,12 +5,8 @@ on:
   schedule:
     - cron: "0 * * * *"
   push:
-    branches:
-      - master
-    paths-ignore:
-      - 'docs/**'
-    tags:
-      - 'build*'
+      tags:
+        - 'build*'
 
 jobs:
   liveboat-feed-build:
