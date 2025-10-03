@@ -74,15 +74,19 @@
     {{#if template_settings.autoreload}}
       window.autoreload = {{template_settings.autoreload}}
     {{/if}}
-    {{#if template_settings.repo-url}}
-      window.repoUrl = "{{template_settings.repo-url}}"
-    {{/if}}
+    {{#with (lookup template_settings "repo-url") as |repoUrl|}}
+      {{#if repoUrl}}
+      window.repoUrl = "{{repoUrl}}"
+      {{/if}}
+    {{/with}}
     {{#if template_settings.subheader-text}}
       window.subHeaderText = "{{template_settings.subheader-text}}"
     {{/if}}
-    {{#if template_settings.header-svg}}
-      window.headerSvg = "{{template_settings.header-svg}}"
-    {{/if}}
+    {{#with (lookup template_settings "header-svg") as |headerSvg|}}
+      {{#if headerSvg}}
+      window.headerSvg = "{{headerSvg}}"
+      {{/if}}
+    {{/with}}
       </script>
       <div id="app"></div>
 
