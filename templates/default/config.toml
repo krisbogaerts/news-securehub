@@ -13,3 +13,5 @@ subheader-text = "SecureHub — curated cybersecurity news"
 repo-url = "https://github.com/krisbogaerts/news-securehub"
 # Set a custom header icon (SVG). Put the file under templates/default/include/assets/.
 header-svg = "./assets/logo.svg"
+ # Default filter on load: one of last_20, last_50, last_day, firehose
+ default-filter = "last_day"

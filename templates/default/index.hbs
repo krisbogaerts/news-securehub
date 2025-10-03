@@ -74,6 +74,9 @@
     {{#if template_settings.autoreload}}
       window.autoreload = {{template_settings.autoreload}}
     {{/if}}
+    {{#if template_settings.default-filter}}
+      window.defaultFilter = "{{template_settings.default-filter}}"
+    {{/if}}
     {{#with (lookup template_settings "repo-url") as |repoUrl|}}
       {{#if repoUrl}}
       window.repoUrl = "{{repoUrl}}"
@@ -91,6 +94,32 @@
       <div id="app"></div>
 
     <script type="module" src="./assets/index.js?tv={{template_version}}"></script>
+    <script>
+      // Apply default filter (e.g., Last day) by simulating a click on the matching control
+      (function(){
+        const key = window.defaultFilter;
+        if(!key) return;
+        const map = { last_day: 'Last day', last_20: 'Last 20', last_50: 'Last 50', firehose: 'Firehose' };
+        const label = map[key];
+        if(!label) return;
+        function tryClick(){
+          try {
+            const els = Array.from(document.querySelectorAll('button, a'));
+            const target = els.find(el => (el.textContent||'').trim().toLowerCase() === label.toLowerCase());
+            if(target){ target.click(); return true; }
+          } catch(_){}
+          return false;
+        }
+        function init(){
+          if(tryClick()) return;
+          const mo = new MutationObserver(()=>{ if(tryClick()) mo.disconnect(); });
+          mo.observe(document.body, {childList:true, subtree:true});
+          setTimeout(()=>mo.disconnect(), 10000);
+        }
+        if(document.readyState==='loading') document.addEventListener('DOMContentLoaded', init);
+        else init();
+      })();
+    </script>
     <script>
       // Post-process default credit to avoid redirecting to the Liveboat repo
       (function () {

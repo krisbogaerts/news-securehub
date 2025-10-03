@@ -4,13 +4,13 @@
 # example: query:<name of feed>:<filter expression> [<tag> ...]
 
 # Queries
-"query:Reddit - NetSec:tags # \"netsec\" and age < 3 and unread = \"yes\""
+"query:⚠️ Emerging Threats:(tags # \"security\" or tags # \"threatintel\") and (title =~ \"CVE-|zero[- ]day|0day|PoC|exploit\") and age < 3"
 "query:Security News:tags # \"security\" and age < 3 and unread = \"yes\""
-"query:Latest Data breaches:tags # \"databreach\" and age < 3 and unread = \"yes\""
 "query:Threat Intelligence:tags # \"threatintel\" and age < 3 and unread = \"yes\""
-"query:Emerging Threats:(tags # \"security\" or tags # \"threatintel\") and (title =~ \"CVE-|zero[- ]day|0day|PoC|exploit\") and age < 2 and unread = \"yes\""
-"query:Research:tags # \"research\" and age < 3 and unread = \"yes\""
 "query:Exploits & Vulns:tags # \"vulns\" and age < 3 and unread = \"yes\""
+"query:Latest Data breaches:tags # \"databreach\" and age < 3 and unread = \"yes\""
+"query:Reddit - NetSec:tags # \"netsec\" and age < 3 and unread = \"yes\""
+"query:Research:tags # \"research\" and age < 3 and unread = \"yes\""
 
 # Security Feed URLs
 https://feeds.feedburner.com/TheHackersNews ! security 
