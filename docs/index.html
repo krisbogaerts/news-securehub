@@ -36,23 +36,21 @@
   </head>
   <body>
       <script>
-      window.buildTime = 1759476944;
+      window.buildTime = 1759478636;
       window.templateVer = "1.2.8";
       window.pageTitle = 'Cyber Security News';
       window.sitePath = '/';
       window.templateVersion = "1.2.8";
       window.feeds = [
             {
-                id: "3Jheb3FyCEtx7o61cc6N6",
+                id: "5gTiwsW9gECTXBfSdCNLEjAjANwzLQYi",
                 url: "",
-                title: "Reddit - NetSec",
-                displayTitle: "Reddit - NetSec",
+                title: "⚠️ Emerging Threats",
+                displayTitle: "⚠️ Emerging Threats",
                 feedLink: "",
-                itemCount: "11",
+                itemCount: "4",
                 isQuery: true,
-                tags: [
-                    "netsec",
-                    ]
+                tags: []
             },
             {
                 id: "7wt7rdxCE7L7Nv3kp2",
@@ -64,18 +62,6 @@
                 isQuery: true,
                 tags: [
                     "security",
-                    ]
-            },
-            {
-                id: "24ift5tuXoYiMci8riNRRn46UVSr",
-                url: "",
-                title: "Latest Data breaches",
-                displayTitle: "Latest Data breaches",
-                feedLink: "",
-                itemCount: "10",
-                isQuery: true,
-                tags: [
-                    "databreach",
                     ]
             },
             {
@@ -91,16 +77,6 @@
                     ]
             },
             {
-                id: "9aFBoYYzpyqrwo1wmoWXHt",
-                url: "",
-                title: "Emerging Threats",
-                displayTitle: "Emerging Threats",
-                feedLink: "",
-                itemCount: "2",
-                isQuery: true,
-                tags: []
-            },
-            {
                 id: "9aZ76XKBXChuWTyiMHuWa6",
                 url: "",
                 title: "Exploits &amp; Vulns",
@@ -110,6 +86,30 @@
                 isQuery: true,
                 tags: [
                     "vulns",
+                    ]
+            },
+            {
+                id: "24ift5tuXoYiMci8riNRRn46UVSr",
+                url: "",
+                title: "Latest Data breaches",
+                displayTitle: "Latest Data breaches",
+                feedLink: "",
+                itemCount: "10",
+                isQuery: true,
+                tags: [
+                    "databreach",
+                    ]
+            },
+            {
+                id: "3Jheb3FyCEtx7o61cc6N6",
+                url: "",
+                title: "Reddit - NetSec",
+                displayTitle: "Reddit - NetSec",
+                feedLink: "",
+                itemCount: "11",
+                isQuery: true,
+                tags: [
+                    "netsec",
                     ]
             },
             {
@@ -138,6 +138,7 @@
             },
           ];
       window.autoreload = 1
+      window.defaultFilter = "last_day"
       window.repoUrl = "https://github.com/krisbogaerts/news-securehub"
       window.subHeaderText = "SecureHub — curated cybersecurity news"
       window.headerSvg = "./assets/logo.svg"
@@ -145,6 +146,32 @@
       <div id="app"></div>
 
     <script type="module" src="./assets/index.js?tv=1.2.8"></script>
+    <script>
+      // Apply default filter (e.g., Last day) by simulating a click on the matching control
+      (function(){
+        const key = window.defaultFilter;
+        if(!key) return;
+        const map = { last_day: 'Last day', last_20: 'Last 20', last_50: 'Last 50', firehose: 'Firehose' };
+        const label = map[key];
+        if(!label) return;
+        function tryClick(){
+          try {
+            const els = Array.from(document.querySelectorAll('button, a'));
+            const target = els.find(el => (el.textContent||'').trim().toLowerCase() === label.toLowerCase());
+            if(target){ target.click(); return true; }
+          } catch(_){}
+          return false;
+        }
+        function init(){
+          if(tryClick()) return;
+          const mo = new MutationObserver(()=>{ if(tryClick()) mo.disconnect(); });
+          mo.observe(document.body, {childList:true, subtree:true});
+          setTimeout(()=>mo.disconnect(), 10000);
+        }
+        if(document.readyState==='loading') document.addEventListener('DOMContentLoaded', init);
+        else init();
+      })();
+    </script>
     <script>
       // Post-process default credit to avoid redirecting to the Liveboat repo
       (function () {
@@ -173,6 +200,26 @@
             });
           } catch (_) {}
         }
+
+        // Try to rewrite or hide the credit text even if it's not a link
+        function rewriteFooterCredit() {
+          try {
+            const nodes = Array.from(document.querySelectorAll('footer, div, p, span, small'));
+            for (const el of nodes) {
+              const txt = (el.textContent || '').trim();
+              if (/generated\s+with/i.test(txt) && /liveboat/i.test(txt)) {
+                if (window.repoUrl) {
+                  el.innerHTML = `Page generated with <span aria-label="love">❤</span> by <a href="${replacementHref}" target="_blank" rel="noopener noreferrer">${replacementLabel}</a>`;
+                } else {
+                  // If no repoUrl, just drop the brand name
+                  el.textContent = txt.replace(/liveboat/ig, replacementLabel);
+                }
+                // stop after first match
+                break;
+              }
+            }
+          } catch (_) {}
+        }
         function setupObserver() {
           try {
             const mo = new MutationObserver(() => retargetAll());
@@ -191,9 +238,10 @@
           document.addEventListener('DOMContentLoaded', () => { retargetAll(); setupObserver(); });
         } else {
           retargetAll();
+          rewriteFooterCredit();
           setupObserver();
           // Also schedule a retry after SPA mounts
-          setTimeout(retargetAll, 800);
+          setTimeout(() => { retargetAll(); rewriteFooterCredit(); }, 800);
         }
         // Intercept clicks on any 'liveboat' credit links and redirect to replacement
         document.addEventListener('click', function (e) {
@@ -205,6 +253,14 @@
             try { window.open(replacementHref, '_blank', 'noopener'); } catch (_) {}
           }
         }, true);
+
+        // Also poll a few times to catch very late inserts
+        let tries = 0; const maxTries = 30;
+        const poll = setInterval(() => {
+          retargetAll();
+          rewriteFooterCredit();
+          if (++tries >= maxTries) clearInterval(poll);
+        }, 500);
       })();
     </script>
 
