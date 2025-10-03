@@ -1,5 +1,28 @@
-<?xml version="1.0" encoding="utf-8"?><rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Exploits &amp; Vulns</title><link>https://news.securehub.cc</link><description></description><item><title>CVE-2025-59536 - Claude Code&apos;s startup trust dialog could lead to Command Execution attack</title><link>https://cvefeed.io/vuln/detail/CVE-2025-59536</link><author></author><category>vulns</category><pubDate>Fri, 3 Oct 2025 07:15:44 +0000</pubDate><source url="https://cvefeed.io/vuln/latest/">CVE Feed High</source><content:encoded><![CDATA[CVE-2025-59536
- Oct. 3, 2025, 7:15 a.m. | 42 minutes ago
+<?xml version="1.0" encoding="utf-8"?><rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Exploits &amp; Vulns</title><link>https://news.securehub.cc</link><description></description><item><title>CVE-2025-0616 - SQLi in Teknolojik Center Telecommunication&apos;s B2B - Netsis Panel</title><link>https://cvefeed.io/vuln/detail/CVE-2025-0616</link><author></author><category>vulns</category><pubDate>Fri, 3 Oct 2025 08:05:08 +0000</pubDate><source url="https://cvefeed.io/vuln/latest/">CVE Feed High</source><content:encoded><![CDATA[CVE-2025-0616
+ Oct. 3, 2025, 8:05 a.m. | 10 minutes ago
+Authorization Bypass Through User-Controlled Key vulnerability in Teknolojik Center Telecommunication Industry Trade Co. Ltd. B2B - Netsis Panel allows SQL Injection.This issue affects B2B - Netsis Panel: through 20251003.
+ 8.2 | HIGH
+
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+]]></content:encoded></item><item><title>CVE-2025-11223 - Panasonic AutoDownloader DLL Loading Vulnerability</title><link>https://cvefeed.io/vuln/detail/CVE-2025-11223</link><author></author><category>vulns</category><pubDate>Fri, 3 Oct 2025 08:02:18 +0000</pubDate><source url="https://cvefeed.io/vuln/latest/">CVE Feed High</source><content:encoded><![CDATA[CVE-2025-11223
+ Oct. 3, 2025, 8:02 a.m. | 13 minutes ago
+Installer of 
+
+Panasonic 
+
+AutoDownloader 
+
+
+
+ version 1.2.8
+contains an issue with the DLL search path, which may lead to loading 
+
+a crafted DLL file in the same directory.
+ 8.4 | HIGH
+
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+]]></content:encoded></item><item><title>CVE-2025-59536 - Claude Code&apos;s startup trust dialog could lead to Command Execution attack</title><link>https://cvefeed.io/vuln/detail/CVE-2025-59536</link><author></author><category>vulns</category><pubDate>Fri, 3 Oct 2025 07:15:44 +0000</pubDate><source url="https://cvefeed.io/vuln/latest/">CVE Feed High</source><content:encoded><![CDATA[CVE-2025-59536
+ Oct. 3, 2025, 7:15 a.m. | 59 minutes ago
 Claude Code is an agentic coding tool. Versions before 1.0.111 were vulnerable to Code Injection due to a bug in the startup trust dialog implementation. Claude Code could be tricked to execute code contained in a project before the user accepted the startup trust dialog. Exploiting this requires a user to start Claude Code in an untrusted directory. Users on standard Claude Code auto-update will have received this fix automatically. Users performing manual updates are advised to update to the latest version. This issue is fixed in version 1.0.111.
  8.7 | HIGH
 
@@ -19,49 +42,49 @@ From: josephgoyd via Fulldisclosure Vulnerabilities has been mentioned in this a
 mailing list archives
 Re: [FD]	Full Disclosure: CVE-2025-31200 & CVE-2025-31201 – 0-Click iMessage Chain → Secure Enclave Key Theft, Wormable RCE, Crypto Theft
 From: josephgoyd via Ful ... Vulnerabilities has been mentioned in this article.]]></content:encoded></item><item><title>CVE-2025-61666 - Traccar Unauthenticated Local File Inclusion on Windows - Leakage of Traccar Config File</title><link>https://cvefeed.io/vuln/detail/CVE-2025-61666</link><author></author><category>vulns</category><pubDate>Thu, 2 Oct 2025 22:15:38 +0000</pubDate><source url="https://cvefeed.io/vuln/latest/">CVE Feed High</source><content:encoded><![CDATA[CVE-2025-61666
- Oct. 2, 2025, 10:15 p.m. | 9 hours, 42 minutes ago
+ Oct. 2, 2025, 10:15 p.m. | 9 hours, 59 minutes ago
 Traccar is an open source GPS tracking system. Default installs of Traccar on Windows between versions 6.1-  6.8.1 and non default installs between versions 5.8 - 6.0 are vulnerable to unauthenticated local file inclusion attacks which can lead to leakage of passwords or any file on the file system including the Traccar configuration file. Versions 5.8 - 6.0 are only vulnerable if  is set in the configuration file. Versions 6.1 - 6.8.1 are vulnerable by default as the web override is enabled by default. The vulnerable code is removed in version 6.9.0.
  8.7 | HIGH
 
 Visit the link for more details, such as CVSS details, affected products, timeline, and more...
 ]]></content:encoded></item><item><title>CVE-2025-61668 - @plone/volto vulnerable to potential DoS by invoking specific URL by anonymous user</title><link>https://cvefeed.io/vuln/detail/CVE-2025-61668</link><author></author><category>vulns</category><pubDate>Thu, 2 Oct 2025 22:15:38 +0000</pubDate><source url="https://cvefeed.io/vuln/latest/">CVE Feed High</source><content:encoded><![CDATA[CVE-2025-61668
- Oct. 2, 2025, 10:15 p.m. | 9 hours, 42 minutes ago
+ Oct. 2, 2025, 10:15 p.m. | 9 hours, 59 minutes ago
 Volto is a ReactJS-based frontend for the Plone Content Management System. Versions 16.34.0 and below, 17.0.0 through 17.22.1, 18.0.0 through 18.27.1, and 19.0.0-alpha.1 through 19.0.0-alpha.5, an anonymous user could cause the NodeJS server part of Volto to quit with an error when visiting a specific URL. This issue is fixed in versions 16.34.1, 17.22.2, 18.27.2 and 19.0.0-alpha.6.
  8.7 | HIGH
 
 Visit the link for more details, such as CVSS details, affected products, timeline, and more...
 ]]></content:encoded></item><item><title>CVE-2025-61605 - WeGIA: SQL Injection (Blind Time-Based) Vulnerability in /pet/profile_pet.php Endpoint</title><link>https://cvefeed.io/vuln/detail/CVE-2025-61605</link><author></author><category>vulns</category><pubDate>Thu, 2 Oct 2025 21:16:01 +0000</pubDate><source url="https://cvefeed.io/vuln/latest/">CVE Feed High</source><content:encoded><![CDATA[CVE-2025-61605
- Oct. 2, 2025, 9:16 p.m. | 10 hours, 42 minutes ago
+ Oct. 2, 2025, 9:16 p.m. | 10 hours, 59 minutes ago
 WeGIA is an open source web manager with a focus on charitable institutions. Versions 3.4.12 and below contain an SQL Injection vulnerability which was identified in the /pet/profile_pet.php endpoint, specifically in the id_pet parameter. This vulnerability allows attackers to execute arbitrary SQL commands, compromising the confidentiality, integrity, and availability of the database. This issue is fixed in version 3.5.0.
  9.4 | CRITICAL
 
 Visit the link for more details, such as CVSS details, affected products, timeline, and more...
 ]]></content:encoded></item><item><title>CVE-2025-61665 - WeGIA: Broken Access Control in `get_relatorios_socios.php` Endpoint</title><link>https://cvefeed.io/vuln/detail/CVE-2025-61665</link><author></author><category>vulns</category><pubDate>Thu, 2 Oct 2025 21:16:01 +0000</pubDate><source url="https://cvefeed.io/vuln/latest/">CVE Feed High</source><content:encoded><![CDATA[CVE-2025-61665
- Oct. 2, 2025, 9:16 p.m. | 10 hours, 42 minutes ago
+ Oct. 2, 2025, 9:16 p.m. | 10 hours, 59 minutes ago
 WeGIA is an open source web manager with a focus on charitable institutions. Versions 3.4.12 and below contain a Broken Access Control vulnerability, identified in the get_relatorios_socios.php endpoint. This vulnerability allows unauthenticated attackers to directly access sensitive personal and financial information of members without requiring authentication or authorization. This issue is fixed in version 3.5.0.
  8.7 | HIGH
 
 Visit the link for more details, such as CVSS details, affected products, timeline, and more...
 ]]></content:encoded></item><item><title>CVE-2025-61595 - MANTRA tx gas limit is not enforced in send hooks</title><link>https://cvefeed.io/vuln/detail/CVE-2025-61595</link><author></author><category>vulns</category><pubDate>Thu, 2 Oct 2025 20:15:35 +0000</pubDate><source url="https://cvefeed.io/vuln/latest/">CVE Feed High</source><content:encoded><![CDATA[CVE-2025-61595
- Oct. 2, 2025, 8:15 p.m. | 11 hours, 42 minutes ago
+ Oct. 2, 2025, 8:15 p.m. | 11 hours, 59 minutes ago
 MANTRA is a purpose-built RWA Layer 1 Blockchain, capable of adherence to real world regulatory requirements. Versions 4.0.1 and below do not enforce the tx gas limit in its send hooks. Send hooks can spend more gas than what remains in tx, combined with recursive calls in the wasm contract, potentially amplifying the gas consumption exponentially. This is fixed in version 4.0.2.
  8.8 | HIGH
 
 Visit the link for more details, such as CVSS details, affected products, timeline, and more...
 ]]></content:encoded></item><item><title>CVE-2025-61603 - WeGIA: SQL Injection (Blind Time-Based) Vulnerability in API `descricao` Parameter</title><link>https://cvefeed.io/vuln/detail/CVE-2025-61603</link><author></author><category>vulns</category><pubDate>Thu, 2 Oct 2025 20:15:35 +0000</pubDate><source url="https://cvefeed.io/vuln/latest/">CVE Feed High</source><content:encoded><![CDATA[CVE-2025-61603
- Oct. 2, 2025, 8:15 p.m. | 11 hours, 42 minutes ago
+ Oct. 2, 2025, 8:15 p.m. | 11 hours, 59 minutes ago
 WeGIA is a Web manager for charitable institutions. Versions 3.4.12 and below include an SQL Injection vulnerability which was identified in the /controle/control.php endpoint, specifically in the descricao parameter. This vulnerability allows attackers to execute arbitrary SQL commands, compromising the confidentiality, integrity, and availability of the database. This issue is fixed in version 3.5.0.
  9.4 | CRITICAL
 
 Visit the link for more details, such as CVSS details, affected products, timeline, and more...
 ]]></content:encoded></item><item><title>CVE-2025-10653 - Raise3D Pro2 Series 3D Printers Authentication Bypass Using an Alternate Path or Channel</title><link>https://cvefeed.io/vuln/detail/CVE-2025-10653</link><author></author><category>vulns</category><pubDate>Thu, 2 Oct 2025 20:15:31 +0000</pubDate><source url="https://cvefeed.io/vuln/latest/">CVE Feed High</source><content:encoded><![CDATA[CVE-2025-10653
- Oct. 2, 2025, 8:15 p.m. | 11 hours, 42 minutes ago
+ Oct. 2, 2025, 8:15 p.m. | 11 hours, 59 minutes ago
 An unauthenticated debug port may allow access to the device file system.
  8.6 | HIGH
 
 Visit the link for more details, such as CVSS details, affected products, timeline, and more...
 ]]></content:encoded></item><item><title>CVE-2025-59835 - LangBot has a cross-directory file upload vulnerability, which could lead to system takeover</title><link>https://cvefeed.io/vuln/detail/CVE-2025-59835</link><author></author><category>vulns</category><pubDate>Thu, 2 Oct 2025 19:15:31 +0000</pubDate><source url="https://cvefeed.io/vuln/latest/">CVE Feed High</source><content:encoded><![CDATA[CVE-2025-59835
- Oct. 2, 2025, 7:15 p.m. | 12 hours, 42 minutes ago
+ Oct. 2, 2025, 7:15 p.m. | 12 hours, 59 minutes ago
 LangBot is a global IM bot platform designed for LLMs. In versions 4.1.0 up to but not including 4.3.5, authorized attackers can exploit the /api/v1/files/documents interface to perform arbitrary file uploads. Since this interface does not strictly restrict the storage directory of files on the server, it is possible to upload dangerous files to specific system directories. This is fixed in version 4.3.5.
  8.6 | HIGH
 
@@ -70,79 +93,79 @@ Visit the link for more details, such as CVSS details, affected products, timeli
             Hackers claim to have breached a Red Hat GitHub instance and stolen sensitive customer data.
 The claims were made in Telegram posts by a group calling itself “Crimson Collective,” which said it exfilt ... Vulnerabilities has been mentioned in this article.]]></content:encoded></item><item><title>DrayTek warns of remote code execution bug in Vigor routers</title><link>https://www.bleepingcomputer.com/news/security/draytek-warns-of-remote-code-execution-bug-in-vigor-routers/</link><author></author><category>vulns</category><pubDate>Thu, 2 Oct 2025 17:37:46 +0000</pubDate><source url="https://cvefeed.io/rssfeed/newsroom.xml">CVE Feed Newsroom</source><content:encoded><![CDATA[
             Networking hardware maker DrayTek released an advisory to warn about a security vulnerability in several Vigor router models that could allow remote, unauthenticated actors to execute perform arbitrar ... Vulnerabilities has been mentioned in this article.]]></content:encoded></item><item><title>CVE-2025-59407 - Flock Safety Java Keystore Hardcoded Password Vulnerability</title><link>https://cvefeed.io/vuln/detail/CVE-2025-59407</link><author></author><category>vulns</category><pubDate>Thu, 2 Oct 2025 17:16:07 +0000</pubDate><source url="https://cvefeed.io/vuln/latest/">CVE Feed High</source><content:encoded><![CDATA[CVE-2025-59407
- Oct. 2, 2025, 5:16 p.m. | 14 hours, 42 minutes ago
+ Oct. 2, 2025, 5:16 p.m. | 14 hours, 59 minutes ago
 The Flock Safety DetectionProcessing com.flocksafety.android.objects application 6.35.33 for Android (installed on Falcon and Sparrow License Plate Readers and Bravo Edge AI Compute Devices) bundles a Java Keystore (flock_rye.bks) along with its hardcoded password (flockhibiki17) in its code. The keystore contains a private key.
  9.8 | CRITICAL
 
 Visit the link for more details, such as CVSS details, affected products, timeline, and more...
 ]]></content:encoded></item><item><title>CVE-2025-34208 - Vasion Print (formerly PrinterLogic) Insecure Password Hashing</title><link>https://cvefeed.io/vuln/detail/CVE-2025-34208</link><author></author><category>vulns</category><pubDate>Thu, 2 Oct 2025 17:16:05 +0000</pubDate><source url="https://cvefeed.io/vuln/latest/">CVE Feed High</source><content:encoded><![CDATA[CVE-2025-34208
- Oct. 2, 2025, 5:16 p.m. | 14 hours, 42 minutes ago
+ Oct. 2, 2025, 5:16 p.m. | 14 hours, 59 minutes ago
 Vasion Print (formerly PrinterLogic) Virtual Appliance Host and Application (VA/SaaS deployments) store user passwords using unsalted SHA-512 hashes with a fall-back to unsalted SHA-1. The hashing is performed via PHP's `hash()` function in multiple files (server_write_requests_users.php, update_database.php, legacy/Login.php, tests/Unit/Api/IdpControllerTest.php). No per-user salt is used and the fast hash algorithms are unsuitable for password storage. An attacker who obtains the password database can recover cleartext passwords via offline dictionary or rainbow table attacks. The vulnerable code also contains logic that migrates legacy SHA-1 hashes to SHA-512 on login, further exposing users still on the old hash. This vulnerability was partially resolved, but still present within the legacy authentication platform.
  8.2 | HIGH
 
 Visit the link for more details, such as CVSS details, affected products, timeline, and more...
 ]]></content:encoded></item><item><title>CVE-2025-34210 - Vasion Print (formerly PrinterLogic) Readable Cleartext Passwords</title><link>https://cvefeed.io/vuln/detail/CVE-2025-34210</link><author></author><category>vulns</category><pubDate>Thu, 2 Oct 2025 17:16:05 +0000</pubDate><source url="https://cvefeed.io/vuln/latest/">CVE Feed High</source><content:encoded><![CDATA[CVE-2025-34210
- Oct. 2, 2025, 5:16 p.m. | 14 hours, 42 minutes ago
+ Oct. 2, 2025, 5:16 p.m. | 14 hours, 59 minutes ago
 Vasion Print (formerly PrinterLogic) Virtual Appliance Host and Application (VA/SaaS deployments) store a large number of sensitive credentials (database passwords, MySQL root password, SaaS keys, Portainer admin password, etc.) in cleartext files that are world-readable. Any local user - or any process that can read the host filesystem - can retrieve all of these secrets in plain text, leading to credential theft and full compromise of the appliance. The vendor does not consider this to be a security vulnerability as this product "follows a shared responsibility model, where administrators are expected to configure persistent storage encryption."
  9.4 | CRITICAL
 
 Visit the link for more details, such as CVSS details, affected products, timeline, and more...
 ]]></content:encoded></item><item><title>CVE-2025-59741 - Multiple vulnerabilities in AndSoft&apos;s e-TMS</title><link>https://cvefeed.io/vuln/detail/CVE-2025-59741</link><author></author><category>vulns</category><pubDate>Thu, 2 Oct 2025 15:15:53 +0000</pubDate><source url="https://cvefeed.io/vuln/latest/">CVE Feed High</source><content:encoded><![CDATA[CVE-2025-59741
- Oct. 2, 2025, 3:15 p.m. | 16 hours, 42 minutes ago
+ Oct. 2, 2025, 3:15 p.m. | 16 hours, 59 minutes ago
 Operating system command injection vulnerability in AndSoft's e-TMS v25.03. This vulnerability allows an attacker to execute operating system commands on the server by sending a POST request. The relationship between parameter and assigned identifier is a 'm' parameter in '/CLT/LOGINERRORFRM.ASP'.
  9.8 | CRITICAL
 
 Visit the link for more details, such as CVSS details, affected products, timeline, and more...
 ]]></content:encoded></item><item><title>CVE-2025-59742 - Multiple vulnerabilities in AndSoft&apos;s e-TMS</title><link>https://cvefeed.io/vuln/detail/CVE-2025-59742</link><author></author><category>vulns</category><pubDate>Thu, 2 Oct 2025 15:15:53 +0000</pubDate><source url="https://cvefeed.io/vuln/latest/">CVE Feed High</source><content:encoded><![CDATA[CVE-2025-59742
- Oct. 2, 2025, 3:15 p.m. | 16 hours, 42 minutes ago
+ Oct. 2, 2025, 3:15 p.m. | 16 hours, 59 minutes ago
 SQL injection vulnerability in AndSoft's e-TMS v25.03. This vulnerability could allow an attacker to retrieve, create, update, and delete databases by sending a POST request. The relationship between parameter and assigned identifier is a 'USRMAIL' parameter in'/inc/login/TRACK_REQUESTFRMSQL.ASP'.
  9.8 | CRITICAL
 
 Visit the link for more details, such as CVSS details, affected products, timeline, and more...
 ]]></content:encoded></item><item><title>CVE-2025-59743 - Multiple vulnerabilities in AndSoft&apos;s e-TMS</title><link>https://cvefeed.io/vuln/detail/CVE-2025-59743</link><author></author><category>vulns</category><pubDate>Thu, 2 Oct 2025 15:15:53 +0000</pubDate><source url="https://cvefeed.io/vuln/latest/">CVE Feed High</source><content:encoded><![CDATA[CVE-2025-59743
- Oct. 2, 2025, 3:15 p.m. | 16 hours, 42 minutes ago
+ Oct. 2, 2025, 3:15 p.m. | 16 hours, 59 minutes ago
 SQL injection vulnerability in AndSoft's e-TMS v25.03. This vulnerability could allow an attacker to retrieve, create, update, and delete databases by sending a POST request. The relationship between parameter and assigned identifier is a 'SessionID' cookie  in '/inc/connect/CONNECTION.ASP'.
  9.8 | CRITICAL
 
 Visit the link for more details, such as CVSS details, affected products, timeline, and more...
 ]]></content:encoded></item><item><title>CVE-2025-59744 - Multiple vulnerabilities in AndSoft&apos;s e-TMS</title><link>https://cvefeed.io/vuln/detail/CVE-2025-59744</link><author></author><category>vulns</category><pubDate>Thu, 2 Oct 2025 15:15:53 +0000</pubDate><source url="https://cvefeed.io/vuln/latest/">CVE Feed High</source><content:encoded><![CDATA[CVE-2025-59744
- Oct. 2, 2025, 3:15 p.m. | 16 hours, 42 minutes ago
+ Oct. 2, 2025, 3:15 p.m. | 16 hours, 59 minutes ago
 Path traversal vulnerability in AndSoft's e-TMS v25.03. This vulnerability allows an attacker to access files only within the web root using the “docurl” parameter in “/lib/asp/DOCSAVEASASP.ASP”.
  8.7 | HIGH
 
 Visit the link for more details, such as CVSS details, affected products, timeline, and more...
 ]]></content:encoded></item><item><title>CVE-2025-59735 - Multiple vulnerabilities in AndSoft&apos;s e-TMS</title><link>https://cvefeed.io/vuln/detail/CVE-2025-59735</link><author></author><category>vulns</category><pubDate>Thu, 2 Oct 2025 14:15:46 +0000</pubDate><source url="https://cvefeed.io/vuln/latest/">CVE Feed High</source><content:encoded><![CDATA[CVE-2025-59735
- Oct. 2, 2025, 2:15 p.m. | 17 hours, 42 minutes ago
+ Oct. 2, 2025, 2:15 p.m. | 17 hours, 59 minutes ago
 Operating system command injection vulnerability in AndSoft's e-TMS v25.03. This vulnerability allows an attacker to execute operating system commands on the server by sending a POST request. The relationship between parameter and assigned identifier is a 'm' parameter in '/clt/LOGINFRM.ASP'.
  9.8 | CRITICAL
 
 Visit the link for more details, such as CVSS details, affected products, timeline, and more...
 ]]></content:encoded></item><item><title>CVE-2025-59736 - Multiple vulnerabilities in AndSoft&apos;s e-TMS</title><link>https://cvefeed.io/vuln/detail/CVE-2025-59736</link><author></author><category>vulns</category><pubDate>Thu, 2 Oct 2025 14:15:46 +0000</pubDate><source url="https://cvefeed.io/vuln/latest/">CVE Feed High</source><content:encoded><![CDATA[CVE-2025-59736
- Oct. 2, 2025, 2:15 p.m. | 17 hours, 42 minutes ago
+ Oct. 2, 2025, 2:15 p.m. | 17 hours, 59 minutes ago
 Operating system command injection vulnerability in AndSoft's e-TMS v25.03. This vulnerability allows an attacker to execute operating system commands on the server by sending a POST request. The relationship between parameter and assigned identifier is a 'm' parameter in '/clt/LOGINFRM_DJO.ASP'.
  9.8 | CRITICAL
 
 Visit the link for more details, such as CVSS details, affected products, timeline, and more...
 ]]></content:encoded></item><item><title>CVE-2025-59737 - Multiple vulnerabilities in AndSoft&apos;s e-TMS</title><link>https://cvefeed.io/vuln/detail/CVE-2025-59737</link><author></author><category>vulns</category><pubDate>Thu, 2 Oct 2025 14:15:46 +0000</pubDate><source url="https://cvefeed.io/vuln/latest/">CVE Feed High</source><content:encoded><![CDATA[CVE-2025-59737
- Oct. 2, 2025, 2:15 p.m. | 17 hours, 42 minutes ago
+ Oct. 2, 2025, 2:15 p.m. | 17 hours, 59 minutes ago
 Operating system command injection vulnerability in AndSoft's e-TMS v25.03. This vulnerability allows an attacker to execute operating system commands on the server by sending a POST request. The relationship between parameter and assigned identifier is a 'm' parameter in '/clt/LOGINFRM_LXA.ASP'.
  9.8 | CRITICAL
 
 Visit the link for more details, such as CVSS details, affected products, timeline, and more...
 ]]></content:encoded></item><item><title>CVE-2025-59738 - Multiple vulnerabilities in AndSoft&apos;s e-TMS</title><link>https://cvefeed.io/vuln/detail/CVE-2025-59738</link><author></author><category>vulns</category><pubDate>Thu, 2 Oct 2025 14:15:46 +0000</pubDate><source url="https://cvefeed.io/vuln/latest/">CVE Feed High</source><content:encoded><![CDATA[CVE-2025-59738
- Oct. 2, 2025, 2:15 p.m. | 17 hours, 42 minutes ago
+ Oct. 2, 2025, 2:15 p.m. | 17 hours, 59 minutes ago
 Operating system command injection vulnerability in AndSoft's e-TMS v25.03. This vulnerability allows an attacker to execute operating system commands on the server by sending a POST request. The relationship between parameter and assigned identifier is a 'm' parameter in '/clt/LOGINFRM_BET.ASP'.
  9.8 | CRITICAL
 
 Visit the link for more details, such as CVSS details, affected products, timeline, and more...
 ]]></content:encoded></item><item><title>CVE-2025-59739 - Multiple vulnerabilities in AndSoft&apos;s e-TMS</title><link>https://cvefeed.io/vuln/detail/CVE-2025-59739</link><author></author><category>vulns</category><pubDate>Thu, 2 Oct 2025 14:15:46 +0000</pubDate><source url="https://cvefeed.io/vuln/latest/">CVE Feed High</source><content:encoded><![CDATA[CVE-2025-59739
- Oct. 2, 2025, 2:15 p.m. | 17 hours, 42 minutes ago
+ Oct. 2, 2025, 2:15 p.m. | 17 hours, 59 minutes ago
 Operating system command injection vulnerability in AndSoft's e-TMS v25.03. This vulnerability allows an attacker to execute operating system commands on the server by sending a POST request. The relationship between parameter and assigned identifier is a 'm' parameter in '/clt/LOGINFRM_original.ASP'.
  9.8 | CRITICAL
 
 Visit the link for more details, such as CVSS details, affected products, timeline, and more...
 ]]></content:encoded></item><item><title>CVE-2025-59740 - Multiple vulnerabilities in AndSoft&apos;s e-TMS</title><link>https://cvefeed.io/vuln/detail/CVE-2025-59740</link><author></author><category>vulns</category><pubDate>Thu, 2 Oct 2025 14:15:46 +0000</pubDate><source url="https://cvefeed.io/vuln/latest/">CVE Feed High</source><content:encoded><![CDATA[CVE-2025-59740
- Oct. 2, 2025, 2:15 p.m. | 17 hours, 42 minutes ago
+ Oct. 2, 2025, 2:15 p.m. | 17 hours, 59 minutes ago
 Operating system command injection vulnerability in AndSoft's e-TMS v25.03. This vulnerability allows an attacker to execute operating system commands on the server by sending a POST request. The relationship between parameter and assigned identifier is a 'm' parameter in '/clt/LOGINFRM_CAT.ASP'.
  9.8 | CRITICAL
 
@@ -151,7 +174,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
             Cybersecurity researchers at Bishop Fox have revealed security vulnerabilities in the popular, inexpensive YoLink Smart Hub (v0382), leaving users exposed to remote attackers. The hub that costs just  ... Vulnerabilities has been mentioned in this article.]]></content:encoded></item><item><title>PoC exploit Released for VMware Workstation guest-to-host escape Vulnerability</title><link>https://cybersecuritynews.com/vmware-workstation-vulnerability/</link><author></author><category>vulns</category><pubDate>Thu, 2 Oct 2025 14:00:35 +0000</pubDate><source url="https://cvefeed.io/rssfeed/newsroom.xml">CVE Feed Newsroom</source><content:encoded><![CDATA[PoC exploit Released for VMware Workstation guest-to-host escape Vulnerability
             A proof-of-concept (PoC) exploit has been released for a critical vulnerability chain in VMware Workstation that allows an attacker to escape from a guest virtual machine and execute arbitrary code on ... Vulnerabilities has been mentioned in this article.]]></content:encoded></item><item><title>Chrome 141 Stable Channel Release</title><link>https://thecyberthrone.in/2025/10/02/chrome-141-stable-channel-release/</link><author></author><category>vulns</category><pubDate>Thu, 2 Oct 2025 13:32:30 +0000</pubDate><source url="https://cvefeed.io/rssfeed/newsroom.xml">CVE Feed Newsroom</source><content:encoded><![CDATA[
             October 2, 2025Chrome 141 has arrived, bringing a robust set of 21 security fixes to safeguard users from critical vulnerabilities. This blog post summarizes all key updates, highlights the most impor ... Vulnerabilities has been mentioned in this article.]]></content:encoded></item><item><title>CVE-2025-41064 - Incorrect authentication in GTT´s group OpenSIAC</title><link>https://cvefeed.io/vuln/detail/CVE-2025-41064</link><author></author><category>vulns</category><pubDate>Thu, 2 Oct 2025 12:15:29 +0000</pubDate><source url="https://cvefeed.io/vuln/latest/">CVE Feed High</source><content:encoded><![CDATA[CVE-2025-41064
- Oct. 2, 2025, 12:15 p.m. | 19 hours, 42 minutes ago
+ Oct. 2, 2025, 12:15 p.m. | 20 hours ago
 Incorrect authentication vulnerability in OpenSIAC, which could allow an attacker to impersonate a person using Cl@ve as an authentication method.
  9.3 | CRITICAL
 
