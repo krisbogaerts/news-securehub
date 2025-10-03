@@ -119,6 +119,26 @@
             });
           } catch (_) {}
         }
+
+        // Try to rewrite or hide the credit text even if it's not a link
+        function rewriteFooterCredit() {
+          try {
+            const nodes = Array.from(document.querySelectorAll('footer, div, p, span, small'));
+            for (const el of nodes) {
+              const txt = (el.textContent || '').trim();
+              if (/generated\s+with/i.test(txt) && /liveboat/i.test(txt)) {
+                if (window.repoUrl) {
+                  el.innerHTML = `Page generated with <span aria-label="love">❤</span> by <a href="${replacementHref}" target="_blank" rel="noopener noreferrer">${replacementLabel}</a>`;
+                } else {
+                  // If no repoUrl, just drop the brand name
+                  el.textContent = txt.replace(/liveboat/ig, replacementLabel);
+                }
+                // stop after first match
+                break;
+              }
+            }
+          } catch (_) {}
+        }
         function setupObserver() {
           try {
             const mo = new MutationObserver(() => retargetAll());
@@ -137,9 +157,10 @@
           document.addEventListener('DOMContentLoaded', () => { retargetAll(); setupObserver(); });
         } else {
           retargetAll();
+          rewriteFooterCredit();
           setupObserver();
           // Also schedule a retry after SPA mounts
-          setTimeout(retargetAll, 800);
+          setTimeout(() => { retargetAll(); rewriteFooterCredit(); }, 800);
         }
         // Intercept clicks on any 'liveboat' credit links and redirect to replacement
         document.addEventListener('click', function (e) {
@@ -151,6 +172,14 @@
             try { window.open(replacementHref, '_blank', 'noopener'); } catch (_) {}
           }
         }, true);
+
+        // Also poll a few times to catch very late inserts
+        let tries = 0; const maxTries = 30;
+        const poll = setInterval(() => {
+          retargetAll();
+          rewriteFooterCredit();
+          if (++tries >= maxTries) clearInterval(poll);
+        }, 500);
       })();
     </script>
 
