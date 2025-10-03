@@ -1,152 +1,89 @@
-"query:Dev News:tags # \"dev\" and age < 2 and unread = \"yes\""
+# Newsboat syntax: URL "~Title" [!:hide] tag...
+# example: https://rss.feed "~SampleTitle"  tag1 tag2 
+# feed agregation syntax: "query:Title:tags # \"tag1\"" and age <= {day:int}
+# example: query:<name of feed>:<filter expression> [<tag> ...]
+
+# Queries
+"query:Reddit - NetSec:tags # \"netsec\" and age < 3 and unread = \"yes\""
+"query:Security News:tags # \"security\" and age < 3 and unread = \"yes\""
+"query:Latest Data breaches:tags # \"databreach\" and age < 3 and unread = \"yes\""
+"query:Threat Intelligence:tags # \"threatintel\" and age < 3 and unread = \"yes\""
 "query:Tech News:tags # \"tech\" and age < 2 and unread = \"yes\""
-"query:World News:tags # \"news\" and age < 1 and unread = \"yes\""
-"query:Podcasts:tags # \"podcast\" and unread = \"yes\""
-"query:Youtube:tags # \"yt\""
+"query:Emerging Threats:(tags # \"security\" or tags # \"threatintel\") and (title =~ \"CVE-|zero[- ]day|0day|PoC|exploit\") and age < 2 and unread = \"yes\""
+"query:Research:tags # \"research\" and age < 3 and unread = \"yes\""
+"query:Exploits & Vulns:tags # \"vulns\" and age < 3 and unread = \"yes\""
 
-https://hnrss.org/best "~HN" dev hn
-https://hnrss.org/show?points=60 "~HN Show" dev hn
-https://hnrss.org/frontpage?points=75 "~HN Front" dev hn
+# Security Feed URLs
+https://feeds.feedburner.com/TheHackersNews ! security 
+https://krebsonsecurity.com/feed/ ! security
+https://www.schneier.com/blog/atom.xml ! security
+https://threatpost.com/feed ! security
+https://feeds.feedburner.com/TheHackersNews?format=xml ! security
+https://www.bleepingcomputer.com/feed/ ! security
+https://www.darkreading.com/rss_simple.asp ! security
+https://feeds.dshield.org/rss/diary ! security
+https://feeds.feedburner.com/nakedsecurity ! security
+https://blog.talosintelligence.com/feeds/posts/default ! security
+https://msrc-blog.microsoft.com/feed/ ! security
 
-http://rss.slashdot.org/Slashdot/slashdotLinux "~Dev - Slashdot - Linux" dev slashdot
-http://rss.slashdot.org/Slashdot/slashdotDevelopers "~Dev - Slashdot - Dev" dev slashdot
-https://www.cyberciti.com/atom/atom.xml "~Dev - NixCraft" dev
-http://aphyr.com/posts.atom "~Dev - Aphyr" dev
-https://kubernetes.io/feed.xml "~Dev - Kubernetes Blog" dev k8s
-http://blog.golang.org/feed.atom "~Dev - Golang Blog" dev go
-https://www.reddit.com/r/golang/top/.rss?sort=top&t=day&limit=6 "~Reddit - Go" dev reddit go
-https://www.reddit.com/r/rust/top/.rss?sort=top&t=day&limit=6 "~Reddit - Rust" dev reddit rust
-https://www.reddit.com/r/linux/top/.rss?sort=top&t=day&limit=6 "~Reddit - Linux" dev reddit
-https://www.reddit.com/r/kubernetes/top/.rss?sort=top&t=day&limit=6 "~Reddit - Kubernetes" dev reddit k8s
-https://www.reddit.com/r/programming/top/.rss?sort=top&t=day&limit=6 "~Reddit - Programming" dev reddit
-https://blog.pythonlibrary.org/feed "~Dev - Python Blog" dev python
-https://blog.codinghorror.com/rss/ "~Dev - Coding Horror" dev
-https://www.youtube.com/feeds/videos.xml?channel_id=UCvqbFHwN-nwalWPjPUKpvTA "~Dev - CNCF" dev k8s
-https://www.youtube.com/feeds/videos.xml?channel_id=UCsBjURrPoezykLs9EqgamOA "~Dev - Fireship" dev
-https://www.youtube.com/feeds/videos.xml?channel_id=UCIat2Cdg661wF5DQDWTQAmg "~Dev - Probabl" dev ml
-https://medium.com/@kyodo-tech/feed "~Dev - Kyodo-Tech" dev
-https://increment.com/feed.xml "~Dev - Stripe Increment" dev
-https://jvns.ca/atom.xml "~Dev - Julia Evans" dev
-https://martinfowler.com/feed.atom "~Dev - Martin Fowler" dev
-https://benhoyt.com/writings/rss.xml "~Dev - Ben Hoyt" dev
-https://highscalability.com/feed "~Dev - High Scalability" dev
-https://blog.cleancoder.com/atom.xml "~Dev - Uncle Bob" dev
-https://transactional.blog/feed.xml "~Dev - Transactional" dev
-https://newsletter.systemdesign.one/feed "~Dev - System Design Newsletter" dev
-https://blog.algomaster.io/feed "~Dev - Algomaster" dev
-https://vnotes.pages.dev/atom.xml "~Dev - vladkens" dev
+# Reddit NetSec Feed
+https://www.reddit.com/r/netsec/top/.rss?t=week "~Reddit - NetSec" ! netsec
 
+# Seytonic
+https://www.youtube.com/feeds/videos.xml?channel_id=UCW6xlqxSY3gGur4PkGPEUeA ! security
+# Darknet Diaries
+https://www.youtube.com/feeds/videos.xml?channel_id=UCMIqrmh2lMdzhlCPK5ahsAg ! security
+
+# Threat Intelligence Feeds
+https://blog.talosintelligence.com/feeds/posts/default ! threatintel
+https://unit42.paloaltonetworks.com/feed/ ! threatintel
+https://www.recordedfuture.com/feed ! threatintel
+https://www.fireeye.com/blog/threat-research/_jcr_content.par.feed.xml ! threatintel
+https://www.cisa.gov/uscert/ncas/current-activity/current-activity.xml ! threatintel
+https://www.cisa.gov/uscert/ncas/alerts/alerts.xml ! threatintel
+https://securityintelligence.com/feed ! threatintel
+https://isc.sans.edu/rssfeed.xml ! threatintel
+
+# Data breaches
+https://raw.githubusercontent.com/Cybermonit/RSS-Feed/refs/heads/main/leaks.xml "~Recent Data breaches" ! databreach 
+https://www.databreaches.net/feed/ "~Recent Data breaches" ! databreach
+https://krebsonsecurity.com/category/data-breaches/feed/ "~Recent Data breaches" ! databreach
+# https://raw.githubusercontent.com/Cybermonit/RSS-Feed/refs/heads/main/ransomware.xml "~Latest Ransomware Attacks" ransomware 
+# https://raw.githubusercontent.com/Cybermonit/RSS-Feed/refs/heads/main/eol.xml "~End of Life" eol
+
+# Recent Vulns
+https://vuldb.com/?rss.recent "~Recent Vulnerabilities" vulns
+# Exploits / vulns
+https://www.exploit-db.com/rss.xml "~Exploit-DB" vulns
+https://packetstormsecurity.com/files/tags/exploit/rss/ "~Packet Storm Exploits" vulns
+
+# Tech Feeds
 https://techcrunch.com/feed/ ! tech
 http://rss.slashdot.org/Slashdot/slashdotMain ! tech
 https://www.codeproject.com/WebServices/ArticleRSS.aspx ! tech
 https://feeds.arstechnica.com/arstechnica/technology-lab ! tech
 https://hackernoon.com/feed "~Tech - HackerNoon" ! tech
-https://www.gamespot.com/feeds/reviews ! tech
-https://www.phoronix.com/rss.php ! tech
-https://spectrum.ieee.org/customfeeds/feed/all-topics/rss ! tech
 
-https://access.acast.com/rss/theeconomistmorningbriefing/default "~News - Daily Brief" news
-https://www.youtube.com/feeds/videos.xml?channel_id=UCknLrEdhRCp1aegoMqRaCZg "~News - DW" news" !
-https://www.youtube.com/feeds/videos.xml?channel_id=UC52X5wxOL_s5yw0dQk7NtgA "~News - AP" news" !
-https://www.youtube.com/feeds/videos.xml?channel_id=UCK7tptUDHh-RYDsdxO1-5QQ "~News - Wall Street Journal" ! news
-https://www.youtube.com/feeds/videos.xml?channel_id=UCIALMKvObZNtJ6AmdCLP7Lg "~News - Bloomberg " ! news
-https://www.youtube.com/feeds/videos.xml?channel_id=UChqUTb7kYRX8-EiaN3XFrSQ "~News - Reuters " ! news
-https://www.reddit.com/r/worldnews/top/.rss?sort=top&t=day&limit=10 "~News - Reddit - World News" news reddit
-https://www.reddit.com/r/europe/top/.rss?sort=top&t=day&limit=10 "~News - Reddit - Europe" news reddit
-
-https://access.acast.com/rss/c939f8d1-c4bc-478e-8bb9-e5343f9a7ab5/default "~Podcast - HistoryHit" ! podcast
-https://changelog.com/gotime/feed "~Podcast - Go Time" ! podcast
-https://changelog.com/podcast/feed "~Podcast - Changelog" ! podcast
-https://feeds.buzzsprout.com/2105116.rss "~Podcast - Cmd+Shift+Left" ! podcast
-https://www.youtube.com/feeds/videos.xml?channel_id=UCzQUP1qoWDoEbmsQxvdjxgQ "~Podcast - Joe Rogan" ! podcast
-https://www.youtube.com/feeds/videos.xml?channel_id=UCSHZKyawb77ixDdsGog4iWA "~Podcast - Lex Fridman" ! podcast
-https://www.youtube.com/feeds/videos.xml?channel_id=UCl9StMQ79LtEvlrskzjoYbQ "~Podcast - Closer to Truth" ! podcast
-https://softwareengineeringdaily.com/category/podcast/feed "~Podcast - Software Engineering Daily" ! podcast
-https://feeds.simplecast.com/L9810DOa "~Podcast - Signals and Threads" ! podcast
-https://feeds.transistor.fm/on-the-metal-0294649e-ec23-4eab-975a-9eb13fd94e06 "~Podcast - On the Metal" ! podcast
-https://link.chtbl.com/corecursive?id=corecursive&platform=rss "~Podcast - CoRecursive" ! podcast
-https://anchor.fm/s/174cb1b8/podcast/rss "~Podcast - MLOps" ! podcast
-https://www.youtube.com/feeds/videos.xml?channel_id=UCfuj1MM5p37CRzWYPv_PsWA "~Podcast - CodeTalks" ! podcast
-https://www.youtube.com/feeds/videos.xml?channel_id=UCmYAQDZIQGm_kPvemBc_qwg "~Podcast - DevConfs" ! podcast
+# Podcasts
+https://securityweekly.com/feed/podcast "~Podcast - Security Weekly" ! podcast
 
 
-# Astrum
-https://www.youtube.com/feeds/videos.xml?channel_id=UC-9b7aDP6ZN0coj9-xFnrtw ! yt
-# Channel 5 with Andrew Callaghan
-https://www.youtube.com/feeds/videos.xml?channel_id=UC-AQKm7HUNMmxjdS371MSwg ! yt
-# Real Science
-https://www.youtube.com/feeds/videos.xml?channel_id=UC176GAQozKKjhz62H8u9vQQ ! yt
-# Mustard
-https://www.youtube.com/feeds/videos.xml?channel_id=UC1ZBQ-F-yktYD4m5AzM6pww ! yt
-# Imperial War Museums
-https://www.youtube.com/feeds/videos.xml?channel_id=UC3uAjWoLZ4bSi6qI9SjALxA ! yt
-# ColdFusion
-https://www.youtube.com/feeds/videos.xml?channel_id=UC4QZ_LsYcvcq7qOsOhpAX4A ! yt
-# System Design Fight Club
-https://www.youtube.com/feeds/videos.xml?channel_id=UC5_QAB65IbajYkL6hzoY-gg ! yt
-# GEOPOP
-https://www.youtube.com/feeds/videos.xml?channel_id=UC5_npTvQVSZ28Kc8wvffPew ! yt
-# Sarcasmitron
-https://www.youtube.com/feeds/videos.xml?channel_id=UC6WD1VImCVeOuNccuqDzAdA ! yt
-# PBS Space Time
-https://www.youtube.com/feeds/videos.xml?channel_id=UC7_gcs09iThXybpVgjHZ_7g ! yt
-# Timeline - World History Documentaries
-https://www.youtube.com/feeds/videos.xml?channel_id=UC88lvyJe7aHZmcvzvubDFRg ! yt
-# Patrick Boyle
-https://www.youtube.com/feeds/videos.xml?channel_id=UCASM0cgfkJxQ1ICmRilfHLw ! yt
-# Chyrosran22
-https://www.youtube.com/feeds/videos.xml?channel_id=UCD0y51PJfvkZNe3y3FR5riw ! yt
-# SEA
-https://www.youtube.com/feeds/videos.xml?channel_id=UCG9ShGbASoiwHwFcLcAh9EA ! yt
-# Veritasium
-https://www.youtube.com/feeds/videos.xml?channel_id=UCHnyfMqiRRG1u-2MsSQLbXA ! yt
-# Vox
-https://www.youtube.com/feeds/videos.xml?channel_id=UCLXo7UDZvByw2ixzpQCufnA ! yt
-# Internet Historian
-https://www.youtube.com/feeds/videos.xml?channel_id=UCR1D15p_vdP3HkrH8wgjQRw ! yt
-# Real Engineering
-https://www.youtube.com/feeds/videos.xml?channel_id=UCR1IuLEqb6UEA_zQ81kwXfg ! yt
-# LEMMiNO
-https://www.youtube.com/feeds/videos.xml?channel_id=UCRcgy6GzDeccI7dkbbBna3Q ! yt
-# Fall of Civilizations
-https://www.youtube.com/feeds/videos.xml?channel_id=UCT6Y5JJPKe_JDMivpKgVXew ! yt
-# Bloomberg Originals
-https://www.youtube.com/feeds/videos.xml?channel_id=UCUMZ7gohGI9HcU9VNsr2FJQ ! yt
-# DW Documentary
-https://www.youtube.com/feeds/videos.xml?channel_id=UCW39zufHfsuGgpLviKh297Q ! yt
-# History Hit
-https://www.youtube.com/feeds/videos.xml?channel_id=UCZwU2G-KVl-P-O-B35chZOQ ! yt
-# Weird History
-https://www.youtube.com/feeds/videos.xml?channel_id=UCc-N24Y5OA0gqbjBwe1ttfA ! yt
-# BBC Earth Science
-https://www.youtube.com/feeds/videos.xml?channel_id=UCdsOTr6SmDrxuWE7sJFrkhQ ! yt
-# Great Art Explained
-https://www.youtube.com/feeds/videos.xml?channel_id=UCePDFpCr78_qmVtpoB1Axaw ! yt
-# Core Dump
-https://www.youtube.com/feeds/videos.xml?channel_id=UCgY3bHW4qHKq9aC4i3nO-0g ! yt
-# Ben Laude
-https://www.youtube.com/feeds/videos.xml?channel_id=UCnSFlVqRyNfIJDsmpkcY57w ! yt
-# The Canvas
-https://www.youtube.com/feeds/videos.xml?channel_id=UCqTHx0ObkFZ97KO2SWUuz9w ! yt
-# Horses
-https://www.youtube.com/feeds/videos.xml?channel_id=UCrx2zrPjhGRi9TwszZiLwEg ! yt
-# Royal Armouries
-https://www.youtube.com/feeds/videos.xml?channel_id=UCsMX-XuiEkBi4-GDrYuniWg ! yt
-# Kurzgesagt – In a Nutshell
-https://www.youtube.com/feeds/videos.xml?channel_id=UCsXVk37bltHxD1rDPwtNM8Q ! yt
-# GOTO Conferences
-https://www.youtube.com/feeds/videos.xml?channel_id=UCs_tLP3AiwYKwdUHpltJPuA ! yt
-# TED-Ed
-https://www.youtube.com/feeds/videos.xml?channel_id=UCsooa4yRKGN_zEE8iknghZA ! yt
-# Folding Ideas
-https://www.youtube.com/feeds/videos.xml?channel_id=UCyNtlmLB73-7gtlBz00XOQQ ! yt
-# Dan Carlin
-https://www.youtube.com/feeds/videos.xml?channel_id=UC3RcjbuyF5M1U4R62zjE3hg ! yt
-# PBS Eons
-https://www.youtube.com/feeds/videos.xml?channel_id=UCzR-rom72PHN9Zg7RML9EbA ! yt
-# PBS
-https://www.youtube.com/feeds/videos.xml?channel_id=UCgyeJxD05YnoDquRMNBfBqw ! yt
-# Frontline
-https://www.youtube.com/feeds/videos.xml?channel_id=UC3ScyryU9Oy9Wse3a8OAmYQ ! yt
-# StarTalk
-https://www.youtube.com/feeds/videos.xml?channel_id=UCqoAEDirJPjEUFcF2FklnBA ! yt
+# Hacker News Feed
+https://hnrss.org/best "~Best of HackerNews" dev
+
+
+# Research & vendor
+https://security.googleblog.com/feeds/posts/default?alt=rss "~Google Security Blog" ! security
+https://googleprojectzero.blogspot.com/feeds/posts/default?alt=rss "~Google Project Zero" ! research
+https://www.crowdstrike.com/blog/feed/ "~CrowdStrike Blog" ! threatintel
+https://www.sentinelone.com/feed/ "~SentinelOne Blog" ! threatintel
+https://www.rapid7.com/blog/rss/ "~Rapid7 Blog" ! threatintel
+https://research.checkpoint.com/feed/ "~Check Point Research" ! threatintel
+https://securelist.com/feed/ "~Securelist" ! threatintel
+https://www.welivesecurity.com/feed/ "~ESET WeLiveSecurity" ! threatintel
+https://thedfirreport.com/feed/ "~The DFIR Report" ! threatintel
+https://www.volexity.com/blog/feed/ "~Volexity Blog" ! threatintel
+https://research.nccgroup.com/feed/ "~NCC Group Research" ! threatintel
+https://securitylab.github.com/research/feed.xml "~GitHub Security Lab" ! research
+https://www.malwarebytes.com/blog/feed "~Malwarebytes Labs" ! threatintel
+https://www.fortinet.com/blog/rss "~Fortinet Blog" ! threatintel
