@@ -4,12 +4,12 @@
 # hosted as default page for the user 
 # (eg <username>.github.io), in that case it should be
 # set to '/'
-site_path = "/"
+site_path = "/news-securehub/"
 # Title of the site
 title = "Cyber Security News"
 # Update site url if you're planning on using aggregated OPML
 # channel Liveboat exposes.
-site_url = "https://news.securehub.cc"
+site_url = "https://krisbogaerts.github.io/news-securehub"
 # Maximum number of days for which Liveboat will include
 # articles for.
 time_threshold = 40

@@ -1,11 +1,16 @@
 name: Liveboat feed build
 
 on:
+  workflow_dispatch:
   schedule:
     - cron: "0 * * * *"
   push:
-      tags:
-        - 'build*'
+    branches:
+      - master
+    paths-ignore:
+      - 'docs/**'
+    tags:
+      - 'build*'
 
 jobs:
   liveboat-feed-build:
